@@ -14,6 +14,7 @@ import EmbeddedFinance from "./pages/product-pages/EmbeddedFinance";
 import BrexAi from "./pages/product-pages/BrexAi";
 import Global from "./pages/product-pages/Global";
 import Integrations from './pages/product-pages/Integrations';
+import Startups from './pages/solution-pages/Startups';
 
 function App() {
   const BrowserRouter = dynamic(
@@ -35,6 +36,7 @@ function App() {
         <Route path="/brx-ai" element={<BrexAi />} />
         <Route path="/global" element={<Global />} />
         <Route path="/integrations" element={<Integrations />} />
+        <Route path="/startups" element={<Startups />} />
 
 
       </Routes>
