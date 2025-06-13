@@ -5,21 +5,28 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 const slides = [
   {
-    image: 'https://images.ctfassets.net/gkyt4bl1j2fs/6I4Z7l9Zb5X7wWwQj8uU9e/4c7a7e9c5d7e5e8d6f7a8b9c0d1e2f3a/ai-expense-management.png',
+    image: 'https://brand.brex.com/transform/36d253e4-28a1-463f-be25-71b90ff2ca47/BB_navan_announcement_preview?io=transform:fit,width:2500,height:1313&quality=95',
+    title: 'Reimagining global cards and travel management for the enterprise',
+    description:
+      'The CEOs of Brex and Navan discuss how their partnership unlocks 100% travel payment reconciliation for enterprise companies.',
+    link: '#',
+  },
+  {
+    image: 'https://brand.brex.com/transform/68331046-69a0-4ff3-9216-12bba5b2eb74/Article-Archive-Image?io=transform:fit,width:2500,height:1313&quality=95',
     title: '5 ways AI can accelerate expense management',
     description:
       'See how an AI expense assistant can make compliance effortless for employees and drive unprecedented efficiency across your org.',
     link: '#',
   },
   {
-    image: 'https://images.ctfassets.net/gkyt4bl1j2fs/1Zp8l9Zb5X7wWwQj8uU9e/4c7a7e9c5d7e5e8d6f7a8b9c0d1e2f3a/procurement-automation.png',
+    image: 'https://brand.brex.com/transform/07e96561-a585-477b-b8cb-cf821f769013/WBR-preview?io=transform:fit,width:2500,height:1313&quality=95',
     title: 'The future of procurement is automated and integrated',
     description:
       'How modern companies approach procurement as part of a unified spend management system.',
     link: '#',
   },
   {
-    image: 'https://images.ctfassets.net/gkyt4bl1j2fs/2Zp8l9Zb5X7wWwQj8uU9e/4c7a7e9c5d7e5e8d6f7a8b9c0d1e2f3a/onlycfo.png',
+    image: 'https://brand.brex.com/transform/9f056b79-6503-48d2-9e73-9b8bda87c8f1/AI-Powered-Spend-Management?io=transform:fit,width:2500,height:1313&quality=95',
     title: 'Why finance leaders are embracing AI-powered spend management',
     description:
       'Some firms are using AI to increase control and ward off problems in finance and accounting. Are you?',
@@ -28,7 +35,7 @@ const slides = [
     authorType: 'Guest Writer',
   },
   {
-    image: 'https://images.ctfassets.net/gkyt4bl1j2fs/3Zp8l9Zb5X7wWwQj8uU9e/4c7a7e9c5d7e5e8d6f7a8b9c0d1e2f3a/kurtis-hanni.png',
+    image: 'https://brand.brex.com/transform/e27b96b7-efbd-45c6-ba37-652ab052920b/kurtis-hanni-previewimage?io=transform:fit,width:2500,height:1313&quality=95',
     title: 'AI, automation, and the future of accounting',
     description:
       'Will AI replace my accountants? Probably not, says this CFO, but look for accounting roles to become more specialized as AI and automation go into hyperdrive.',
@@ -37,16 +44,37 @@ const slides = [
     authorType: 'Guest Writer',
   },
   {
-    image: 'https://images.ctfassets.net/gkyt4bl1j2fs/3Zp8l9Zb5X7wWwQj8uU9e/4c7a7e9c5d7e5e8d6f7a8b9c0d1e2f3a/kurtis-hanni.png',
-    title: 'AI, automation, and the future of accounting',
+    image: 'https://brand.brex.com/transform/f66f1df8-7c5f-4463-be7f-5cb3b37c8575/Respaid-webinar-preview?io=transform:fit,width:2500,height:1406&quality=95',
+    title: 'How AI Can Increase Working Capital: Practical Tips and Strategies',
     description:
-      'Will AI replace my accountants? Probably not, says this CFO, but look for accounting roles to become more specialized as AI and automation go into hyperdrive.',
+      'Top finance leaders from Brex, Respaid (YC), Redis, and Grammarly explore how GenAI is transforming working capital management.',
     link: '#',
-    author: 'Kurtis Hanni',
-    authorType: 'Guest Writer',
   },
-  // Add more slides as needed...
+  {
+    image: 'https://brand.brex.com/transform/c8391f4c-4b79-4b41-b8c2-3340ec225561/Controllers-Council-Webinar-Metadata-1?io=transform:fit,width:2500,height:1406&quality=95',
+    title: 'Controller’s Council Webinar',
+    description:
+      'Brex’s Chief Accounting Officer explores how AI can automate manual tasks, deliver outputs for contract reviews and flux analysis, and free up time for growth.',
+    link: '#',
+    author: 'Erik Zhou',
+    authorType: 'CAO, Brex',
+  },
+  {
+    image: 'https://brand.brex.com/transform/ee86f106-0742-41a0-9f62-ab04632569e3/Cash-flow-article-preview?io=transform:fit,width:2500,height:1313&quality=95',
+    title: 'Improve cash flow with Brex',
+    description:
+      'Want to improve your cash flow processes? Discover the Brex advantage and automate cash forecasting, fraud detection, and reporting today.',
+    link: '#',
+  },
+  {
+    image: 'https://brand.brex.com/transform/24a5eae0-f3d9-48c3-a166-96d4276439de/Grow-or-No-CFO-article-preview?io=transform:fit,width:2500,height:1313&quality=95',
+    title: 'How top CFOs balance financial spend controls and growth',
+    description:
+      'Missing growth goals? Learn why your approach to financial spend controls might be the problem — and what to do about it.',
+    link: '#',
+  },
 ];
+
 
 export default function InsightsCarousel() {
   const scrollRef = useRef(null);

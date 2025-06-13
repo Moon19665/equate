@@ -51,7 +51,7 @@ export default function Navbar() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="/corporate-card"
                   className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiCreditCard className="text-xl text-[#222]" />
@@ -67,7 +67,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/bill-pay"
                   className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlinePayment className="text-xl text-[#222]" />
@@ -81,7 +81,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/business-banking"
                   className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiBriefcase className="text-xl text-[#222]" />
@@ -97,7 +97,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/spend-management"
                   className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiBarChart2 className="text-xl text-[#222]" />
@@ -113,7 +113,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/travel"
                   className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineTravelExplore className="text-xl text-[#222]" />
@@ -127,7 +127,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/account-automation"
                   className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineAutoAwesome className="text-xl text-[#222]" />
@@ -148,12 +148,12 @@ export default function Navbar() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="/embedded-finance"
                   className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiGlobe className="text-xl text-[#222]" />
                   <div>
-                    <div className="text-[#111] font-medium">Brex Embedded</div>
+                    <div className="text-[#111] font-medium">Equate Embedded</div>
                     <div className="text-xs text-gray-500">
                       API-driven global payments
                     </div>
@@ -162,7 +162,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/integrations"
                   className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineIntegrationInstructions className="text-xl text-[#222]" />
@@ -178,7 +178,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/brx-ai"
                   className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FaRobot className="text-xl text-[#222]" />
@@ -192,7 +192,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/global"
                   className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineAccountBalance className="text-xl text-[#222]" />
