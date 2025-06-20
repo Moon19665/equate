@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata = {
   title: "equate",
   icons: {
-    icon: "/logo.png", // Make sure /public/logo.png exists
+    // icon: "/logo.png", 
   },
 };
 

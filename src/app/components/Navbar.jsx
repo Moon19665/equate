@@ -8,6 +8,14 @@ import {
   FiGlobe,
   FiUsers,
   FiLayers,
+  FiHelpCircle,
+  FiInfo,
+  FiPackage,
+  FiVideo,
+  FiCalendar,
+  FiEdit,
+  FiFileText,
+  FiUser,
 } from "react-icons/fi";
 import {
   MdOutlinePayment,
@@ -22,9 +30,12 @@ import { FaRobot } from "react-icons/fa";
 export default function Navbar() {
   const [productsOpen, setProductsOpen] = useState(false);
   const [solutionsOpen, setSolutionsOpen] = useState(false);
+  const [ResourcesOpen, setResourcesOpen] = useState(false);
+
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [drawerProductsOpen, setDrawerProductsOpen] = useState(false);
   const [drawerSolutionsOpen, setDrawerSolutionsOpen] = useState(false);
+  const [drawerResourcesOpen, setDrawerResourcesOpen] = useState(false);
 
   // Drawer content for mobile/tablet
   const drawerNav = (
@@ -259,29 +270,46 @@ export default function Navbar() {
             </div>
             <ul className="space-y-2">
               <li>
-                <a href="/startups" className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition">
+                <a
+                  href="/startups"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
                   <FiUsers className="text-xl text-[#222]" />
                   <div>
                     <div className="text-[#111] font-medium">Startups</div>
-                    <div className="text-xs text-gray-500">Get the #1 financial stack for startups</div>
+                    <div className="text-xs text-gray-500">
+                      Get the #1 financial stack for startups
+                    </div>
                   </div>
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition">
+                <a
+                  href="/mid-size-companies"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
                   <FiBriefcase className="text-xl text-[#222]" />
                   <div>
-                    <div className="text-[#111] font-medium">Mid-sized companies</div>
-                    <div className="text-xs text-gray-500">Scale faster with smart cards & controls</div>
+                    <div className="text-[#111] font-medium">
+                      Mid-sized companies
+                    </div>
+                    <div className="text-xs text-gray-500">
+                      Scale faster with smart cards & controls
+                    </div>
                   </div>
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition">
+                <a
+                  href="/enterprise"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
                   <FiGlobe className="text-xl text-[#222]" />
                   <div>
                     <div className="text-[#111] font-medium">Enterprise</div>
-                    <div className="text-xs text-gray-500">Spend smart across entities, currencies</div>
+                    <div className="text-xs text-gray-500">
+                      Spend smart across entities, currencies
+                    </div>
                   </div>
                 </a>
               </li>
@@ -291,29 +319,48 @@ export default function Navbar() {
             </div>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition">
+                <a
+                  href="/accounting"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
                   <MdOutlineAccountBalance className="text-xl text-[#222]" />
                   <div>
-                    <div className="text-[#111] font-medium">Accounting firms</div>
-                    <div className="text-xs text-gray-500">Simplify close and earn rewards</div>
+                    <div className="text-[#111] font-medium">
+                      Accounting firms
+                    </div>
+                    <div className="text-xs text-gray-500">
+                      Simplify close and earn rewards
+                    </div>
                   </div>
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition">
+                <a
+                  href="/embedded-finance"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
                   <FiLayers className="text-xl text-[#222]" />
                   <div>
                     <div className="text-[#111] font-medium">B2B software</div>
-                    <div className="text-xs text-gray-500">Embed Brex cards in your products</div>
+                    <div className="text-xs text-gray-500">
+                      Embed Brex cards in your products
+                    </div>
                   </div>
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition">
+                <a
+                  href="/private-equity"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
                   <MdOutlineBusinessCenter className="text-xl text-[#222]" />
                   <div>
-                    <div className="text-[#111] font-medium">PE and VC Firms</div>
-                    <div className="text-xs text-gray-500">Manage spend for your firm & portfolio</div>
+                    <div className="text-[#111] font-medium">
+                      PE and VC Firms
+                    </div>
+                    <div className="text-xs text-gray-500">
+                      Manage spend for your firm & portfolio
+                    </div>
                   </div>
                 </a>
               </li>
@@ -322,12 +369,199 @@ export default function Navbar() {
         )}
       </div>
 
-      <a
-        href="#"
-        className="px-4 py-2 text-[#111] font-medium hover:bg-gray-100 rounded transition"
-      >
-        Resources
-      </a>
+      <div>
+        <button
+          className="flex items-center w-full px-4 py-2 font-medium text-[#111] hover:bg-gray-100 rounded transition"
+          onClick={() => setDrawerResourcesOpen(!drawerResourcesOpen)}
+        >
+          Resources
+          <svg
+            className={`ml-1 w-4 h-4 transition-transform ${
+              drawerSolutionsOpen ? "rotate-180" : ""
+            }`}
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+          >
+            <path d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        {drawerResourcesOpen && (
+          <div className="pl-6 pt-2 pb-4">
+            {/* Customer Hub */}
+            <div className="mb-2 text-xs text-gray-400 font-semibold uppercase tracking-widest">
+              Customer Hub
+            </div>
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="/support"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
+                  <FiHelpCircle className="text-xl text-[#222]" />
+                  <div>
+                    <div className="text-[#111] font-medium">Help Center</div>
+                    <div className="text-xs text-gray-500">
+                      Find answers fast
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/implementation"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
+                  <FiInfo className="text-xl text-[#222]" />
+                  <div>
+                    <div className="text-[#111] font-medium">Setup guides</div>
+                    <div className="text-xs text-gray-500">
+                      Set up Brex features
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/spring-2025"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
+                  <FiPackage className="text-xl text-[#222]" />
+                  <div>
+                    <div className="text-[#111] font-medium">
+                      Product releases
+                    </div>
+                    <div className="text-xs text-gray-500">See what’s new</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+            {/* Connect with Brex */}
+            <div className="mt-6 mb-2 text-xs text-gray-400 font-semibold uppercase tracking-widest">
+              Connect with Brex
+            </div>
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="/webinar"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
+                  <FiVideo className="text-xl text-[#222]" />
+                  <div>
+                    <div className="text-[#111] font-medium">Webinars</div>
+                    <div className="text-xs text-gray-500">Watch and learn</div>
+                  </div>
+                </a>
+              </li>
+             
+              <li>
+                <a
+                  href="/careers"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
+                  <FiBriefcase className="text-xl text-[#222]" />
+                  <div>
+                    <div className="text-[#111] font-medium">Careers</div>
+                    <div className="text-xs text-gray-500">
+                      Join us – we’re hiring
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+            {/* Resource Center */}
+           
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
+                  <FiEdit className="text-xl text-[#222]" />
+                  <div>
+                    <div className="text-[#111] font-medium">Blog</div>
+                    <div className="text-xs text-gray-500">
+                      Get news and insights
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
+                  <FiFileText className="text-xl text-[#222]" />
+                  <div>
+                    <div className="text-[#111] font-medium">
+                      Exclusive reports
+                    </div>
+                    <div className="text-xs text-gray-500">
+                      Unlock research and guides
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                >
+                  <FiUser className="text-xl text-[#222]" />
+                  <div>
+                    <div className="text-[#111] font-medium">
+                      Customer stories
+                    </div>
+                    <div className="text-xs text-gray-500">
+                      Learn from the best
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+            {/* The latest */}
+            <div className="mt-6 mb-2 text-xs text-gray-400 font-semibold uppercase tracking-widest">
+              The latest
+            </div>
+            <ul className="space-y-3">
+              <li className="flex items-start gap-3">
+                <img
+                  src="https://placehold.co/40x40?text=Zip"
+                  alt="Zip"
+                  className="w-8 h-8 rounded object-cover"
+                />
+                <div className="text-sm font-medium text-[#111]">
+                  From competitors to co-creators: Introducing Brex for Zip
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <img
+                  src="https://placehold.co/40x40?text=Acct"
+                  alt="Accounting"
+                  className="w-8 h-8 rounded object-cover"
+                />
+                <div className="text-sm font-medium text-[#111]">
+                  Engineered for finance: How Brex accelerates accounting
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <img
+                  src="https://placehold.co/40x40?text=CFO"
+                  alt="CFO"
+                  className="w-8 h-8 rounded object-cover"
+                />
+                <div className="text-sm font-medium text-[#111]">
+                  The CFO Imperative: New survey on CFO sentiment
+                </div>
+              </li>
+            </ul>
+          </div>
+        )}
+      </div>
       <a
         href="#"
         className="px-4 py-2 text-[#111] font-medium hover:bg-gray-100 rounded transition"
@@ -668,7 +902,7 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="/mid-size-companies"
                           className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiBriefcase className="text-xl text-[#222]" />
@@ -684,7 +918,7 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="/enterprise"
                           className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiGlobe className="text-xl text-[#222]" />
@@ -708,7 +942,7 @@ export default function Navbar() {
                     <ul className="space-y-2">
                       <li>
                         <a
-                          href="#"
+                          href="/accounting"
                           className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineAccountBalance className="text-xl text-[#222]" />
@@ -724,7 +958,7 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="/embedded-finance"
                           className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiLayers className="text-xl text-[#222]" />
@@ -740,7 +974,7 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="/private-equity"
                           className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineBusinessCenter className="text-xl text-[#222]" />
@@ -760,12 +994,120 @@ export default function Navbar() {
               </div>
             )}
           </div>
-          <a
-            href="#"
-            className="px-4 py-2 text-[#111] font-medium hover:bg-gray-100 rounded transition"
+          <div
+            onMouseEnter={() => setResourcesOpen(true)}
+            onMouseLeave={() => setResourcesOpen(false)}
           >
-            Resources
-          </a>
+            <button
+              className="flex items-center px-4 py-2 font-medium text-[#111] hover:bg-gray-100 rounded transition"
+              aria-haspopup="true"
+              aria-expanded={solutionsOpen}
+            >
+              Resources
+              <svg
+                className="ml-1 w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            {ResourcesOpen && (
+              <div className="absolute top-full left-0 w-screen bg-white border-t border-gray-200 shadow-2xl py-10 px-2 z-40">
+                <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+                  {/* Customer Hub */}
+                  <div>
+                    <div className="flex justify-between items-center mb-4">
+                      <span className="text-sm font-semibold text-[#111]">
+                        Customer Hub
+                      </span>
+                      <a
+                        href="#"
+                        className="text-xs text-orange-600 font-medium hover:underline"
+                      >
+                        View all →
+                      </a>
+                    </div>
+                    <ul className="space-y-4">
+                      <li className="flex items-start gap-3">
+                        <FiHelpCircle className="text-xl text-[#222]" />
+                        <div>
+                          <a href="/support" className="font-medium text-[#111]">
+                            Help Center
+                          </a>
+                          <div className="text-xs text-gray-500">
+                            Find answers fast
+                          </div>
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <FiInfo className="text-xl text-[#222]" />
+                        <div>
+                          <a href="/implementation" className="font-medium text-[#111]">
+                            Setup guides
+                          </a>
+                          <div className="text-xs text-gray-500">
+                            Set up Brex features
+                          </div>
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <FiPackage className="text-xl text-[#222]" />
+                        <div>
+                          <a href="/spring-2025" className="font-medium text-[#111]">
+                            Product releases
+                          </a>
+                          <div className="text-xs text-gray-500">
+                            See what’s new
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  {/* Connect with Brex */}
+                  <div>
+                    <div className="mb-4 text-sm font-semibold text-[#111]">
+                      Connect with Brex
+                    </div>
+                    <ul className="space-y-4">
+                      <li className="flex items-start gap-3">
+                        <FiVideo className="text-xl text-[#222]" />
+                        <div>
+                          <a href="/webinar" className="font-medium text-[#111]">
+                            Webinars
+                          </a>
+                          <div className="text-xs text-gray-500">
+                            Watch and learn
+                          </div>
+                        </div>
+                      </li>
+                     
+                      <li className="flex items-start gap-3">
+                        <FiBriefcase className="text-xl text-[#222]" />
+                        <div>
+                          <a href="/careers" className="font-medium text-[#111]">
+                            Careers
+                          </a>
+                          <div className="text-xs text-gray-500">
+                            Join us – we’re hiring
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  {/* Resource Center */}
+                 
+
+                 
+                </div>
+              </div>
+            )}
+          </div>
           <a
             href="#"
             className="px-4 py-2 text-[#111] font-medium hover:bg-gray-100 rounded transition"

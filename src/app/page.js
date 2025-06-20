@@ -15,6 +15,15 @@ import BrexAi from "./pages/product-pages/BrexAi";
 import Global from "./pages/product-pages/Global";
 import Integrations from './pages/product-pages/Integrations';
 import Startups from './pages/solution-pages/Startups';
+import MidSizeComp from './pages/solution-pages/MidSizeComp';
+import Enterprise from './pages/solution-pages/Enterprise';
+import Accounting from './pages/solution-pages/Accounting';
+import VCFirms from './pages/solution-pages/VCFirms';
+import HelpCenter from './pages/resources-page/HelpCenter';
+import SetupGuide from './pages/resources-page/SetupGuide';
+import ProductRelease from './pages/resources-page/ProductRelease';
+import Webinars from './pages/resources-page/Webinars';
+import Careers from './pages/resources-page/Careers';
 
 function App() {
   const BrowserRouter = dynamic(
@@ -37,6 +46,16 @@ function App() {
         <Route path="/global" element={<Global />} />
         <Route path="/integrations" element={<Integrations />} />
         <Route path="/startups" element={<Startups />} />
+        <Route path="/mid-size-companies" element={<MidSizeComp />} />
+        <Route path="/enterprise" element={<Enterprise />} />
+        <Route path="/accounting" element={<Accounting />} />
+        <Route path="/private-equity" element={<VCFirms />} />
+        <Route path="/implementation" element={<SetupGuide />} />
+        <Route path="/spring-2025" element={<ProductRelease />} />
+        <Route path="/webinar" element={<Webinars />} />
+        <Route path="/careers" element={<Careers />} />
+
+       
 
 
       </Routes>
