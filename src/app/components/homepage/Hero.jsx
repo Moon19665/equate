@@ -33,10 +33,10 @@ export default function Hero() {
           </form>
           <div className="mt-6 flex items-center gap-2">
             <span className="text-orange-500 text-lg">⦿</span>
-            <a href="#" className="text-orange-500 font-medium hover:underline text-base">See Brex in action</a>
+            <a href="#" className="text-orange-500 font-medium hover:underline text-base">See Equate in action</a>
           </div>
           <p className="mt-6 text-xs text-gray-400 max-w-xs">
-            Brex is a financial technology company, not a bank. Checking and banking services provided by Column N.A., Member FDIC.
+            Equate is a financial technology company, not a bank. Checking and banking services provided by Column N.A., Member FDIC.
           </p>
         </div>
         {/* Right: Image */}

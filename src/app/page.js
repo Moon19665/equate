@@ -24,6 +24,7 @@ import SetupGuide from './pages/resources-page/SetupGuide';
 import ProductRelease from './pages/resources-page/ProductRelease';
 import Webinars from './pages/resources-page/Webinars';
 import Careers from './pages/resources-page/Careers';
+import Pricing from './pages/Pricing';
 
 function App() {
   const BrowserRouter = dynamic(
@@ -42,7 +43,7 @@ function App() {
         <Route path="/travel" element={<Travel />} />
         <Route path="/account-automation" element={<AccountAutomation />} />
         <Route path="/embedded-finance" element={<EmbeddedFinance />} />
-        <Route path="/brx-ai" element={<BrexAi />} />
+        <Route path="/equate-ai" element={<BrexAi />} />
         <Route path="/global" element={<Global />} />
         <Route path="/integrations" element={<Integrations />} />
         <Route path="/startups" element={<Startups />} />
@@ -54,6 +55,7 @@ function App() {
         <Route path="/spring-2025" element={<ProductRelease />} />
         <Route path="/webinar" element={<Webinars />} />
         <Route path="/careers" element={<Careers />} />
+        <Route path="/pricing" element={<Pricing />} />
 
        
 

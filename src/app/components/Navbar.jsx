@@ -196,12 +196,12 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/brx-ai"
+                  href="/equate-ai"
                   className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FaRobot className="text-xl text-[#222]" />
                   <div>
-                    <div className="text-[#111] font-medium">Brex AI</div>
+                    <div className="text-[#111] font-medium">Equate AI</div>
                     <div className="text-xs text-gray-500">
                       AI-powered assistant & analytics
                     </div>
@@ -238,7 +238,7 @@ export default function Navbar() {
                 Introducing higher returns &rarr;
               </div>
               <div className="text-xs text-gray-700 mb-2">
-                Brex now offers the highest-returning, lowest-risk treasury
+                Equate now offers the highest-returning, lowest-risk treasury
                 product: earn up to 4.37%* with same-hour liquidity.
               </div>
             </div>
@@ -343,7 +343,7 @@ export default function Navbar() {
                   <div>
                     <div className="text-[#111] font-medium">B2B software</div>
                     <div className="text-xs text-gray-500">
-                      Embed Brex cards in your products
+                      Embed Equate cards in your products
                     </div>
                   </div>
                 </a>
@@ -417,7 +417,7 @@ export default function Navbar() {
                   <div>
                     <div className="text-[#111] font-medium">Setup guides</div>
                     <div className="text-xs text-gray-500">
-                      Set up Brex features
+                      Set up Equate features
                     </div>
                   </div>
                 </a>
@@ -440,7 +440,7 @@ export default function Navbar() {
 
             {/* Connect with Brex */}
             <div className="mt-6 mb-2 text-xs text-gray-400 font-semibold uppercase tracking-widest">
-              Connect with Brex
+              Connect with Equate
             </div>
             <ul className="space-y-2">
               <li>
@@ -535,7 +535,7 @@ export default function Navbar() {
                   className="w-8 h-8 rounded object-cover"
                 />
                 <div className="text-sm font-medium text-[#111]">
-                  From competitors to co-creators: Introducing Brex for Zip
+                  From competitors to co-creators: Introducing Equate for Zip
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -545,7 +545,7 @@ export default function Navbar() {
                   className="w-8 h-8 rounded object-cover"
                 />
                 <div className="text-sm font-medium text-[#111]">
-                  Engineered for finance: How Brex accelerates accounting
+                  Engineered for finance: How Equate accelerates accounting
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -569,7 +569,7 @@ export default function Navbar() {
         Customers
       </a>
       <a
-        href="#"
+        href="/pricing"
         className="px-4 py-2 text-[#111] font-medium hover:bg-gray-100 rounded transition"
       >
         Pricing
@@ -770,7 +770,7 @@ export default function Navbar() {
                           <FiGlobe className="text-xl text-[#222]" />
                           <div>
                             <div className="text-[#111] font-medium">
-                              Brex Embedded
+                              Equate Embedded
                             </div>
                             <div className="text-xs text-gray-500">
                               API-driven global payments
@@ -796,13 +796,13 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a
-                          href="/brx-ai"
+                          href="/equate-ai"
                           className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FaRobot className="text-xl text-[#222]" />
                           <div>
                             <div className="text-[#111] font-medium">
-                              Brex AI
+                              Equate AI
                             </div>
                             <div className="text-xs text-gray-500">
                               AI-powered assistant & analytics
@@ -844,7 +844,7 @@ export default function Navbar() {
                         Introducing higher returns &rarr;
                       </div>
                       <div className="text-xs text-gray-700 mb-2">
-                        Brex now offers the highest-returning, lowest-risk
+                        Equate now offers the highest-returning, lowest-risk
                         treasury product: earn up to 4.37%* with same-hour
                         liquidity.
                       </div>
@@ -967,7 +967,7 @@ export default function Navbar() {
                               B2B software
                             </div>
                             <div className="text-xs text-gray-500">
-                              Embed Brex cards in your products
+                              Embed Equate cards in your products
                             </div>
                           </div>
                         </a>
@@ -1050,7 +1050,7 @@ export default function Navbar() {
                             Setup guides
                           </a>
                           <div className="text-xs text-gray-500">
-                            Set up Brex features
+                            Set up Equate features
                           </div>
                         </div>
                       </li>
@@ -1071,7 +1071,7 @@ export default function Navbar() {
                   {/* Connect with Brex */}
                   <div>
                     <div className="mb-4 text-sm font-semibold text-[#111]">
-                      Connect with Brex
+                      Connect with Equate
                     </div>
                     <ul className="space-y-4">
                       <li className="flex items-start gap-3">
@@ -1108,14 +1108,9 @@ export default function Navbar() {
               </div>
             )}
           </div>
+          
           <a
-            href="#"
-            className="px-4 py-2 text-[#111] font-medium hover:bg-gray-100 rounded transition"
-          >
-            Customers
-          </a>
-          <a
-            href="#"
+            href="/pricing"
             className="px-4 py-2 text-[#111] font-medium hover:bg-gray-100 rounded transition"
           >
             Pricing

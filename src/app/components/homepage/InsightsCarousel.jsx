@@ -8,7 +8,7 @@ const slides = [
     image: 'https://brand.brex.com/transform/36d253e4-28a1-463f-be25-71b90ff2ca47/BB_navan_announcement_preview?io=transform:fit,width:2500,height:1313&quality=95',
     title: 'Reimagining global cards and travel management for the enterprise',
     description:
-      'The CEOs of Brex and Navan discuss how their partnership unlocks 100% travel payment reconciliation for enterprise companies.',
+      'The CEOs of Equate and Navan discuss how their partnership unlocks 100% travel payment reconciliation for enterprise companies.',
     link: '#',
   },
   {
@@ -47,23 +47,23 @@ const slides = [
     image: 'https://brand.brex.com/transform/f66f1df8-7c5f-4463-be7f-5cb3b37c8575/Respaid-webinar-preview?io=transform:fit,width:2500,height:1406&quality=95',
     title: 'How AI Can Increase Working Capital: Practical Tips and Strategies',
     description:
-      'Top finance leaders from Brex, Respaid (YC), Redis, and Grammarly explore how GenAI is transforming working capital management.',
+      'Top finance leaders from Equate, Respaid (YC), Redis, and Grammarly explore how GenAI is transforming working capital management.',
     link: '#',
   },
   {
     image: 'https://brand.brex.com/transform/c8391f4c-4b79-4b41-b8c2-3340ec225561/Controllers-Council-Webinar-Metadata-1?io=transform:fit,width:2500,height:1406&quality=95',
     title: 'Controller’s Council Webinar',
     description:
-      'Brex’s Chief Accounting Officer explores how AI can automate manual tasks, deliver outputs for contract reviews and flux analysis, and free up time for growth.',
+      'Equate Chief Accounting Officer explores how AI can automate manual tasks, deliver outputs for contract reviews and flux analysis, and free up time for growth.',
     link: '#',
     author: 'Erik Zhou',
-    authorType: 'CAO, Brex',
+    authorType: 'CAO, Equate',
   },
   {
     image: 'https://brand.brex.com/transform/ee86f106-0742-41a0-9f62-ab04632569e3/Cash-flow-article-preview?io=transform:fit,width:2500,height:1313&quality=95',
-    title: 'Improve cash flow with Brex',
+    title: 'Improve cash flow with Equate',
     description:
-      'Want to improve your cash flow processes? Discover the Brex advantage and automate cash forecasting, fraud detection, and reporting today.',
+      'Want to improve your cash flow processes? Discover the Equate advantage and automate cash forecasting, fraud detection, and reporting today.',
     link: '#',
   },
   {

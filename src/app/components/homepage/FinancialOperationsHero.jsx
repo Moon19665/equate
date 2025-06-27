@@ -75,7 +75,7 @@ export default function FinancialOperationsHero() {
             href="#"
             className="text-orange-600 font-medium hover:underline transition text-base"
           >
-            Explore Brex cards &rarr;
+            Explore Equate cards &rarr;
           </a>
         </div>
       </div>
@@ -92,7 +92,7 @@ export default function FinancialOperationsHero() {
           href="#"
           className="text-orange-600 font-medium hover:underline transition text-base"
         >
-          Explore Brex cards &rarr;
+          Explore Equate cards &rarr;
         </a>
       </div>
       {/* Right: Card */}
@@ -202,7 +202,7 @@ export default function FinancialOperationsHero() {
           href="#"
           className="text-orange-600 font-medium hover:underline transition text-base"
         >
-          Explore Brex cards &rarr;
+          Explore Equate cards &rarr;
         </a>
       </div>
      </div>
@@ -221,7 +221,7 @@ export default function FinancialOperationsHero() {
          href="#"
          className="text-orange-600 font-medium hover:underline transition text-base"
        >
-         Explore Brex cards &rarr;
+         Explore Equate cards &rarr;
        </a>
      </div>
        {/* Left: Card */}
@@ -331,13 +331,13 @@ export default function FinancialOperationsHero() {
         href="#"
         className="text-orange-600 font-medium hover:underline transition text-base"
       >
-        Explore Brex cards &rarr;
+        Explore Equate cards &rarr;
       </a>
     </div>
    </div>
    <div className="w-full bg-white py-24 px-4 flex flex-col items-center">
   <h2 className="text-2xl md:text-4xl font-bold text-center mb-10">
-    Save and earn more, only with Brex.
+    Save and earn more, only with Equate.
   </h2>
   <div className="flex flex-col md:flex-row justify-center gap-10 md:gap-16 w-full max-w-5xl mb-8">
     {/* Metric 1 */}
@@ -345,7 +345,7 @@ export default function FinancialOperationsHero() {
       <h3 className="text-lg font-semibold mb-2">AI-powered automation</h3>
       <div className="text-3xl md:text-4xl font-bold text-orange-600 mb-1">4,250 hours</div>
       <p className="text-gray-700 text-sm md:text-base">
-        Average time saved per year with Brex's expense and accounting automation.
+        Average time saved per year with Equate's expense and accounting automation.
       </p>
     </div>
     {/* Metric 2 */}
@@ -361,7 +361,7 @@ export default function FinancialOperationsHero() {
       <h3 className="text-lg font-semibold mb-2">Superior policy compliance</h3>
       <div className="text-3xl md:text-4xl font-bold text-orange-600 mb-1">99%</div>
       <p className="text-gray-700 text-sm md:text-base">
-        Average rate of expense policy compliance by employees on Brex.
+        Average rate of expense policy compliance by employees on Equate.
       </p>
     </div>
   </div>
