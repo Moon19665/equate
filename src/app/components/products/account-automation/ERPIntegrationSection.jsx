@@ -11,7 +11,7 @@ export default function ERPIntegrationSection() {
                 Easily integrate with any ERP.
               </h2>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                Map Brex directly to{" "}
+                Map Equate directly to{" "}
                 <a href="#" className="text-blue-600 underline hover:text-blue-800 transition-colors">
                   NetSuite
                 </a>
@@ -92,7 +92,7 @@ export default function ERPIntegrationSection() {
                 Automate your close. Minimize errors.
               </h3>
               <p className="text-base md:text-lg text-gray-700 mb-6">
-                Brex uses AI to generate suggestions and automate tasks, from mapping to anomaly detection. Get time back to focus on insights and analysis.
+              Equate uses AI to generate suggestions and automate tasks, from mapping to anomaly detection. Get time back to focus on insights and analysis.
               </p>
               <ul className="space-y-4 text-gray-700 text-base">
                 <li className="flex items-start gap-2">
@@ -140,7 +140,7 @@ export default function ERPIntegrationSection() {
                 Streamline multi-entity accounting in one platform.
               </h2>
               <p className="text-base md:text-lg text-gray-700 mb-6">
-                Whether you’re a scaling business or a global enterprise, Brex can streamline your accounting and compliance — all in one place.
+                Whether you’re a scaling business or a global enterprise, Equate can streamline your accounting and compliance — all in one place.
               </p>
               <ul className="space-y-4 text-gray-800 text-base">
                 <li className="flex items-start gap-3">

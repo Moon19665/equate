@@ -5,8 +5,8 @@ import { FaChevronDown } from 'react-icons/fa';
 
 const faqData = [
   {
-    question: "What is Brex accounting?",
-    answer: "Brex accounting is a modern, automated approach to managing your company's finances, designed to streamline processes and reduce manual work."
+    question: "What is Equate accounting?",
+    answer: "Equate accounting is a modern, automated approach to managing your company's finances, designed to streamline processes and reduce manual work."
   },
   {
     question: "What is accounting automation?",
@@ -17,20 +17,20 @@ const faqData = [
     answer: "It can save time, reduce errors, improve compliance, and give you real-time insights into your company's financial health."
   },
   {
-    question: "What ERPs does Brex connect to?",
-    answer: "Brex connects to leading ERPs including NetSuite, QuickBooks, Sage Intacct, Xero, and more."
+    question: "What ERPs does Equate connect to?",
+    answer: "Equate connects to leading ERPs including NetSuite, QuickBooks, Sage Intacct, Xero, and more."
   },
   {
-    question: "How is the Brex accounting process different from a typical close?",
-    answer: "Brex automates data collection, categorization, and reconciliation, allowing you to close your books faster and with greater accuracy."
+    question: "How is the Equate accounting process different from a typical close?",
+    answer: "Equate automates data collection, categorization, and reconciliation, allowing you to close your books faster and with greater accuracy."
   },
   {
     question: "How can accounting automation speed up a month-end close?",
     answer: "By automating transaction matching, receipt collection, and reporting, month-end close can be reduced from weeks to days or even hours."
   },
   {
-    question: "What accounting solutions does Brex sync with?",
-    answer: "Brex syncs with a wide range of accounting solutions and ERPs, including NetSuite, QuickBooks, Sage Intacct, and Xero."
+    question: "What accounting solutions does Equate sync with?",
+    answer: "Equate syncs with a wide range of accounting solutions and ERPs, including NetSuite, QuickBooks, Sage Intacct, and Xero."
   }
 ];
 

@@ -11,7 +11,7 @@ export default function ControlsSection() {
               With controls at every swipe.
             </h2>
             <p className="text-lg text-[#b2b8be] mb-6 max-w-2xl">
-              Brex cards have expense management built in — because a card
+              Equate cards have expense management built in — because a card
               without controls is, well, out of control.
             </p>
             <button className="bg-[#ff6600] hover:bg-[#ff5500] text-white font-semibold px-6 py-2 rounded-lg transition">
@@ -28,7 +28,7 @@ export default function ControlsSection() {
                   Automate employee compliance.
                 </h3>
                 <p className="text-[#b2b8be]">
-                  Brex cards automatically collect itemized receipts compliant
+                Equate cards automatically collect itemized receipts compliant
                   with IRS or local tax laws, generate memos, and categorize to
                   the right GL and/or project.
                 </p>
@@ -102,7 +102,7 @@ export default function ControlsSection() {
             With controls at every swipe.
           </h2>
           <p className="text-[#b2b8be] text-[15px] mb-6">
-            Brex cards have expense management built in — because a card without
+          Equate cards have expense management built in — because a card without
             controls is, well, out of control.
           </p>
           <button className="bg-[#ff6600] hover:bg-[#ff5500] text-white font-semibold px-6 py-2 rounded-lg transition">
@@ -116,7 +116,7 @@ export default function ControlsSection() {
             {
               title: "Automate employee compliance",
               content:
-                "Brex cards automatically collect itemized receipts compliant with tax laws.",
+                "Equate cards automatically collect itemized receipts compliant with tax laws.",
               img: "https://brand.brex.com/m/8c0b4b7f0b0e4e7d/webimage-card-compliance-phone.png",
             },
             {
@@ -186,7 +186,7 @@ export default function ControlsSection() {
               <br className="hidden md:block" /> countries and growing.
             </h2>
             <p className="text-[#b2b8be] text-base md:text-lg mb-6 max-w-md">
-              Brex cards can be issued in more countries and currencies than any
+            Equate cards can be issued in more countries and currencies than any
               other, enabling local operations anywhere.
             </p>
             <button className="bg-[#ff6600] hover:bg-[#ff5500] text-white font-semibold px-6 py-2 rounded-lg transition">
@@ -221,7 +221,7 @@ export default function ControlsSection() {
               One global card program.
             </h3>
             <p className="text-[#b2b8be] text-base">
-              Brex makes it easy to see your company’s total credit limit and
+            Equate makes it easy to see your company’s total credit limit and
               subsidiary-specific limits, expenses, and billing in one console
               to reduce risk and increase control.
             </p>
@@ -272,7 +272,7 @@ export default function ControlsSection() {
         {/* CTA Section */}
         <div className="w-full max-w-2xl flex flex-col items-center text-center mt-8">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            See what Brex can do for you.
+            See what Equate can do for you.
           </h2>
           <p className="text-[#b2b8be] text-lg mb-8">
             Get the spending power you want and the controls you need today.

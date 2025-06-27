@@ -7,7 +7,7 @@ export default function AccountingAutomationSlider() {
     {
       logo: "https://logo.clearbit.com/signifyd.com",
       company: "Signifyd",
-      quote: "With Brex, the accounting team is saving 5 hours per month on receipt tracking and 10 hours on month-end reconciliation.",
+      quote: "With Equate, the accounting team is saving 5 hours per month on receipt tracking and 10 hours on month-end reconciliation.",
       author: "Ty Barton",
       position: "Accounting Manager, Signifyd",
       readMoreLink: "#"
@@ -15,7 +15,7 @@ export default function AccountingAutomationSlider() {
     {
       logo: "https://logo.clearbit.com/stripe.com",
       company: "Stripe",
-      quote: "Brex has transformed our expense management process. We've reduced our monthly close time by 60% and eliminated manual receipt chasing entirely.",
+      quote: "Equate has transformed our expense management process. We've reduced our monthly close time by 60% and eliminated manual receipt chasing entirely.",
       author: "Sarah Chen",
       position: "Senior Controller, Stripe",
       readMoreLink: "#"
@@ -31,7 +31,7 @@ export default function AccountingAutomationSlider() {
     {
       logo: "https://logo.clearbit.com/shopify.com",
       company: "Shopify",
-      quote: "Implementing Brex reduced our accounting overhead by 40%. The automated workflows and integrations are game-changing for scaling businesses.",
+      quote: "Implementing Equate reduced our accounting overhead by 40%. The automated workflows and integrations are game-changing for scaling businesses.",
       author: "Emily Watson",
       position: "CFO, Shopify",
       readMoreLink: "#"
@@ -39,7 +39,7 @@ export default function AccountingAutomationSlider() {
     {
       logo: "https://logo.clearbit.com/slack.com",
       company: "Slack",
-      quote: "Our team loves how Brex simplifies expense reporting. What used to take hours now takes minutes, and accuracy has improved dramatically.",
+      quote: "Our team loves how Equate simplifies expense reporting. What used to take hours now takes minutes, and accuracy has improved dramatically.",
       author: "David Kim",
       position: "Finance Director, Slack",
       readMoreLink: "#"

@@ -11,8 +11,8 @@ export default function FAQSection() {
       answer: "A corporate credit card is a payment card issued to a business that allows employees to make purchases on behalf of the company. It helps businesses manage expenses, track spending, and separate personal and business transactions."
     },
     {
-      question: "Who is eligible for a Brex corporate credit card?",
-      answer: "Brex corporate credit cards are available to startups, growing businesses, and established companies. Eligibility is based on your business profile, revenue, and other factors rather than personal credit scores."
+      question: "Who is eligible for a Equate corporate credit card?",
+      answer: "Equate corporate credit cards are available to startups, growing businesses, and established companies. Eligibility is based on your business profile, revenue, and other factors rather than personal credit scores."
     },
     {
       question: "Does the Brex corporate credit card have rewards?",

@@ -11,7 +11,7 @@ export default function AccrualsAccountingSection() {
                 Accruals accounting made easy.
               </h2>
               <p className="text-base md:text-lg text-gray-700 mb-6">
-                Automate your accruals process with Brex. Book accruals for incomplete transactions and enable continuous close, so your books are always up to date.
+                Automate your accruals process with Equate. Book accruals for incomplete transactions and enable continuous close, so your books are always up to date.
               </p>
               <ul className="space-y-4 text-gray-800 text-base">
                 <li className="flex items-start justify-center gap-3">

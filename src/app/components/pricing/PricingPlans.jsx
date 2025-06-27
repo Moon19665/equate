@@ -41,7 +41,7 @@ export default function PricingPlans() {
               <li>✔ Local currency wires</li>
               <li>✔ Travel booking (free on Essentials)</li>
               <li>✔ Real-time reporting</li>
-              <li>✔ Brex API access</li>
+              <li>✔ Equate API access</li>
               <li>✔ Bill pay</li>
               <li>✔ Reimbursements</li>
             </ul>

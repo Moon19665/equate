@@ -18,7 +18,7 @@ export default function BrexCTASection() {
             {/* Left Content Column */}
             <div className="w-full lg:w-1/2 text-center lg:text-left">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-                See what Brex can do for you.
+                See what Equate can do for you.
               </h1>
               <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
                 Add accuracy, automation, and efficiency to your accounting — from document collection to journal entries, and everywhere in between.

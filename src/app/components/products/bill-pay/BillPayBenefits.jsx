@@ -6,7 +6,7 @@ export default function BillPayBenefits() {
     <div className="w-full bg-[#0a1013] py-14 px-4 flex flex-col items-center">
       {/* Heading */}
       <h2 className="text-3xl md:text-5xl font-bold text-white text-center mb-2">
-        Bill pay is better with Brex.
+        Bill pay is better with Equate.
       </h2>
       <p className="text-[#bfc6ce] text-base md:text-lg text-center mb-12 max-w-2xl">
         Bill pay, cards, reimbursements, expense management, and travel. All in one place.
@@ -67,7 +67,7 @@ export default function BillPayBenefits() {
       {/* Left: Text Content */}
       <div className="w-full lg:w-1/2 flex flex-col items-start mb-10 lg:mb-0">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
-          Control all spend, invoiced or otherwise, with Brex.
+          Control all spend, invoiced or otherwise, with Equate.
         </h2>
         <p className="text-[#bfc6ce] text-base md:text-lg mb-8 max-w-md">
           Along with purchase cards, Brex also offers AI-backed bill pay software to streamline your invoices as part of Brex payables.

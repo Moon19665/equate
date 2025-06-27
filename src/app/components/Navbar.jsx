@@ -588,8 +588,8 @@ export default function Navbar() {
 
   return (
     <nav className="w-full bg-white border-b border-gray-100 z-50 relative">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
-        <Link href="/" className="flex items-center gap-2">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-6">
+        <Link href="/" className="flex items-center gap-2 py-3">
           <img
             src="/logo.png"
             alt="Brex Logo"
@@ -616,11 +616,12 @@ export default function Navbar() {
         </button>
 
         {/* Desktop Nav Links */}
-        <div className="hidden lg:flex items-center gap-2 ">
+        <div className="hidden lg:flex items-center gap-2">
           {/* Products Dropdown */}
           <div
             onMouseEnter={() => setProductsOpen(true)}
             onMouseLeave={() => setProductsOpen(false)}
+            className="py-3"
           >
             <button
               className="flex items-center px-4 py-2 font-medium text-[#111] hover:bg-gray-100 rounded transition"
@@ -858,6 +859,7 @@ export default function Navbar() {
           <div
             onMouseEnter={() => setSolutionsOpen(true)}
             onMouseLeave={() => setSolutionsOpen(false)}
+            className="py-3"
           >
             <button
               className="flex items-center px-4 py-2 font-medium text-[#111] hover:bg-gray-100 rounded transition"
@@ -997,6 +999,7 @@ export default function Navbar() {
           <div
             onMouseEnter={() => setResourcesOpen(true)}
             onMouseLeave={() => setResourcesOpen(false)}
+            className="py-3"
           >
             <button
               className="flex items-center px-4 py-2 font-medium text-[#111] hover:bg-gray-100 rounded transition"
@@ -1117,7 +1120,7 @@ export default function Navbar() {
           </a>
         </div>
         {/* Right Side */}
-        <div className="hidden lg:flex items-center gap-2">
+        <div className="hidden lg:flex items-center gap-2 py-3">
           <a
             href="#"
             className="text-[#111] font-medium px-3 py-2 hover:underline"
@@ -1142,7 +1145,7 @@ export default function Navbar() {
           />
           {/* Drawer */}
           <div
-            className={`fixed top-0 left-0 h-full w-80 max-w-full bg-white z-50 shadow-lg transform transition-transform duration-300 ${
+            className={`overflow-hidden overflow-y-auto p-3 fixed top-0 left-0 h-full w-80 max-w-full bg-white z-50 shadow-lg transform transition-transform duration-300 ${
               drawerOpen ? "translate-x-0" : "-translate-x-full"
             }`}
           >

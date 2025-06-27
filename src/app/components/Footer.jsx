@@ -64,7 +64,7 @@ export default function Footer() {
 
 <ul className="space-y-2">
   {[
-    { label: "Equate AI", href: "/brex-ai" },
+    { label: "Equate AI", href: "/equate-ai" },
     { label: "Global ready", href: "/global-ready" },
     { label: "Native integrations", href: "/native-integrations" },
     { label: "Live Budgets", href: "/live-budgets" },
