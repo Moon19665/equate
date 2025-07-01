@@ -1029,7 +1029,7 @@ export default function Navbar() {
                       </span>
                       <a
                         href="#"
-                        className="text-xs text-orange-600 font-medium hover:underline"
+                        className="text-xs text-[#033175] font-medium hover:underline"
                       >
                         View all →
                       </a>
