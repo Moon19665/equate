@@ -34,27 +34,30 @@ export default function Footer() {
                 Product
               </div>
 
-
-<ul className="space-y-2">
-  {[
-    { label: "Corporate card", href: "/corporate-card" },
-    { label: "Business account", href: "/business-account" },
-    { label: "Expense management", href: "/expense-management" },
-    { label: "Accounting automation", href: "/accounting-automation" },
-    { label: "Bill pay", href: "/bill-pay" },
-    { label: "Travel", href: "/travel" },
-    { label: "Startups", href: "/startups" },
-    { label: "Release notes", href: "/release-notes" },
-  ].map(({ label, href }) => (
-    <li key={href}>
-      <Link href={href} className="hover:underline cursor-pointer transition">
-        {label}
-      </Link>
-    </li>
-  ))}
-</ul>
-
-
+              <ul className="space-y-2">
+                {[
+                  { label: "Corporate card", href: "/corporate-card" },
+                  { label: "Business banking", href: "/business-banking" },
+                  { label: "Expense management", href: "/spend-management" },
+                  {
+                    label: "Accounting automation",
+                    href: "/account-automation",
+                  },
+                  { label: "Bill pay", href: "/bill-pay" },
+                  { label: "Travel", href: "/travel" },
+                  { label: "Startups", href: "/startups" },
+                  { label: "Product release", href: "/spring-2025" },
+                ].map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="hover:underline cursor-pointer transition"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
             {/* Platform */}
             <div>
@@ -62,24 +65,22 @@ export default function Footer() {
                 Platform
               </div>
 
-<ul className="space-y-2">
-  {[
-    { label: "Equate AI", href: "/equate-ai" },
-    { label: "Global ready", href: "/global-ready" },
-    { label: "Native integrations", href: "/native-integrations" },
-    { label: "Live Budgets", href: "/live-budgets" },
-    { label: "Reporting", href: "/reporting" },
-    { label: "Mobile app", href: "/mobile-app" },
-    { label: "API", href: "/api" },
-  ].map(({ label, href }) => (
-    <li key={href}>
-      <Link href={href} className="hover:underline cursor-pointer transition">
-        {label}
-      </Link>
-    </li>
-  ))}
-</ul>
-
+              <ul className="space-y-2">
+                {[
+                  { label: "Equate AI", href: "/equate-ai" },
+                  { label: "Global ready", href: "/global" },
+                  { label: "Native integrations", href: "/integrations" },
+                ].map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="hover:underline cursor-pointer transition"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
             {/* Company */}
             <div>
@@ -87,23 +88,20 @@ export default function Footer() {
                 Company
               </div>
 
-<ul className="space-y-2">
-  {[
-    { label: "About Brex", href: "/about-brex" },
-    { label: "Careers", href: "/careers" },
-    { label: "Contact", href: "/contact" },
-    { label: "Partner portal", href: "/partner-portal" },
-    { label: "Press", href: "/press" },
-    { label: "Security", href: "/security" },
-  ].map(({ label, href }) => (
-    <li key={href}>
-      <Link href={href} className="hover:underline cursor-pointer transition">
-        {label}
-      </Link>
-    </li>
-  ))}
-</ul>
-
+              <ul className="space-y-2">
+                {[{ label: "Careers", href: "/careers" }].map(
+                  ({ label, href }) => (
+                    <li key={href}>
+                      <Link
+                        href={href}
+                        className="hover:underline cursor-pointer transition"
+                      >
+                        {label}
+                      </Link>
+                    </li>
+                  )
+                )}
+              </ul>
             </div>
             {/* Resources */}
             <div>
@@ -111,27 +109,22 @@ export default function Footer() {
                 Resources
               </div>
 
-<ul className="space-y-2">
-  {[
-    { label: "Customer Hub", href: "/customer-hub" },
-    { label: "Help center", href: "/help-center" },
-    { label: "Resource center & blog", href: "/resource-center-blog" },
-    { label: "Spend trends", href: "/spend-trends" },
-    { label: "Accounting services", href: "/accounting-services" },
-    { label: "Status", href: "/status" },
-    { label: "Implementation services", href: "/implementation-services" },
-    { label: "Legal", href: "/legal" },
-    { label: "Privacy", href: "/privacy" },
-    { label: "Cookie preferences", href: "/cookie-preferences" },
-  ].map(({ label, href }) => (
-    <li key={href}>
-      <Link href={href} className="hover:underline cursor-pointer transition">
-        {label}
-      </Link>
-    </li>
-  ))}
-</ul>
-
+              <ul className="space-y-2">
+                {[
+                  { label: "Help center", href: "/support" },
+                  { label: "Setup guide", href: "/implementation" },
+                  { label: "Webinars", href: "/webinar" },
+                ].map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="hover:underline cursor-pointer transition"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
@@ -222,8 +215,8 @@ export default function Footer() {
             <a href="#" className="underline cursor-pointer">
               FDIC
             </a>
-            , and Treasury and Vault, cash management services provided by Equate
-            Treasury LLC, Member{" "}
+            , and Treasury and Vault, cash management services provided by
+            Equate Treasury LLC, Member{" "}
             <a href="#" className="underline cursor-pointer">
               FINRA
             </a>{" "}
@@ -234,9 +227,9 @@ export default function Footer() {
             .
           </p>
           <p>
-            Securities are offered through Equate Treasury LLC. Funds in Treasury
-            are not FDIC-insured. Funds in Vault or adjacent banks, if any, are
-            eligible for{" "}
+            Securities are offered through Equate Treasury LLC. Funds in
+            Treasury are not FDIC-insured. Funds in Vault or adjacent banks, if
+            any, are eligible for{" "}
             <a href="#" className="underline cursor-pointer">
               FDIC
             </a>{" "}
@@ -272,9 +265,9 @@ export default function Footer() {
             .
           </p>
           <p>
-            Some Equate products have associated fees. Plans start at $0 per user,
-            per month, and more advanced features are available for $12 per
-            user, per month.
+            Some Equate products have associated fees. Plans start at $0 per
+            user, per month, and more advanced features are available for $12
+            per user, per month.
           </p>
         </div>
       </div>

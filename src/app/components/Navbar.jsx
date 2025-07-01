@@ -455,7 +455,7 @@ export default function Navbar() {
                   </div>
                 </a>
               </li>
-             
+
               <li>
                 <a
                   href="/careers"
@@ -473,7 +473,7 @@ export default function Navbar() {
             </ul>
 
             {/* Resource Center */}
-           
+
             <ul className="space-y-2">
               <li>
                 <a
@@ -1038,7 +1038,10 @@ export default function Navbar() {
                       <li className="flex items-start gap-3">
                         <FiHelpCircle className="text-xl text-[#222]" />
                         <div>
-                          <a href="/support" className="font-medium text-[#111]">
+                          <a
+                            href="/support"
+                            className="font-medium text-[#111]"
+                          >
                             Help Center
                           </a>
                           <div className="text-xs text-gray-500">
@@ -1049,7 +1052,10 @@ export default function Navbar() {
                       <li className="flex items-start gap-3">
                         <FiInfo className="text-xl text-[#222]" />
                         <div>
-                          <a href="/implementation" className="font-medium text-[#111]">
+                          <a
+                            href="/implementation"
+                            className="font-medium text-[#111]"
+                          >
                             Setup guides
                           </a>
                           <div className="text-xs text-gray-500">
@@ -1060,7 +1066,10 @@ export default function Navbar() {
                       <li className="flex items-start gap-3">
                         <FiPackage className="text-xl text-[#222]" />
                         <div>
-                          <a href="/spring-2025" className="font-medium text-[#111]">
+                          <a
+                            href="/spring-2025"
+                            className="font-medium text-[#111]"
+                          >
                             Product releases
                           </a>
                           <div className="text-xs text-gray-500">
@@ -1080,7 +1089,10 @@ export default function Navbar() {
                       <li className="flex items-start gap-3">
                         <FiVideo className="text-xl text-[#222]" />
                         <div>
-                          <a href="/webinar" className="font-medium text-[#111]">
+                          <a
+                            href="/webinar"
+                            className="font-medium text-[#111]"
+                          >
                             Webinars
                           </a>
                           <div className="text-xs text-gray-500">
@@ -1088,11 +1100,14 @@ export default function Navbar() {
                           </div>
                         </div>
                       </li>
-                     
+
                       <li className="flex items-start gap-3">
                         <FiBriefcase className="text-xl text-[#222]" />
                         <div>
-                          <a href="/careers" className="font-medium text-[#111]">
+                          <a
+                            href="/careers"
+                            className="font-medium text-[#111]"
+                          >
                             Careers
                           </a>
                           <div className="text-xs text-gray-500">
@@ -1104,14 +1119,11 @@ export default function Navbar() {
                   </div>
 
                   {/* Resource Center */}
-                 
-
-                 
                 </div>
               </div>
             )}
           </div>
-          
+
           <a
             href="/pricing"
             className="px-4 py-2 text-[#111] font-medium hover:bg-gray-100 rounded transition"
@@ -1140,12 +1152,12 @@ export default function Navbar() {
         <>
           {/* Overlay */}
           <div
-            className="fixed inset-0 bg-black bg-opacity-40 z-40"
+            className="fixed inset-0 bg-black bg-opacity-10 z-40"
             onClick={() => setDrawerOpen(false)}
           />
           {/* Drawer */}
           <div
-            className={`overflow-hidden overflow-y-auto p-3 fixed top-0 left-0 h-full w-80 max-w-full bg-white z-50 shadow-lg transform transition-transform duration-300 ${
+            className={`overflow-hidden overflow-y-auto p-3 fixed top-0 left-0 h-full w-80 max-w-full bg-white z-50 shadow-lg transform transition-transform duration-500 ease-in-out ${
               drawerOpen ? "translate-x-0" : "-translate-x-full"
             }`}
           >
