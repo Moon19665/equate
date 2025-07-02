@@ -1,0 +1,6 @@
+[
+  { "id": "hero", "component": "SetupGuideHero", "visible": true },
+  { "id": "webinarForm", "component": "WeeklyWebinarForm", "visible": true },
+  { "id": "resources", "component": "HelpCenterResources", "visible": true },
+  { "id": "contact", "component": "SupportContactSection", "visible": true }
+]

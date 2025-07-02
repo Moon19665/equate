@@ -1,16 +1,19 @@
-import VCFeaturesSection from '../../components/solutions/vc-firms/VCFeaturesSection'
-import PrivateEquityHero from '../../components/solutions/vc-firms/PrivateEquityHero'
-import React from 'react'
-import VCTestimonialCTA from '../../components/solutions/vc-firms/VCTestimonialCTA'
+import React from 'react';
+import layout from '@/json/solution-pages/vcFirmsLayout.json';
+import { vcFirmsMap } from '@/maps/solution-pages/page-maps/vcFirmsMap';
 
 const VCFirms = () => {
   return (
     <div>
-      <PrivateEquityHero/>
-      <VCFeaturesSection/>
-      <VCTestimonialCTA/>
+      {layout
+        .filter(block => block.visible !== false)
+        .map(block => {
+          const Component = vcFirmsMap[block.component];
+          if (!Component) return null;
+          return <Component key={block.id} {...(block.props || {})} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default VCFirms
+export default VCFirms;

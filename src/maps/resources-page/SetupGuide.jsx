@@ -1,18 +1,19 @@
-import WeeklyWebinarForm from '../../components/resources/setup-guide/WeeklyWebinarForm'
-import SetupGuideHero from '../../components/resources/setup-guide/SetupGuideHero'
-import React from 'react'
-import HelpCenterResources from '../../components/resources/setup-guide/HelpCenterResources'
-import SupportContactSection from '../../components/resources/setup-guide/SupportContactSection'
+import React from 'react';
+import layout from '@/json/resource-pages/setupGuideLayout.json';
+import { setupGuideMap } from '@/maps/resources-page/page-maps/setupGuideMap';
 
 const SetupGuide = () => {
   return (
     <div>
-      <SetupGuideHero/>
-      <WeeklyWebinarForm/>
-      <HelpCenterResources/>
-      <SupportContactSection/>
+      {layout
+        .filter(block => block.visible !== false)
+        .map(block => {
+          const Component = setupGuideMap[block.component];
+          if (!Component) return null;
+          return <Component key={block.id} {...(block.props || {})} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default SetupGuide
+export default SetupGuide;

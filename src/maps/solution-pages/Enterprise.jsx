@@ -1,79 +1,19 @@
-import React from 'react'
-import EnterpriseHero from '../../components/solutions/enterprise/EnterpriseHero'
-import EnterpriseGlobalSpendSection from '../../components/solutions/enterprise/EnterpriseGlobalSpendSection'
-import EnterpriseImgCards from '../../components/solutions/enterprise/EnterpriseImgCards'
-import SpendDecisionSection from '../../components/solutions/enterprise/SpendDecisionSection'
-import EnterpriseOverviewSection from '../../components/solutions/enterprise/EnterpriseOverviewSection'
-import PurchaseCardCTASection from '../../components/solutions/enterprise/PurchaseCardCTASection'
-import Carousel from '../../components/Carousel'
-import InterpriseFAQ from '../../components/solutions/enterprise/InterpriseFAQ'
+import React from 'react';
+import layout from '@/json/solution-pages/enterpriseLayout.json';
+import { enterpriseMap } from '@/maps/solution-pages/page-maps/enterpriseMap';
+
 const Enterprise = () => {
-    const ctaSlides = [
-        {
-          image: "https://brand.brex.com/transform/36d253e4-28a1-463f-be25-71b90ff2ca47/BB_navan_announcement_preview?io=transform:fit,width:2500,height:1313&quality=95",
-          title: "Reimagining global cards and travel management for the enterprise",
-          description: "The CEOs of Brex and Navan discuss how their partnership unlocks 100% travel payment reconciliation for enterprise companies.",
-          link: "#"
-        },
-        {
-          image: "https://brand.brex.com/transform/68331046-69a0-4ff3-9216-12bba5b2eb74/Article-Archive-Image?io=transform:fit,width:2500,height:1313&quality=95",
-          title: "7 ways AI can accelerate expense management",
-          description: "Nearly 3 in 4 CFOs say their expense processes are too manual. Learn about the AI features that automate busywork and drive efficiency.",
-          link: "#"
-        },
-        {
-          image: "https://brand.brex.com/transform/805ed7df-5f1c-4faf-8bc0-fd217805e4c9/Seatgeek-article-preview?io=transform:fit,width:2500,height:1313&quality=95",
-          title: "SeatGeek reduces T&E costs by 50% and automates nearly 100% of accounting entries with Brex",
-          description: "SeatGeek stopped chasing paper trails and accelerated the month-end close with Brex.",
-          link: "#"
-        },
-        {
-          image: "https://brand.brex.com/transform/f66f1df8-7c5f-4463-be7f-5cb3b37c8575/Respaid-webinar-preview?io=transform:fit,width:2500,height:1406&quality=95",
-          title: "How AI Can Increase Working Capital: Practical Tips and Strategies",
-          description: "Top finance leaders from Brex, Respaid (YC), Redis, and Grammarly explore how GenAI is transforming working capital management.",
-          link: "#"
-        },
-        {
-          image: "https://brand.brex.com/transform/b364d2c7-64ea-41c7-a2d4-6ed72ee0d563/phase-genomics-article-preview?io=transform:fit,width:2500,height:1313&quality=95",
-          title: "Phase Genomics streamlines travel, expense, and card on one trusted platform",
-          description: "See how Phase Genomics streamlines travel, expenses, and cards all on one platform.",
-          link: "#"
-        },
-        {
-          image: "https://brand.brex.com/m/5a2d71585ed26895/webimage-Navan-Webinar-Metadata-1.png?io=transform:fit,width:2500,height:1406&quality=95",
-          title: "Webinar: Reimagining global travel payments for the enterprise",
-          description: "Art Levy from Brex and Michael Sindicich from Navan showcase BrexPay for Navan and discuss how it solves the biggest pains in enterprise travel.",
-          link: "#",
-          authorType: "Speakers",
-          author: "Art Levy & Michael Sindicich"
-        },
-        {
-          image: "https://brand.brex.com/transform/c8391f4c-4b79-4b41-b8c2-3340ec225561/Controllers-Council-Webinar-Metadata-1?io=transform:fit,width:2500,height:1406&quality=95",
-          title: "Controller's Council Webinar",
-          description: "Brex’s Chief Accounting Officer explores how AI can automate manual tasks, deliver outputs for contract reviews and flux analysis, and free up time for growth.",
-          link: "#",
-          authorType: "Speaker",
-          author: "Erik Zhou"
-        },
-        {
-          image: "https://brand.brex.com/transform/ee86f106-0742-41a0-9f62-ab04632569e3/Cash-flow-article-preview?io=transform:fit,width:2500,height:1313&quality=95",
-          title: "Improve cash flow with Brex",
-          description: "Want to improve your cash flow processes? Discover the Brex advantage and automate cash forecasting, fraud detection, and reporting today.",
-          link: "#"
-        }
-      ];
   return (
     <div>
-      <EnterpriseHero/>
-      <EnterpriseGlobalSpendSection/>
-      <EnterpriseImgCards/>
-      <SpendDecisionSection/>
-      <EnterpriseOverviewSection/>
-      <PurchaseCardCTASection/>
-      <Carousel title="Trending insight for global interprise" slides={ctaSlides} />
-      <InterpriseFAQ/>
+      {layout
+        .filter((block) => block.visible !== false)
+        .map((block) => {
+          const Component = enterpriseMap[block.component];
+          if (!Component) return null;
+          return <Component key={block.id} {...(block.props || {})} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default Enterprise
+export default Enterprise;

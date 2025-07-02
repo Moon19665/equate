@@ -1,0 +1,17 @@
+[
+  { "id": "hero", "component": "MidSizeHero", "visible": true },
+  { "id": "travel", "component": "TravelExpenseSection", "visible": true },
+  { "id": "mid2", "component": "MidSizeSecondSec", "visible": true },
+  { "id": "incode", "component": "IncodeTestimonial", "visible": true },
+  { "id": "golive", "component": "GoLiveWithBrex", "visible": true },
+  { "id": "faq", "component": "MidSizeFAQ", "visible": true },
+  {
+    "id": "signup",
+    "component": "SignupHeroSection",
+    "visible": true,
+    "props": {
+      "title": "<>See what Equate can do <br />for you..</>",
+      "desc": "Equate is the only fully unified global spend platform — with corporate cards, expense management, reimbursements, bill pay, and travel, all in one place."
+    }
+  }
+]

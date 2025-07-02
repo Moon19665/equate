@@ -1,18 +1,19 @@
-import SupportContactOptions from '../../components/resources/help-center/SupportContactOptions'
-import ExploreResourcesSection from '../../components/resources/help-center/ExploreResourcesSection'
-import SupportArticle from '../../components/resources/help-center/SupportArticle'
-import SupportHero from '../../components/resources/help-center/SupportHero'
-import React from 'react'
+import React from 'react';
+import layout from '@/json/resource-pages/helpCenterLayout.json';
+import { helpCenterMap } from '@/maps/resources-page/page-maps/helpCenterMap';
 
 const HelpCenter = () => {
   return (
     <div>
-      <SupportHero/>
-      <SupportArticle/>
-      <ExploreResourcesSection/>
-      <SupportContactOptions/>
+      {layout
+        .filter(block => block.visible !== false)
+        .map(block => {
+          const Component = helpCenterMap[block.component];
+          if (!Component) return null;
+          return <Component key={block.id} {...(block.props || {})} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default HelpCenter
+export default HelpCenter;

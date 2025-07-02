@@ -1,0 +1,6 @@
+[
+  { "id": "hero", "component": "ProductReleaseHero", "visible": true },
+  { "id": "video", "component": "HRISSyncVideoSection", "visible": true },
+  { "id": "roles", "component": "UserRoleCustomizationSection", "visible": true },
+  { "id": "features", "component": "SpringReleaseFeatures", "visible": true }
+]

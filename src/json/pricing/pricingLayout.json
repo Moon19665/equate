@@ -1,0 +1,5 @@
+[
+  { "id": "logos", "component": "PricingLogosSection", "visible": true },
+  { "id": "plans", "component": "PricingPlans", "visible": true },
+  { "id": "accordion", "component": "FeaturesAccordion", "visible": true }
+]

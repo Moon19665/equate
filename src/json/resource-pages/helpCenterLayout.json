@@ -1,0 +1,6 @@
+[
+  { "id": "hero", "component": "SupportHero", "visible": true },
+  { "id": "article", "component": "SupportArticle", "visible": true },
+  { "id": "explore", "component": "ExploreResourcesSection", "visible": true },
+  { "id": "contact", "component": "SupportContactOptions", "visible": true }
+]

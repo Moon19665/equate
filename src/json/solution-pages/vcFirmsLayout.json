@@ -1,0 +1,5 @@
+[
+  { "id": "hero", "component": "PrivateEquityHero", "visible": true },
+  { "id": "features", "component": "VCFeaturesSection", "visible": true },
+  { "id": "cta", "component": "VCTestimonialCTA", "visible": true }
+]

@@ -1,30 +1,19 @@
-import StartupsCorporateCard from '../../components/solutions/startups/StartupsCorporateCard'
-import BankingTreasurySection from '../../components/solutions/startups/BankingTreasurySection'
-import StartupStory from '../../components/solutions/startups/StartupStory'
-import StartupsHero from '../../components/solutions/startups/StartupsHero'
-import React from 'react'
-import StartupsBillboardSection from '../../components/solutions/startups/StartupsBillboardSection'
-import TreetGrowthSection from '../../components/solutions/startups/TreetGrowthSection'
-import EnterpriseCopilotSection from '../../components/solutions/startups/EnterpriseCopilotSection'
-import FoundersGrowSection from '../../components/solutions/startups/FoundersGrowSection'
-import XealTestimonialAndComparison from '../../components/solutions/startups/XealTestimonialAndComparison'
-import StartupSignupSection from '../../components/solutions/startups/StartupSignupSection'
+import React from 'react';
+import layout from '@/json/solution-pages/startupsLayout.json';
+import { startupsMap } from '@/maps/solution-pages/page-maps/startupsMap';
 
 const Startups = () => {
   return (
     <div>
-      <StartupsHero/>
-      <StartupStory/>
-      <BankingTreasurySection/>
-      <StartupsCorporateCard/>
-      <StartupsBillboardSection/>
-      <TreetGrowthSection/>
-      <EnterpriseCopilotSection/>
-      <FoundersGrowSection/>
-      <XealTestimonialAndComparison/>
-      <StartupSignupSection/>
+      {layout
+        .filter((block) => block.visible !== false)
+        .map((block) => {
+          const Component = startupsMap[block.component];
+          if (!Component) return null;
+          return <Component key={block.id} {...(block.props || {})} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default Startups
+export default Startups;

@@ -1,0 +1,5 @@
+[
+  { "id": "hero", "component": "WebinarHeroSection", "visible": true },
+  { "id": "grid", "component": "WebinarGridSection", "visible": true },
+  { "id": "cta", "component": "WebinarCTA", "visible": true }
+]

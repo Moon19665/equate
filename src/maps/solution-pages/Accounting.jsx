@@ -1,22 +1,19 @@
-import WhyPartnerWithBrex from '../../components/solutions/accounting/WhyPartnerWithBrex'
-import AccountingLogoSlider from '../../components/solutions/accounting/AccountingLogoSlider'
-import AccountingPartnerSection from '../../components/solutions/accounting/AccountingPartnerSection'
-import React from 'react'
-import PartnerTierComparison from '../../components/solutions/accounting/PartnerTierComparison'
-import AccountingInsightsSection from '../../components/solutions/accounting/AccountingInsightsSection'
-import BecomePartnerSection from '../../components/solutions/accounting/BecomePartnerSection'
+import React from 'react';
+import layout from '@/json/solution-pages/accountingLayout.json';
+import { accountingMap } from '@/maps/solution-pages/page-maps/accountingMap';
 
 const Accounting = () => {
   return (
     <div>
-      <AccountingPartnerSection/>
-      <AccountingLogoSlider/>
-      <WhyPartnerWithBrex/>
-      <PartnerTierComparison/>
-      <AccountingInsightsSection/>
-      <BecomePartnerSection/>
+      {layout
+        .filter((block) => block.visible !== false)
+        .map((block) => {
+          const Component = accountingMap[block.component];
+          if (!Component) return null;
+          return <Component key={block.id} {...(block.props || {})} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default Accounting
+export default Accounting;

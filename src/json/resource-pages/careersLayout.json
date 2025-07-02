@@ -1,0 +1,42 @@
+[
+  { "id": "hero", "component": "CareersHeroSection", "visible": true },
+  { "id": "ceoQuote", "component": "CEOQuoteSection", "visible": true },
+  { "id": "carousel", "component": "Carousel", "visible": true, "props": {
+    "slides": [
+      {
+        "image": "https://brand.brex.com/transform/12b69c11-ba21-430a-a9ff-e861c780b4fc/Group-48096807?io=transform:fit,width:600,height:407&quality=95",
+        "title": "Dream big",
+        "description": "Every big win starts the same way: aiming higher than we think is possible and working backward from there."
+      },
+      {
+        "image": "https://brand.brex.com/transform/2074d274-2379-4a48-a401-11eadf84f065/One-Brex?io=transform:fit,width:600,height:407&quality=95",
+        "title": "One Brex",
+        "description": "We focus on what unites us. We optimize for Brex above any individual and leverage the collective genius."
+      },
+      {
+        "image": "https://brand.brex.com/transform/723b13a3-7ff7-4d13-861e-b6164ef73745/Customer-Lover?io=transform:fit,width:600,height:407&quality=95",
+        "title": "Inspire customer love",
+        "description": "When customers and those around us love what we do and advocate on our behalf, our potential is unbounded."
+      },
+      {
+        "image": "https://brand.brex.com/transform/05f29257-14c7-48a4-8d95-37261974dd8f/Ownership?io=transform:fit,width:600,height:407&quality=95",
+        "title": "Ownership",
+        "description": "We take our results personally, and we deliver at the highest standards, with integrity, despite the odds."
+      },
+      {
+        "image": "https://brand.brex.com/transform/88f2e37b-3fdf-4792-8c81-11baa933fd1a/Growth-Mindset?io=transform:fit,width:600,height:407&quality=95",
+        "title": "Growth mindset",
+        "description": "We have the discipline to seek the truth, humility to know we can improve, and curiosity to learn."
+      },
+      {
+        "image": "https://brand.brex.com/transform/547e10ea-2d01-44d1-a047-90d8b213c9cf/Impatient-Optimism?io=transform:fit,width:600,height:410&quality=95",
+        "title": "Impatient optimism",
+        "description": "The future will be great, and we want to get there fast. We move with urgency and a positive attitude."
+      }
+    ],
+    "title": "Our values — Be part of something big"
+  }},
+  { "id": "benefits", "component": "BrexBenefits", "visible": true },
+  { "id": "communities", "component": "CommunitiesSection", "visible": true },
+  { "id": "jobs", "component": "JobOpeningsAccordion", "visible": true }
+]

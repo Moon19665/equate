@@ -1,14 +1,14 @@
 import React from 'react';
-import layout from '@/json/resource-pages/careersLayout.json';
-import { careersMap } from '@/maps/resources-page/page-maps/careersMap';
+import layout from '@/json/pricing/pricingLayout.json';
+import { pricingMap } from '@/maps/pricing/pricingMap';
 
-const Careers = () => {
+const Pricing = () => {
   return (
     <div>
       {layout
         .filter(block => block.visible !== false)
         .map(block => {
-          const Component = careersMap[block.component];
+          const Component = pricingMap[block.component];
           if (!Component) return null;
           return <Component key={block.id} {...(block.props || {})} />;
         })}
@@ -16,4 +16,4 @@ const Careers = () => {
   );
 };
 
-export default Careers;
+export default Pricing;

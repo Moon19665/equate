@@ -1,0 +1,12 @@
+[
+  { "id": "hero", "component": "StartupsHero", "visible": true },
+  { "id": "story", "component": "StartupStory", "visible": true },
+  { "id": "banking", "component": "BankingTreasurySection", "visible": true },
+  { "id": "card", "component": "StartupsCorporateCard", "visible": true },
+  { "id": "billboard", "component": "StartupsBillboardSection", "visible": true },
+  { "id": "growth", "component": "TreetGrowthSection", "visible": true },
+  { "id": "copilot", "component": "EnterpriseCopilotSection", "visible": true },
+  { "id": "founders", "component": "FoundersGrowSection", "visible": true },
+  { "id": "testimonial", "component": "XealTestimonialAndComparison", "visible": true },
+  { "id": "signup", "component": "StartupSignupSection", "visible": true }
+]

@@ -1,0 +1,8 @@
+[
+  { "id": "partner", "component": "AccountingPartnerSection", "visible": true },
+  { "id": "logoSlider", "component": "AccountingLogoSlider", "visible": true },
+  { "id": "whyBrex", "component": "WhyPartnerWithBrex", "visible": true },
+  { "id": "tiers", "component": "PartnerTierComparison", "visible": true },
+  { "id": "insights", "component": "AccountingInsightsSection", "visible": true },
+  { "id": "become", "component": "BecomePartnerSection", "visible": true }
+]

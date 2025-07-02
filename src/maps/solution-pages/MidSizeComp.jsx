@@ -1,28 +1,27 @@
-import TravelExpenseSection from '../../components/solutions/midSize-companies/TravelExpenseSection'
-import MidSizeHero from '../../components/solutions/midSize-companies/MidSizeHero'
-import React from 'react'
-import MidSizeSecondSec from '../../components/solutions/midSize-companies/MidSizeSecondSec'
-import IncodeTestimonial from '../../components/solutions/midSize-companies/IncodeTestimonial'
-import GoLiveWithBrex from '../../components/solutions/midSize-companies/GoLiveWithBrex'
-import MidSizeFAQ from '../../components/solutions/midSize-companies/MidSizeFAQ'
-import SignupHeroSection from '../../components/SignupHeroSection'
+import React from 'react';
+import layout from '@/json/solution-pages/midSizeLayout.json';
+import { midSizeMap } from '@/maps/solution-pages/page-maps/midSizeMap';
 
 const MidSizeComp = () => {
   return (
     <div>
-      <MidSizeHero/>
-      <TravelExpenseSection/>
-      <MidSizeSecondSec/>
-      <IncodeTestimonial/>
-      <GoLiveWithBrex/>
-      <MidSizeFAQ/>
-      <SignupHeroSection
-  title={<>See what Equate can do <br />for you..</>}
-  desc="Equate is the only fully unified global spend platform — with corporate cards, expense management, reimbursements, bill pay, and travel, all in one place."
-/>
+      {layout
+        .filter((block) => block.visible !== false)
+        .map((block) => {
+          const Component = midSizeMap[block.component];
+          if (!Component) return null;
 
+          const props = { ...(block.props || {}) };
+
+          // Optional: Parse JSX in title if using strings like <>..</>
+          if (block.component === "SignupHeroSection" && typeof props.title === "string" && props.title.includes("<>")) {
+            props.title = <>See what Equate can do <br />for you..</>;
+          }
+
+          return <Component key={block.id} {...props} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default MidSizeComp
+export default MidSizeComp;
