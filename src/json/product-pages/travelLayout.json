@@ -1,0 +1,8 @@
+[
+  { "id": "hero", "component": "TravelHero", "visible": true },
+  { "id": "cards", "component": "TravelSpendCards", "visible": true },
+  { "id": "testimonial", "component": "TravelSpendTestimonial", "visible": true },
+  { "id": "events", "component": "GroupEventsSection", "visible": true },
+  { "id": "future", "component": "FutureProofTravelSection", "visible": true },
+  { "id": "faq", "component": "TravelFAQ", "visible": true }
+]

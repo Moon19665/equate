@@ -1,20 +1,19 @@
-import CorporateCards from '../../components/products/corporate-card/CorporateCards'
-import CardsHero from '../../components/products/corporate-card/CardsHero'
-import React from 'react'
-import CorporateCardSection from '../../components/products/corporate-card/CorporateCardSection'
-import ControlsSection from '../../components/products/corporate-card/ControlsSection'
-import FAQSection from '../../components/products/corporate-card/FAQSection'
+import React from 'react';
+import { corporateCardMap } from '@/pages/product-pages/page-maps/corporateCardMap'; // adjust path if needed
+import layout from '@/json/product-pages/corporateCard.json'; // adjust path if needed
 
 const CorporateCard = () => {
   return (
     <div>
-      <CardsHero/>
-      <CorporateCards/>
-      <CorporateCardSection/>
-      <ControlsSection/>
-      <FAQSection/>
+      {layout
+        .filter((block) => block.visible !== false)
+        .map((block) => {
+          const Component = corporateCardMap[block.component];
+          if (!Component) return null;
+          return <Component key={block.id} {...(block.props || {})} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default CorporateCard
+export default CorporateCard;

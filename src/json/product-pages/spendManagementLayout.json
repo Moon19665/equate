@@ -1,0 +1,11 @@
+[
+  { "id": "hero", "component": "SpendManagementHero", "visible": true },
+  { "id": "features", "component": "SpendFeatures", "visible": true },
+  { "id": "policyEmbed", "component": "PolicyEmbedSection", "visible": true },
+  { "id": "expenseReview", "component": "AutomateExpenseReviewSection", "visible": true },
+  { "id": "testimonial", "component": "PolicyTestimonialSection", "visible": true },
+  { "id": "automation", "component": "ExpenseAutomationSection", "visible": true },
+  { "id": "insights", "component": "InsightsAndReimburseSection", "visible": true },
+  { "id": "preFooter", "component": "SpendManagementPreFooter", "visible": true },
+  { "id": "faq", "component": "SpendManagementFAQ", "visible": true }
+]

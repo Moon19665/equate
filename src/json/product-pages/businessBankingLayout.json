@@ -1,0 +1,17 @@
+[
+  { "id": "hero", "component": "HeroBanking", "visible": true },
+  { "id": "treasury", "component": "TreasuryFeature", "visible": true },
+  { "id": "features", "component": "BankingFeatures", "visible": true },
+  { "id": "calculator", "component": "TreasuryGrowthCalculator", "visible": true },
+  { "id": "cta", "component": "BankingCTA", "visible": true },
+  { "id": "faq", "component": "BankingFAQ", "visible": true },
+  {
+    "id": "carousel",
+    "component": "Carousel",
+    "visible": true,
+    "props": {
+      "title": "Latest Insights on Financial Technology",
+      "slides": "insights"
+    }
+  }
+]

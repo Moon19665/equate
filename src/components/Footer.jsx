@@ -51,7 +51,7 @@ export default function Footer() {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="hover:underline pointer-events-none cursor-pointer transition"
+                      className="hover:underline   cursor-pointer transition"
                     >
                       {label}
                     </Link>
@@ -74,7 +74,7 @@ export default function Footer() {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="hover:underline pointer-events-none cursor-pointer transition"
+                      className="hover:underline   cursor-pointer transition"
                     >
                       {label}
                     </Link>
@@ -94,7 +94,7 @@ export default function Footer() {
                     <li key={href}>
                       <Link
                         href={href}
-                        className="hover:underline pointer-events-none cursor-pointer transition"
+                        className="hover:underline   cursor-pointer transition"
                       >
                         {label}
                       </Link>
@@ -118,7 +118,7 @@ export default function Footer() {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="hover:underline pointer-events-none cursor-pointer transition"
+                      className="hover:underline   cursor-pointer transition"
                     >
                       {label}
                     </Link>
@@ -136,35 +136,35 @@ export default function Footer() {
             <a
               href="#"
               aria-label="Facebook"
-              className="hover:text-white pointer-events-none cursor-pointer transition"
+              className="hover:text-white   cursor-pointer transition"
             >
               <FaFacebookF size={18} />
             </a>
             <a
               href="#"
               aria-label="Instagram"
-              className="hover:text-white pointer-events-none cursor-pointer transition"
+              className="hover:text-white   cursor-pointer transition"
             >
               <FaInstagram size={18} />
             </a>
             <a
               href="#"
               aria-label="YouTube"
-              className="hover:text-white pointer-events-none cursor-pointer transition"
+              className="hover:text-white   cursor-pointer transition"
             >
               <FaYoutube size={18} />
             </a>
             <a
               href="#"
               aria-label="LinkedIn"
-              className="hover:text-white pointer-events-none cursor-pointer transition"
+              className="hover:text-white   cursor-pointer transition"
             >
               <FaLinkedinIn size={18} />
             </a>
             <a
               href="#"
               aria-label="X"
-              className="hover:text-white pointer-events-none cursor-pointer transition"
+              className="hover:text-white   cursor-pointer transition"
             >
               <FaXTwitter size={18} />
             </a>
@@ -212,16 +212,16 @@ export default function Footer() {
             Equate is a financial technology company, not a bank. The Equate
             business account consists of Checking, a commercial checking account
             provided by Column N.A., Member{" "}
-            <a href="#" className="underline pointer-events-none cursor-pointer">
+            <a href="#" className="underline   cursor-pointer">
               FDIC
             </a>
             , and Treasury and Vault, cash management services provided by
             Equate Treasury LLC, Member{" "}
-            <a href="#" className="underline pointer-events-none cursor-pointer">
+            <a href="#" className="underline   cursor-pointer">
               FINRA
             </a>{" "}
             and{" "}
-            <a href="#" className="underline pointer-events-none cursor-pointer">
+            <a href="#" className="underline   cursor-pointer">
               SIPC
             </a>
             .
@@ -230,7 +230,7 @@ export default function Footer() {
             Securities are offered through Equate Treasury LLC. Funds in
             Treasury are not FDIC-insured. Funds in Vault or adjacent banks, if
             any, are eligible for{" "}
-            <a href="#" className="underline pointer-events-none cursor-pointer">
+            <a href="#" className="underline   cursor-pointer">
               FDIC
             </a>{" "}
             insurance. Funds are not FDIC-insured until they arrive at program
@@ -238,12 +238,12 @@ export default function Footer() {
             loss of money. Yields are variable and fluctuate. Past performance
             is not a guarantee of future results. This is not an offer, or
             solicitation, to buy and/or sell any securities. See Treasury LLC’s{" "}
-            <a href="#" className="underline pointer-events-none cursor-pointer">
+            <a href="#" className="underline   cursor-pointer">
               disclosures
             </a>{" "}
             for more information. See the latest statement of investments for
             Equate Treasury LLC{" "}
-            <a href="#" className="underline pointer-events-none cursor-pointer">
+            <a href="#" className="underline   cursor-pointer">
               here
             </a>
             .
@@ -259,7 +259,7 @@ export default function Footer() {
             are accepted. No ATM access. All users are subject to approval,
             including underwriting, credit, and certain payment services are
             provided by Equate Payments, LLC.{" "}
-            <a href="#" className="underline pointer-events-none cursor-pointer">
+            <a href="#" className="underline   cursor-pointer">
               Payments, LLC disclosures
             </a>
             .

@@ -1,0 +1,8 @@
+[
+  { "id": "hero", "component": "BillPayHero", "visible": true },
+  { "id": "testimonial", "component": "BillPayTestimonial", "visible": true },
+  { "id": "scrollFade", "component": "ScrollFadeSection", "visible": true },
+  { "id": "control", "component": "BillPayControlSection", "visible": true },
+  { "id": "testimonial2", "component": "BillPayTestimonialSection", "visible": true },
+  { "id": "benefits", "component": "BillPayBenefits", "visible": true }
+]

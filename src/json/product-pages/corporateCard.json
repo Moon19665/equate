@@ -1,0 +1,7 @@
+[
+  { "id": "hero", "component": "CardsHero", "visible": true },
+  { "id": "cards", "component": "CorporateCards", "visible": true },
+  { "id": "section", "component": "CorporateCardSection", "visible": true },
+  { "id": "controls", "component": "ControlsSection", "visible": true },
+  { "id": "faq", "component": "FAQSection", "visible": true }
+]

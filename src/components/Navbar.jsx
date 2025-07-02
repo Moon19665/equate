@@ -68,7 +68,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/corporate-card"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiCreditCard className="text-xl text-[#222]" />
                   <div>
@@ -84,7 +84,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/bill-pay"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlinePayment className="text-xl text-[#222]" />
                   <div>
@@ -98,7 +98,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/business-banking"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiBriefcase className="text-xl text-[#222]" />
                   <div>
@@ -114,7 +114,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/spend-management"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiBarChart2 className="text-xl text-[#222]" />
                   <div>
@@ -130,7 +130,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/travel"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineTravelExplore className="text-xl text-[#222]" />
                   <div>
@@ -144,7 +144,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/account-automation"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineAutoAwesome className="text-xl text-[#222]" />
                   <div>
@@ -165,7 +165,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/embedded-finance"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiGlobe className="text-xl text-[#222]" />
                   <div>
@@ -181,7 +181,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/integrations"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineIntegrationInstructions className="text-xl text-[#222]" />
                   <div>
@@ -197,7 +197,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/equate-ai"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FaRobot className="text-xl text-[#222]" />
                   <div>
@@ -211,7 +211,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/global"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineAccountBalance className="text-xl text-[#222]" />
                   <div>
@@ -272,7 +272,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/startups"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiUsers className="text-xl text-[#222]" />
                   <div>
@@ -286,7 +286,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/mid-size-companies"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiBriefcase className="text-xl text-[#222]" />
                   <div>
@@ -302,7 +302,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/enterprise"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiGlobe className="text-xl text-[#222]" />
                   <div>
@@ -321,7 +321,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/accounting"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineAccountBalance className="text-xl text-[#222]" />
                   <div>
@@ -337,7 +337,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/embedded-finance"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiLayers className="text-xl text-[#222]" />
                   <div>
@@ -351,7 +351,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/private-equity"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineBusinessCenter className="text-xl text-[#222]" />
                   <div>
@@ -397,7 +397,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/support"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiHelpCircle className="text-xl text-[#222]" />
                   <div>
@@ -411,7 +411,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/implementation"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiInfo className="text-xl text-[#222]" />
                   <div>
@@ -425,7 +425,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/spring-2025"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiPackage className="text-xl text-[#222]" />
                   <div>
@@ -446,7 +446,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/webinar"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiVideo className="text-xl text-[#222]" />
                   <div>
@@ -459,7 +459,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/careers"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiBriefcase className="text-xl text-[#222]" />
                   <div>
@@ -478,7 +478,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="#"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiEdit className="text-xl text-[#222]" />
                   <div>
@@ -492,7 +492,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="#"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiFileText className="text-xl text-[#222]" />
                   <div>
@@ -508,7 +508,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="#"
-                  className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                  className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiUser className="text-xl text-[#222]" />
                   <div>
@@ -570,16 +570,16 @@ export default function Navbar() {
       </a>
       <a
         href="/pricing"
-        className="px-4 py-2 pointer-events-none text-[#111] font-medium hover:bg-gray-100 rounded transition"
+        className="px-4 py-2   text-[#111] font-medium hover:bg-gray-100 rounded transition"
       >
         Pricing
       </a>
-      <a href="#" className="text-[#111] pointer-events-none font-medium px-3 py-2 hover:underline">
+      <a href="#" className="text-[#111]   font-medium px-3 py-2 hover:underline">
         Sign in
       </a>
       <a
         href="#"
-        className="bg-[#033175] pointer-events-none hover:bg-[#033175] text-white font-semibold px-5 py-2 rounded-lg text-base transition-colors duration-200"
+        className="bg-[#033175]   hover:bg-[#033175] text-white font-semibold px-5 py-2 rounded-lg text-base transition-colors duration-200"
       >
         Get started
       </a>
@@ -656,7 +656,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/corporate-card"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiCreditCard className="text-xl text-[#222]" />
                           <div>
@@ -673,7 +673,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/business-banking"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiBriefcase className="text-xl text-[#222]" />
                           <div>
@@ -689,7 +689,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/spend-management"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiBarChart2 className="text-xl text-[#222]" />
                           <div>
@@ -710,7 +710,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/travel"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineTravelExplore className="text-xl text-[#222]" />
                           <div>
@@ -726,7 +726,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/bill-pay"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlinePayment className="text-xl text-[#222]" />
                           <div>
@@ -742,7 +742,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/account-automation"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineAutoAwesome className="text-xl text-[#222]" />
                           <div>
@@ -766,7 +766,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/embedded-finance"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiGlobe className="text-xl text-[#222]" />
                           <div>
@@ -782,7 +782,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/integrations"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineIntegrationInstructions className="text-xl text-[#222]" />
                           <div>
@@ -798,7 +798,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/equate-ai"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FaRobot className="text-xl text-[#222]" />
                           <div>
@@ -814,7 +814,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/global"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineAccountBalance className="text-xl text-[#222]" />
                           <div>
@@ -889,7 +889,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/startups"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiUsers className="text-xl text-[#222]" />
                           <div>
@@ -905,7 +905,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/mid-size-companies"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiBriefcase className="text-xl text-[#222]" />
                           <div>
@@ -921,7 +921,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/enterprise"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiGlobe className="text-xl text-[#222]" />
                           <div>
@@ -945,7 +945,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/accounting"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineAccountBalance className="text-xl text-[#222]" />
                           <div>
@@ -961,7 +961,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/embedded-finance"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiLayers className="text-xl text-[#222]" />
                           <div>
@@ -977,7 +977,7 @@ export default function Navbar() {
                       <li>
                         <a
                           href="/private-equity"
-                          className="flex pointer-events-none items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineBusinessCenter className="text-xl text-[#222]" />
                           <div>
@@ -1040,7 +1040,7 @@ export default function Navbar() {
                         <div>
                           <a
                             href="/support"
-                            className="font-medium pointer-events-none text-[#111]"
+                            className="font-medium   text-[#111]"
                           >
                             Help Center
                           </a>
@@ -1054,7 +1054,7 @@ export default function Navbar() {
                         <div>
                           <a
                             href="/implementation"
-                            className="font-medium pointer-events-none text-[#111]"
+                            className="font-medium   text-[#111]"
                           >
                             Setup guides
                           </a>
@@ -1068,7 +1068,7 @@ export default function Navbar() {
                         <div>
                           <a
                             href="/spring-2025"
-                            className="font-medium pointer-events-none text-[#111]"
+                            className="font-medium   text-[#111]"
                           >
                             Product releases
                           </a>
@@ -1091,7 +1091,7 @@ export default function Navbar() {
                         <div>
                           <a
                             href="/webinar"
-                            className="font-medium pointer-events-none text-[#111]"
+                            className="font-medium   text-[#111]"
                           >
                             Webinars
                           </a>
@@ -1106,7 +1106,7 @@ export default function Navbar() {
                         <div>
                           <a
                             href="/careers"
-                            className="font-medium pointer-events-none text-[#111]"
+                            className="font-medium   text-[#111]"
                           >
                             Careers
                           </a>

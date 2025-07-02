@@ -1,29 +1,19 @@
-import SpendManagementHero from '../../components/products/spend-management/SpendManagementHero'
-import SpendFeatures from '../../components/products/spend-management/SpendFeatures'
-import PolicyEmbedSection from '../../components/products/spend-management/PolicyEmbedSection'
-import AutomateExpenseReviewSection from '../../components/products/spend-management/AutomateExpenseReviewSection'
-import PolicyTestimonialSection from '../../components/products/spend-management/PolicyTestimonialSection'
-import ExpenseAutomationSection from '../../components/products/spend-management/ExpenseAutomationSection'
-import InsightsAndReimburseSection from '../../components/products/spend-management/InsightsAndReimburseSection'
-import SpendManagementPreFooter from '../../components/products/spend-management/SpendManagementPreFooter'
-import SpendManagementFAQ from '../../components/products/spend-management/SpendManagementFAQ'
-
-import React from 'react'
+import React from 'react';
+import layout from '@/json/product-pages/spendManagementLayout.json'; // adjust path as needed
+import { spendManagementMap } from '@/pages/product-pages/page-maps/spendManagementMap';
 
 const SpendManagement = () => {
   return (
     <div>
-      <SpendManagementHero/>
-      <SpendFeatures/>
-      <PolicyEmbedSection/>
-      <AutomateExpenseReviewSection/>
-      <PolicyTestimonialSection/>
-      <ExpenseAutomationSection/>
-      <InsightsAndReimburseSection/>
-      <SpendManagementPreFooter/>
-      <SpendManagementFAQ/>
+      {layout
+        .filter((block) => block.visible !== false)
+        .map((block) => {
+          const Component = spendManagementMap[block.component];
+          if (!Component) return null;
+          return <Component key={block.id} {...(block.props || {})} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default SpendManagement
+export default SpendManagement;

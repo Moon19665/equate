@@ -1,23 +1,19 @@
-import BillPayHero from '../../components/products/bill-pay/BillPayHero'
-import BillPayTestimonial from '../../components/products/bill-pay/BillPayTestimonial'
-import ScrollFadeSection from '../../components/products/bill-pay/ScrollFadeSection'
-import BillPayControlSection from '../../components/products/bill-pay/BillPayControlSection'
-import BillPayTestimonialSection from '../../components/products/bill-pay/BillPayTestimonialSection'
-import BillPayBenefits from '../../components/products/bill-pay/BillPayBenefits'
-
-import React from 'react'
+import React from 'react';
+import layout from '@/json/product-pages/billPayLayout.json'; 
+import { billPayMap } from '@/pages/product-pages/page-maps/billPayMap';
 
 const BillPay = () => {
   return (
     <div>
-      <BillPayHero/>
-      <BillPayTestimonial/>
-      <ScrollFadeSection/>
-      <BillPayControlSection/>
-      <BillPayTestimonialSection/>
-      <BillPayBenefits/>
+      {layout
+        .filter((block) => block.visible !== false)
+        .map((block) => {
+          const Component = billPayMap[block.component];
+          if (!Component) return null;
+          return <Component key={block.id} {...(block.props || {})} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default BillPay
+export default BillPay;

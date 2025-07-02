@@ -1,23 +1,19 @@
-import TravelHero from '../../components/products/travel/TravelHero'
-import TravelSpendCards from '../../components/products/travel/TravelSpendCards'
-import TravelSpendTestimonial from '../../components/products/travel/TravelSpendTestimonial'
-import GroupEventsSection from '../../components/products/travel/GroupEventsSection'
-import FutureProofTravelSection from '../../components/products/travel/FutureProofTravelSection'
-import TravelFAQ from '../../components/products/travel/TravelFAQ'
-
-import React from 'react'
+import React from 'react';
+import layout from '@/json/product-pages/travelLayout.json'; // adjust path
+import { travelMap } from '@/pages/product-pages/page-maps/travelMap';
 
 const Travel = () => {
   return (
     <div>
-      <TravelHero/>
-      <TravelSpendCards/>
-      <TravelSpendTestimonial/>
-      <GroupEventsSection/>
-      <FutureProofTravelSection/>
-      <TravelFAQ/>
+      {layout
+        .filter((block) => block.visible !== false)
+        .map((block) => {
+          const Component = travelMap[block.component];
+          if (!Component) return null;
+          return <Component key={block.id} {...(block.props || {})} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default Travel
+export default Travel;
