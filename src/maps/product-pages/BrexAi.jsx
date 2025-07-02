@@ -1,8 +1,7 @@
-import BrexAIFAQ from '../../components/products/brexai/BrexAIFAQ';
-import Carousel from '../../components/Carousel';
-import AiCtaSection from '../../components/products/brexai/AiCtaSection'
-import BrexAIHero from '../../components/products/brexai/BrexAIHero'
-import BrexAIPlatformSections from '../../components/products/brexai/BrexAIPlatformSections'
+import React from 'react';
+import layout from '@/json/product-pages/brexAiLayout.json';
+import { brexAiMap } from '@/maps/product-pages/page-maps/brexAiMap';
+
 const aiFinanceCarouselData = [
   {
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=240&fit=crop",
@@ -78,21 +77,30 @@ const aiFinanceCarouselData = [
   }
 ];
 
-import React from 'react'
+const dynamicProps = {
+  aiFinanceCarouselData
+};
 
 const BrexAi = () => {
   return (
     <div>
-      <BrexAIHero/>
-      <BrexAIPlatformSections/>
-      <AiCtaSection/>
-      <Carousel 
-        slides={aiFinanceCarouselData}
-        title="Explore AI in finance."
-      />
-      <BrexAIFAQ/>
-    </div>
-  )
-}
+      {layout
+        .filter((block) => block.visible !== false)
+        .map((block) => {
+          const Component = brexAiMap[block.component];
+          if (!Component) return null;
 
-export default BrexAi
+          const resolvedProps = {};
+          if (block.props) {
+            Object.entries(block.props).forEach(([key, value]) => {
+              resolvedProps[key] = dynamicProps[value] ?? value;
+            });
+          }
+
+          return <Component key={block.id} {...resolvedProps} />;
+        })}
+    </div>
+  );
+};
+
+export default BrexAi;

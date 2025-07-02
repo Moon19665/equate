@@ -1,0 +1,15 @@
+[
+  { "id": "hero", "component": "BrexAIHero", "visible": true },
+  { "id": "platform", "component": "BrexAIPlatformSections", "visible": true },
+  { "id": "cta", "component": "AiCtaSection", "visible": true },
+  {
+    "id": "carousel",
+    "component": "Carousel",
+    "visible": true,
+    "props": {
+      "title": "Explore AI in finance.",
+      "slides": "aiFinanceCarouselData"
+    }
+  },
+  { "id": "faq", "component": "BrexAIFAQ", "visible": true }
+]

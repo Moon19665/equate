@@ -1,24 +1,19 @@
-import LocalCurrencySection from '../../components/products/global/LocalCurrencySection'
-import GlobalHeroSection from '../../components/products/global/GlobalHeroSection'
-import React from 'react'
-import IndustryCoverageSection from '../../components/products/global/IndustryCoverageSection'
-import TaxPolicyComplianceSection from '../../components/products/global/TaxPolicyComplianceSection'
-import GlobalDiagramSection from '../../components/products/global/GlobalDiagramSection'
-import GlobalFeaturesAndTestimonial from '../../components/products/global/GlobalFeaturesAndTestimonial'
-import GlobalCtaSection from '../../components/products/global/GlobalCtaSection'
+import React from 'react';
+import layout from '@/json/product-pages/globalLayout.json'; // adjust path if needed
+import { globalMap } from '@/maps/product-pages/page-maps/globalMap';
 
 const Global = () => {
   return (
     <div>
-      <GlobalHeroSection/>
-      <LocalCurrencySection/>
-      <IndustryCoverageSection/>
-      <TaxPolicyComplianceSection/>
-      <GlobalDiagramSection/>
-      <GlobalFeaturesAndTestimonial/>
-      <GlobalCtaSection/>
+      {layout
+        .filter((block) => block.visible !== false)
+        .map((block) => {
+          const Component = globalMap[block.component];
+          if (!Component) return null;
+          return <Component key={block.id} {...(block.props || {})} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default Global
+export default Global;

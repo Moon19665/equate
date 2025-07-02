@@ -1,0 +1,18 @@
+[
+  { "id": "hero", "component": "AccountingAutomationHero", "visible": true },
+  { "id": "section", "component": "AccountingAutomationSection", "visible": true },
+  { "id": "erp", "component": "ERPIntegrationSection", "visible": true },
+  { "id": "accruals", "component": "AccrualsAccountingSection", "visible": true },
+  { "id": "slider", "component": "AccountingAutomationSlider", "visible": true },
+  {
+    "id": "carousel",
+    "component": "Carousel",
+    "visible": true,
+    "props": {
+      "title": "More insights and articles on accounting automation.",
+      "slides": "accountingInsightsData"
+    }
+  },
+  { "id": "cta", "component": "BrexCTASection", "visible": true },
+  { "id": "faq", "component": "AutomationFAQ", "visible": true }
+]

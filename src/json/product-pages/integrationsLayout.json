@@ -1,0 +1,7 @@
+[
+  { "id": "hero", "component": "NativeIntegrationHero", "visible": true },
+  { "id": "features", "component": "NativeIntegrationsFeatures", "visible": true },
+  { "id": "testimonial", "component": "EmpireTestimonialSection", "visible": true },
+  { "id": "slider", "component": "IntegrationsSliderSection", "visible": true },
+  { "id": "faq", "component": "IntegrationsFAQSection", "visible": true }
+]

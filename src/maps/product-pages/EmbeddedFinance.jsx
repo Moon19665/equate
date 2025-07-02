@@ -1,20 +1,19 @@
-import EmbeddedProductSection from '../../components/products/embedded-finance/EmbeddedProductSection'
-import EmbeddedFinanceHero from '../../components/products/embedded-finance/EmbeddedFinanceHero'
-import React from 'react'
-import EmbeddedFinanceInAction from '../../components/products/embedded-finance/EmbeddedFinanceInAction'
-import EmbeddedCardsYourWay from '../../components/products/embedded-finance/EmbeddedCardsYourWay'
-import EmbeddedFinanceFAQ from '../../components/products/embedded-finance/EmbeddedFinanceFAQ'
+import React from 'react';
+import layout from '@/json/product-pages/embeddedFinanceLayout.json'; // adjust path
+import { embeddedFinanceMap } from '@/maps/product-pages/page-maps/embeddedFinanceMap';
 
 const EmbeddedFinance = () => {
   return (
     <div>
-      <EmbeddedFinanceHero/>
-      <EmbeddedProductSection/>
-      <EmbeddedFinanceInAction/>
-      <EmbeddedCardsYourWay/>
-      <EmbeddedFinanceFAQ/>
+      {layout
+        .filter((block) => block.visible !== false)
+        .map((block) => {
+          const Component = embeddedFinanceMap[block.component];
+          if (!Component) return null;
+          return <Component key={block.id} {...(block.props || {})} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default EmbeddedFinance
+export default EmbeddedFinance;

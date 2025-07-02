@@ -1,21 +1,19 @@
-import IntegrationsSliderSection from '../../components/products/integration/IntegrationsSliderSection'
-import EmpireTestimonialSection from '../../components/products/integration/EmpireTestimonialSection'
-import NativeIntegrationHero from '../../components/products/integration/NativeIntegrationHero'
-import NativeIntegrationsFeatures from '../../components/products/integration/NativeIntegrationsFeatures'
-
-import React from 'react'
-import IntegrationsFAQSection from '../../components/products/integration/IntegrationsFAQSection'
+import React from 'react';
+import layout from '@/json/product-pages/integrationsLayout.json'; // adjust path as needed
+import { integrationsMap } from '@/maps/product-pages/page-maps/integrationsMap';
 
 const Integrations = () => {
   return (
     <div>
-      <NativeIntegrationHero/>
-      <NativeIntegrationsFeatures/>
-      <EmpireTestimonialSection/>
-      <IntegrationsSliderSection/>
-      <IntegrationsFAQSection/>
+      {layout
+        .filter((block) => block.visible !== false)
+        .map((block) => {
+          const Component = integrationsMap[block.component];
+          if (!Component) return null;
+          return <Component key={block.id} {...(block.props || {})} />;
+        })}
     </div>
-  )
-}
+  );
+};
 
-export default Integrations
+export default Integrations;

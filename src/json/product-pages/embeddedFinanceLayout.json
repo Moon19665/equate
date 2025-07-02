@@ -1,0 +1,7 @@
+[
+  { "id": "hero", "component": "EmbeddedFinanceHero", "visible": true },
+  { "id": "products", "component": "EmbeddedProductSection", "visible": true },
+  { "id": "action", "component": "EmbeddedFinanceInAction", "visible": true },
+  { "id": "cards", "component": "EmbeddedCardsYourWay", "visible": true },
+  { "id": "faq", "component": "EmbeddedFinanceFAQ", "visible": true }
+]

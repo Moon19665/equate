@@ -1,0 +1,9 @@
+[
+  { "id": "hero", "component": "GlobalHeroSection", "visible": true },
+  { "id": "currency", "component": "LocalCurrencySection", "visible": true },
+  { "id": "industry", "component": "IndustryCoverageSection", "visible": true },
+  { "id": "tax", "component": "TaxPolicyComplianceSection", "visible": true },
+  { "id": "diagram", "component": "GlobalDiagramSection", "visible": true },
+  { "id": "testimonial", "component": "GlobalFeaturesAndTestimonial", "visible": true },
+  { "id": "cta", "component": "GlobalCtaSection", "visible": true }
+]
