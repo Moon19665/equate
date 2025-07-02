@@ -1,4 +1,4 @@
-import Global from '@/pages/product-pages/Global'
+import Global from '@/maps/product-pages/Global'
 import React from 'react'
 
 const page = () => {

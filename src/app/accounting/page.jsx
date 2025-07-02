@@ -1,4 +1,4 @@
-import Accounting from '@/pages/solution-pages/Accounting'
+import Accounting from '@/maps/solution-pages/Accounting'
 import React from 'react'
 
 const page = () => {

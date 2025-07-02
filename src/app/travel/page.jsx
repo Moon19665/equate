@@ -1,4 +1,4 @@
-import Travel from '@/pages/product-pages/Travel'
+import Travel from '@/maps/product-pages/Travel'
 import React from 'react'
 
 const page = () => {

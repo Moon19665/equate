@@ -1,5 +1,5 @@
 import React from 'react';
-import { corporateCardMap } from '@/pages/product-pages/page-maps/corporateCardMap'; // adjust path if needed
+import { corporateCardMap } from '@/maps/product-pages/page-maps/corporateCardMap'; // adjust path if needed
 import layout from '@/json/product-pages/corporateCard.json'; // adjust path if needed
 
 const CorporateCard = () => {

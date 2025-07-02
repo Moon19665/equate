@@ -1,4 +1,4 @@
-import BillPay from '@/pages/product-pages/BillPay'
+import BillPay from '@/maps/product-pages/BillPay'
 import React from 'react'
 
 const page = () => {

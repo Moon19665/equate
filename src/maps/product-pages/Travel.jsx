@@ -1,6 +1,6 @@
 import React from 'react';
 import layout from '@/json/product-pages/travelLayout.json'; // adjust path
-import { travelMap } from '@/pages/product-pages/page-maps/travelMap';
+import { travelMap } from '@/maps/product-pages/page-maps/travelMap';
 
 const Travel = () => {
   return (

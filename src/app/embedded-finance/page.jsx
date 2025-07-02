@@ -1,4 +1,4 @@
-import EmbeddedFinance from '@/pages/product-pages/EmbeddedFinance'
+import EmbeddedFinance from '@/maps/product-pages/EmbeddedFinance'
 import React from 'react'
 
 const page = () => {

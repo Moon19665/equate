@@ -1,4 +1,4 @@
-import Webinars from '@/pages/resources-page/Webinars'
+import Webinars from '@/maps/resources-page/Webinars'
 import React from 'react'
 
 const page = () => {

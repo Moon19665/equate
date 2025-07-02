@@ -1,4 +1,4 @@
-import Startups from '@/pages/solution-pages/Startups'
+import Startups from '@/maps/solution-pages/Startups'
 import React from 'react'
 
 const page = () => {

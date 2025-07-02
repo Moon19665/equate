@@ -1,4 +1,4 @@
-import SpendManagement from '@/pages/product-pages/SpendManagement'
+import SpendManagement from '@/maps/product-pages/SpendManagement'
 import React from 'react'
 
 const page = () => {

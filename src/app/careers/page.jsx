@@ -1,4 +1,4 @@
-import Careers from '@/pages/resources-page/Careers'
+import Careers from '@/maps/resources-page/Careers'
 import React from 'react'
 
 const page = () => {

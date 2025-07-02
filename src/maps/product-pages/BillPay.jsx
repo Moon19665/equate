@@ -1,6 +1,6 @@
 import React from 'react';
 import layout from '@/json/product-pages/billPayLayout.json'; 
-import { billPayMap } from '@/pages/product-pages/page-maps/billPayMap';
+import { billPayMap } from '@/maps/product-pages/page-maps/billPayMap';
 
 const BillPay = () => {
   return (

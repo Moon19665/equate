@@ -1,4 +1,4 @@
-import MidSizeComp from '@/pages/solution-pages/MidSizeComp'
+import MidSizeComp from '@/maps/solution-pages/MidSizeComp'
 import React from 'react'
 
 const page = () => {

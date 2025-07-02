@@ -1,4 +1,4 @@
-import Pricing from '@/pages/Pricing'
+import Pricing from '@/maps/Pricing'
 import React from 'react'
 
 const page = () => {

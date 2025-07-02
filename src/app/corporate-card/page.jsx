@@ -1,4 +1,4 @@
-import CorporateCard from '@/pages/product-pages/CorporateCard'
+import CorporateCard from '@/maps/product-pages/CorporateCard'
 import React from 'react'
 
 const page = () => {

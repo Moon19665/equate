@@ -1,6 +1,6 @@
 import React from "react";
 import layout from "@/json/product-pages/businessBankingLayout.json";
-import { businessBankingMap } from "@/pages/product-pages/page-maps/businessBankingMap";
+import { businessBankingMap } from "@/maps/product-pages/page-maps/businessBankingMap";
 
 // Static data (used in layout JSON via keyword "insights")
 const insights = [

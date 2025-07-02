@@ -12,4 +12,4 @@ export const billPayMap = {
   BillPayControlSection,
   BillPayTestimonialSection,
   BillPayBenefits
-};
+}; 

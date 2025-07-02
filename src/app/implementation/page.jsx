@@ -1,4 +1,4 @@
-import SetupGuide from '@/pages/resources-page/SetupGuide'
+import SetupGuide from '@/maps/resources-page/SetupGuide'
 import React from 'react'
 
 const page = () => {

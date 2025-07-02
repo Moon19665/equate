@@ -1,6 +1,6 @@
 import React from 'react';
 import layout from '@/json/product-pages/spendManagementLayout.json'; // adjust path as needed
-import { spendManagementMap } from '@/pages/product-pages/page-maps/spendManagementMap';
+import { spendManagementMap } from '@/maps/product-pages/page-maps/spendManagementMap';
 
 const SpendManagement = () => {
   return (

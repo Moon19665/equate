@@ -1,4 +1,4 @@
-import Integrations from '@/pages/product-pages/Integrations'
+import Integrations from '@/maps/product-pages/Integrations'
 import React from 'react'
 
 const page = () => {

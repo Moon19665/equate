@@ -1,4 +1,4 @@
-import ProductRelease from '@/pages/resources-page/ProductRelease'
+import ProductRelease from '@/maps/resources-page/ProductRelease'
 import React from 'react'
 
 const page = () => {

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { FiChevronDown } from 'react-icons/fi';
 
 const faqs = [

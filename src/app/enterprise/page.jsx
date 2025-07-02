@@ -1,4 +1,4 @@
-import Enterprise from '@/pages/solution-pages/Enterprise'
+import Enterprise from '@/maps/solution-pages/Enterprise'
 import React from 'react'
 
 const page = () => {
