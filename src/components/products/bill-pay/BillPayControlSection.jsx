@@ -28,7 +28,7 @@ export default function BillPayHeroFullBG() {
     </div>
 
     {/* Right Column: Image */}
-    <div className="w-full flex justify-center px-4 md:px-8">
+    <div className="w-full flex justify-end px-4 md:px-8">
       <img
         src="/assets/bill-pay/merchant.png"
         alt="Bill Pay UI Preview"
