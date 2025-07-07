@@ -3,8 +3,8 @@
 export default function TravelSpendCards() {
   return (
     <>
-    <div className="w-full bg-[#0a1013] py-16 px-4">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div className="w-full bg-[#0a1013] py-16 ">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Card 1 */}
         <div className="flex flex-col h-full bg-[#181c20] rounded-2xl p-8 shadow-lg">
           {/* Icon */}

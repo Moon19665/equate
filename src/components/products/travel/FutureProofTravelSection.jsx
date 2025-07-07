@@ -14,7 +14,7 @@ export default function FutureProofTravelSection() {
         
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <button className="bg-[#ff6600] hover:bg-[#ff5500] text-white font-semibold rounded-lg px-8 py-3 text-base transition-colors duration-200 w-full sm:w-auto">
+          <button className="bg-[#033175] text-white font-semibold rounded-lg px-8 py-3 text-base transition-colors duration-200 w-full sm:w-auto">
             Contact sales
           </button>
           <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[#0a1013] text-white font-semibold rounded-lg px-8 py-3 text-base transition-all duration-200 w-full sm:w-auto">

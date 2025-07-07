@@ -16,7 +16,7 @@ export default function BillPayHeroFullBG() {
   {/* Optional Overlay */}
   <div className="absolute inset-0 bg-[#0a1013]/80 pointer-events-none" />
 
-  <div className="relative z-10 w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+  <div className="relative z-10 w-full max-w-[1920px] px-3 md:px-12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
     {/* Left Column: Content */}
     <div className="text-center lg:text-left px-4 md:px-8">
       <h1 className="text-white text-3xl md:text-5xl font-bold mb-4 leading-tight drop-shadow-lg">
@@ -38,8 +38,8 @@ export default function BillPayHeroFullBG() {
   </div>
 </section>
 
-    <div className="w-full bg-[#0a1013] py-10 px-2">
-    <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div className="w-full bg-[#0a1013] py-10">
+    <div className="max-w-[1920px] px-3 md:px-12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
       {/* Feature 1 */}
       <div className="bg-[#181c20] rounded-xl p-6 md:p-7 shadow-md">
         <h3 className="text-white text-lg md:text-xl font-bold mb-2">

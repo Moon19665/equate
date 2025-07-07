@@ -13,20 +13,20 @@ export default function BillPayBenefits() {
           in one place.
         </p>
         {/* Features */}
-        <div className="w-full max-w-6xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="w-full max-w-7xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {/* Easy onboarding */}
           <div className="flex flex-col items-center text-center">
             {/* Icon */}
             <svg
               width="36"
               height="36"
-              fill="none"
+              fill="#033175"
               viewBox="0 0 36 36"
               className="mb-3"
             >
               <path
                 d="M18 4v6M18 26v6M32 18h-6M10 18H4M27.899 8.101l-4.243 4.243M8.101 27.899l4.243-4.243M27.899 27.899l-4.243-4.243M8.101 8.101l4.243 4.243"
-                stroke="#bfc6ce"
+                stroke="#033175"
                 strokeWidth="2"
                 strokeLinecap="round"
               />
@@ -51,7 +51,7 @@ export default function BillPayBenefits() {
             <svg
               width="36"
               height="36"
-              fill="none"
+              fill="#033175"
               viewBox="0 0 36 36"
               className="mb-3"
             >
@@ -61,7 +61,7 @@ export default function BillPayBenefits() {
                 width="20"
                 height="20"
                 rx="4"
-                stroke="#bfc6ce"
+                stroke="#033175"
                 strokeWidth="2"
               />
               <rect x="14" y="14" width="8" height="2" rx="1" fill="#bfc6ce" />
@@ -82,7 +82,7 @@ export default function BillPayBenefits() {
             <svg
               width="36"
               height="36"
-              fill="none"
+              fill="#033175"
               viewBox="0 0 36 36"
               className="mb-3"
             >
@@ -115,7 +115,7 @@ export default function BillPayBenefits() {
             <svg
               width="36"
               height="36"
-              fill="none"
+              fill="#033175"
               viewBox="0 0 36 36"
               className="mb-3"
             >
@@ -125,7 +125,7 @@ export default function BillPayBenefits() {
                 width="20"
                 height="10"
                 rx="3"
-                stroke="#bfc6ce"
+                stroke="#033175"
                 strokeWidth="2"
               />
               <rect x="13" y="10" width="10" height="4" rx="2" fill="#bfc6ce" />

@@ -42,8 +42,8 @@ export default function TravelFAQ() {
   };
 
   return (
-    <div className="w-full bg-black py-14 px-4">
-      <div className="max-w-6xl mx-auto">
+    <div className="w-full bg-black py-14 ">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto">
         <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-10">FAQ</h2>
         <div className="divide-y divide-[#23272d]">
           {faqs.map((faq, idx) => (

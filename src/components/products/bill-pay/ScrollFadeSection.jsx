@@ -110,7 +110,7 @@ export default function ScrollFadeSection() {
 
           {/* Right: Image */}
           <div className="w-full lg:w-1/2 flex justify-center items-center ">
-            <div className="relative w-full max-w-md h-[350px] rounded-xl   ">
+            <div className="relative w-full max-w-lg h-[350px] rounded-xl   ">
               {contentSections.map((section, index) => (
                 <img
                   key={section.id}

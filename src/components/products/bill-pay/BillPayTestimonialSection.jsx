@@ -34,7 +34,7 @@ export default function BillPayTestimonialSection() {
         </p>
 
         {/* Dashboard Image */}
-        <div className="w-full max-w-6xl mx-auto">
+        <div className="w-full max-w-7xl mx-auto">
           <img
             src="/assets/business-banking/reviewsbg.png"
             alt="Bill Pay Dashboard"

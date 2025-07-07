@@ -2,8 +2,8 @@ import React from "react";
 
 export default function BillPayHero() {
   return (
-    <section className="w-full bg-[#0a1013] py-16 px-4">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <section className="w-full bg-[#0a1013] py-16 ">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Column: Content */}
         <div className="text-center md:text-left">
           <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">

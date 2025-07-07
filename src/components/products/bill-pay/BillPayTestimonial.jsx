@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BillPayTestimonial() {
   return (
-    <div className="w-full bg-[#0f1419] py-16 px-4">
+    <div className="w-full bg-[#0f1419] py-16 px-3 md:px-12">
       <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
         {/* Northern Data Logo */}
         <div className="mb-8">
