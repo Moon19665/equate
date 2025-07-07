@@ -37,7 +37,7 @@ export default function SpendManagementHero() {
           <img
             src="/assets/homepage-images/homepage-hero.png"
             alt="Spend management visual"
-            className="absolute inset-0 w-full h-full object-contain rounded-2xl"
+            className=" object-contain rounded-2xl"
           />
         </div>
       </div>

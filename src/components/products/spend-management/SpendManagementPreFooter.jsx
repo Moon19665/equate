@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function SpendManagementHeroBG() {
   return (
     <section className="w-full min-h-[520px] flex items-center bg-[#0a1013] relative">
-      <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center px-4 py-12 lg:py-24 gap-10">
+      <div className="relative z-10 w-full max-w-[1920px] px-3 md:px-12 mx-auto flex flex-col lg:flex-row items-center px-4 py-12 lg:py-24 gap-10">
         {/* Left: Content */}
         <div className="w-full lg:w-1/2 flex flex-col items-start justify-center text-center lg:text-left">
           <h1 className="text-white text-3xl md:text-5xl font-bold mb-6 leading-tight">

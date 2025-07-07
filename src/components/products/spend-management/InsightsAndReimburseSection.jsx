@@ -68,7 +68,7 @@ export default function InsightsAndReimburseSection() {
       </div>
     </div>
      <div className="w-full bg-white py-16  px-4">
-     <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+     <div className="max-w-[1920px] px-3 md:px-12 mx-auto flex flex-col lg:flex-row items-center gap-12">
        {/* Left: Content */}
        <div className="w-full lg:w-1/2 flex flex-col items-start mb-10 lg:mb-0">
          <h2 className="text-3xl md:text-5xl font-bold mb-6">

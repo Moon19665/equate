@@ -46,8 +46,8 @@ const features = [
 
 export default function SpendFeatures() {
   return (
-    <div className="w-full bg-[#0a1013] py-16 px-4">
-      <div className="max-w-7xl mx-auto flex flex-col items-center">
+    <div className="w-full bg-[#0a1013] py-16 ">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto flex flex-col items-center">
         {/* Heading */}
         <h2 className="text-5xl font-bold text-white text-center mb-4">
           All your spend, all in one place.

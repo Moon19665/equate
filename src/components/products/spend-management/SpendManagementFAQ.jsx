@@ -46,14 +46,14 @@ export default function SpendManagementFAQ() {
 
   return (
     <div className="w-full bg-[#0f1419] py-16 ">
-      <div className="max-w-7xl mx-auto px-3 md:px-12">
+      <div className="max-w-[1920px] mx-auto px-3 md:px-12">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-12">FAQ</h2>
         
         <div className="space-y-0">
           {faqData.map((faq, index) => (
             <div
               key={index}
-              className="border-b border-gray-700 last:border-b-0"
+              className="border-b border-gray-700 last:border-b-0" 
             >
               <button
                 className="w-full flex justify-between items-center py-6 text-left group hover:bg-gray-800/30 transition-colors duration-200 px-4 rounded-lg"
