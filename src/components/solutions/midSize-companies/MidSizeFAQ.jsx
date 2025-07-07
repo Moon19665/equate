@@ -33,7 +33,7 @@ export default function MidSizeFAQ() {
   };
 
   return (
-    <section className="w-full max-w-6xl mx-auto px-4 py-16">
+    <section className="w-full max-w-[1920px] mx-auto px-3 md:px-12 py-16">
       <h2 className="text-3xl font-bold text-black mb-10">FAQ</h2>
       <div className="divide-y divide-gray-200 border-t border-b border-gray-200">
         {faqs.map((faq, idx) => (

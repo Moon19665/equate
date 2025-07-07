@@ -2,9 +2,9 @@ import React from "react";
 
 export default function MidSizeSecondSec() {
   return (
-    <section className="w-full bg-[#f6f6fa] px-4">
+    <section className="w-full bg-[#f6f6fa]">
       {/* 1. Unify travel and expense */}
-      <div className="max-w-3xl mx-auto text-center pt-10 md:pt-20 pb-8 md:pb-12">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto text-center pt-10 md:pt-20 pb-8 md:pb-12">
         <h1 className="font-semibold text-gray-900 text-3xl md:text-4xl mb-4 leading-tight">
           Unify your corporate travel and<br className="hidden md:inline" /> expense management.
         </h1>
@@ -47,7 +47,7 @@ export default function MidSizeSecondSec() {
           </p>
           <a
             href="#"
-            className="inline-block text-orange-600 font-medium text-base md:text-lg hover:underline transition"
+            className="inline-block text-[#033175] font-medium text-base md:text-lg hover:underline transition"
           >
             Explore group spend controls <span aria-hidden="true">→</span>
           </a>
@@ -86,7 +86,7 @@ export default function MidSizeSecondSec() {
           </p>
           <a
             href="#"
-            className="inline-block text-orange-600 font-medium text-base md:text-lg hover:underline transition"
+            className="inline-block text-[#033175] font-medium text-base md:text-lg hover:underline transition"
           >
             Explore travel features <span aria-hidden="true">→</span>
           </a>
@@ -105,7 +105,7 @@ export default function MidSizeSecondSec() {
           </p>
           <a
             href="#"
-            className="inline-block text-orange-600 font-medium text-base md:text-lg hover:underline transition"
+            className="inline-block text-[#033175] font-medium text-base md:text-lg hover:underline transition"
           >
             Explore spend management <span aria-hidden="true">→</span>
           </a>
@@ -144,7 +144,7 @@ export default function MidSizeSecondSec() {
           </p>
           <a
             href="#"
-            className="inline-block text-orange-600 font-medium text-base md:text-lg hover:underline transition"
+            className="inline-block text-[#033175] font-medium text-base md:text-lg hover:underline transition"
           >
             Explore AI-powered automation <span aria-hidden="true">→</span>
           </a>

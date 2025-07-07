@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TravelExpenseSection() {
   return (
-    <section className="w-full px-4 py-10 md:py-16 bg-white">
+    <section className="w-full px-3 md:px-12 py-10 md:py-16 bg-white">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="font-semibold text-gray-900 text-2xl md:text-3xl mb-3">
           Travel + expense = better on Brex.

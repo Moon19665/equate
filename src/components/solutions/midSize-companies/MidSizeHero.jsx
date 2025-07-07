@@ -26,15 +26,15 @@ export default function MidSizeHero() {
         
         {/* Content Overlay */}
         <div className="relative z-10 flex items-center min-h-screen">
-          <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full">
-            <div className="max-w-lg">
+          <div className="max-w-[1920px] px-3 md:px-12 mx-auto  w-full">
+            <div className="max-w-xl">
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-semibold text-white leading-tight mb-6">
               Keep spend in control for your next stage of growth.
               </h1>
               
               <p className="text-lg lg:text-xl text-gray-200 mb-8 leading-relaxed">
               Brex is a complete T&E solution with cards, travel, expense management, and reimbursements.              </p>
-              <form className="mt-8  max-w-sm">
+              <form className="mt-8  max-w-lg">
             <div className="flex w-full py-1 rounded-xl border border-gray-200 bg-white overflow-hidden">
               <input
                 type="email"

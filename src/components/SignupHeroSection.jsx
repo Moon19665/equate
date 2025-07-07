@@ -25,9 +25,9 @@ export default function SignupHeroSection({
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-center px-4 md:px-16">
+      <div className="max-w-[1920px] md-3 md:px-12 mx-auto flex flex-col-reverse md:flex-row items-center justify-center ">
         {/* Left Column */}
-        <div className="w-full md:w-1/1 flex flex-col items-start justify-center text-white z-10 max-w-xl">
+        <div className="w-full md:w-1/1 flex flex-col items-start justify-center text-white z-10 ">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-white">
             {title}
           </h2>
@@ -36,7 +36,7 @@ export default function SignupHeroSection({
           </p>
           <div className="flex flex-wrap gap-4">
             <button
-              className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 text-sm rounded transition"
+              className="bg-[#033175] text-white font-semibold px-6 py-3 text-sm rounded transition"
               onClick={onPrimaryClick}
             >
               {primaryCta}

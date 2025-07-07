@@ -3,7 +3,7 @@ import React from "react";
 export default function GoLiveWithBrex() {
   return (
     <section className="w-full bg-[#f7f7fb] py-10 md:py-16 flex justify-center">
-      <div className="bg-white rounded-3xl w-full max-w-6xl mx-4 md:mx-8 flex flex-col md:flex-row items-center px-6 md:px-12 py-10 md:py-16 shadow-none">
+      <div className="bg-white rounded-3xl w-full max-w-[1920px] mx-auto  flex flex-col md:flex-row items-center px-3 md:px-12 md:px-12 py-10 md:py-16 shadow-none">
         {/* Left Column */}
         <div className="w-full md:w-1/2 flex flex-col justify-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
@@ -14,7 +14,7 @@ export default function GoLiveWithBrex() {
           </p>
           <a
             href="#"
-            className="text-orange-600 font-semibold text-base md:text-lg hover:underline transition"
+            className="text-[#033175] font-semibold text-base md:text-lg hover:underline transition"
           >
             See our implementation process &rarr;
           </a>
