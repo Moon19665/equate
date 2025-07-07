@@ -33,7 +33,7 @@ export default function XealTestimonialAndComparison() {
       </section>
 
       {/* Comparison Table Section */}
-      <section className="w-full max-w-6xl mx-auto py-16 px-2">
+      <section className="w-full max-w-[1920px] mx-auto py-16 px-3 md:px-12">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-2">
           Everything you'll need as you scale.
         </h2>

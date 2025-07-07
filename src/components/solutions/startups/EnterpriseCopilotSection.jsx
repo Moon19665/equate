@@ -1,7 +1,7 @@
 export default function EnterpriseCopilotSection() {
     return (
-      <section className="w-full bg-white py-16 px-4 md:px-16 flex justify-center">
-        <div className="max-w-7xl flex flex-col md:flex-row items-center justify-between">
+      <section className="w-full bg-white py-16  flex justify-center">
+        <div className="max-w-[1920px] px-3 md:px-12 flex flex-col md:flex-row items-center justify-between">
           {/* Left: Text Content */}
           <div className="  md:pr-10 mb-10 md:mb-0">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">

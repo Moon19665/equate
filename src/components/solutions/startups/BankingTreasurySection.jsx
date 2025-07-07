@@ -37,8 +37,8 @@ export default function BankingTreasurySection() {
         </section>
   
         {/* Second Section: Cards Grid */}
-        <section className="w-full bg-[#f5f6fa] py-12 px-4">
-          <div className="max-w-6xl mx-auto">
+        <section className="w-full bg-[#f5f6fa] py-12">
+          <div className="max-w-[1920px] px-3 md:px-12 mx-auto">
             <h2 className="text-2xl md:text-4xl font-bold text-center text-gray-900 mb-10">
               The operating account for founders, by founders.
             </h2>

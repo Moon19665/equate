@@ -26,8 +26,8 @@ export default function StartupsHero() {
         
         {/* Content Overlay */}
         <div className="relative z-10 flex items-center min-h-screen">
-          <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full">
-            <div className="max-w-lg">
+          <div className="max-w-[1920px] mx-auto px-3 md:px-12 lg:px-8 w-full">
+            <div className="max-w-xl">
               <h1 className="text-4xl lg:text-5xl xl:text-7xl font-semibold text-white leading-tight mb-6">
                 The financial stack that scales with you.
               </h1>
@@ -36,7 +36,7 @@ export default function StartupsHero() {
                 Get business banking, card, bill pay, travel, and reimbursements — all in one scalable solution.
               </p>
               
-              <form className="mt-8  max-w-sm">
+              <form className="mt-8  max-w-lg">
             <div className="flex w-full py-1 rounded-xl border border-gray-200 bg-white overflow-hidden">
               <input
                 type="email"

@@ -49,11 +49,11 @@ export default function StartupsCorporateCard() {
         </section>
   
         {/* Expenses Feature Section */}
-        <section className="w-full bg-white py-16 px-4">
+        <section className="w-full bg-white py-16">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
             The card that manages expenses too.
           </h2>
-          <div className="px-4 md:px-16 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="max-w-[1920px] px-3 md:px-12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Card 1 */}
             <div className="rounded-2xl bg-[#f5f6fa] p-6 text-left">
               <h3 className="font-semibold text-lg mb-2">Built-in controls</h3>

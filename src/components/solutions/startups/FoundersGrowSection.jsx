@@ -1,6 +1,6 @@
 export default function FoundersGrowSection() {
     return (
-      <section className="w-full bg-[#f7f8fa] py-16 px-4 md:px-16 max-w-7xl mx-auto">
+      <section className="w-full bg-[#f7f8fa] py-16 max-w-[1920px] px-3 md:px-12 mx-auto">
         <div className="flex flex-col md:flex-row items-center md:items-end justify-center gap-10">
           {/* Left: Text Content */}
           <div className="w-full md:w-1/2 mb-10 md:mb-0">

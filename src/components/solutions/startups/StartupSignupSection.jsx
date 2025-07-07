@@ -8,7 +8,7 @@ const illustrationUrl =
 export default function StartupSignupSection() {
   return (
     <section
-      className="relative w-full min-h-[500px] flex items-center justify-center py-12 md:py-24"
+      className="relative w-full min-h-[500px] flex items-center justify-end py-12 md:py-24"
       style={{
         backgroundImage: `url(${bgUrl})`,
         backgroundSize: "cover",
@@ -16,7 +16,7 @@ export default function StartupSignupSection() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-16 md:px-8">
+      <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between max-w-[1920px] px-3 md:px-12">
         {/* Left Column */}
         <div className="w-full md:w-1/2 flex flex-col items-start justify-center text-white z-10 max-w-xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-white">
@@ -35,7 +35,7 @@ export default function StartupSignupSection() {
           </div>
         </div>
         {/* Right Column */}
-        <div className="w-full md:w-1/2 flex justify-center items-center mb-10 md:mb-0 z-10">
+        <div className="w-full md:w-1/2 flex justify-end items-center mb-10 md:mb-0 z-10">
           <img
             src={illustrationUrl}
             alt="Signup illustration"
