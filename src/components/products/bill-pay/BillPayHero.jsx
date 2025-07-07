@@ -2,14 +2,14 @@ import React from "react";
 
 export default function BillPayHero() {
   return (
-    <section className="w-full bg-[#0a1013] py-16 ">
+    <section className="w-full bg-[#fff] py-16 ">
       <div className="max-w-[1920px] px-3 md:px-12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Column: Content */}
         <div className="text-center md:text-left">
-          <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
             This is automated<br />bill pay made better.
           </h1>
-          <p className="text-[#e0e0e0] text-base md:text-lg mb-8 max-w-xl mx-auto md:mx-0">
+          <p className=" text-base md:text-lg mb-8 max-w-xl mx-auto md:mx-0">
             Eliminate data entry, automate approvals, and spin up virtual cards in one click to maximize your rewards.
           </p>
 
@@ -38,7 +38,7 @@ export default function BillPayHero() {
           <img
             src="/assets/bill-pay/bill-hero.png"
             alt="Bill Pay Illustration"
-            className="w-full h-auto rounded-xl object-contain"
+            className="w-full h-76 rounded-xl object-contain"
           />
         </div>
       </div>
