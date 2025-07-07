@@ -32,7 +32,7 @@ export default function BillPayHeroFullBG() {
       <img
         src="/assets/bill-pay/merchant.png"
         alt="Bill Pay UI Preview"
-        className="w-full max-w-lg rounded-2xl  object-contain"
+        className="w-full max-w-lg rounded-2xl bg-white p-2 object-contain"
       />
     </div>
   </div>

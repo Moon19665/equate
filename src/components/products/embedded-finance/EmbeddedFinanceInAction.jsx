@@ -1,22 +1,22 @@
 export default function EmbeddedFinanceInAction() {
     const partners = [
         {
-          logoUrl: "https://brand.brex.com/transform/189e8edf-debe-4ff4-b693-ef6a01a0b73a/Coupa_Embedded?io=transform:fit,width:2000,height:543&quality=95",
+          logoUrl: "/assets/embedded-finance/coupa.png",
           description: "Coupa customers can issue Brex cards directly in their procurement workflows, with more control and visibility and fewer manual errors.",
           learnMoreLink: "#"
         },
         {
-          logoUrl: "https://brand.brex.com/transform/2a36795f-0608-4136-bb84-b2157c97f18b/Zip_embedded?io=transform:fit,width:2000,height:1248&quality=95", 
+          logoUrl: "/assets/embedded-finance/zip.webp", 
           description: "Brex for Zip makes it easy to issue Brex cards right in Zip procurement workflows to streamline business spend from intake to payment, while earning more rewards.",
           learnMoreLink: "#"
         },
         {
-          logoUrl: "https://brand.brex.com/transform/2a1060a3-37fd-49d5-a3e4-2efc8965858a/Navan_embedded?io=transform:fit,width:2000,height:455&quality=95",
+          logoUrl: "/assets/embedded-finance/navan.webp",
           description: "With BrexPay for Navan, a new Brex virtual card is created for every Navan booking, so travel reports are reconciled against card statements with 100% accuracy.",
           learnMoreLink: "#"
         },
         {
-          logoUrl: "https://brand.brex.com/transform/d8f27771-a16f-4592-a4a5-49cfb93965ea/sabre_embedded?io=transform:fit,width:2000,height:513&quality=95",
+          logoUrl: "/assets/embedded-finance/sabre.webp",
           description: "Empower customers to book travel with a Brex virtual card and get the richest set of transaction and itinerary data that will automate expenses and reconciliation.",
           learnMoreLink: "#"
         }
@@ -86,18 +86,18 @@ export default function EmbeddedFinanceInAction() {
               {/* Left Content */}
               <div className="w-full lg:w-1/2 p-8 lg:p-12">
                 <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-6">
-                  Learn more about partnering with Brex.
+                  Learn more about partnering with Equate.
                 </h3>
                 <button className="bg-[#033175] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200">
-                  Partner with Brex
+                  Partner with Equate
                 </button>
               </div>
               
               {/* Right Image */}
               <div className="w-full lg:w-1/2 flex justify-center items-center p-8 lg:p-0">
                 <img
-                  src="https://brand.brex.com/transform/070ccccb-f164-470f-a2db-dbb3a750d8f2/Embedded_card?io=transform:fit,width:2000,height:1550&quality=95"
-                  alt="Brex cards stack"
+                  src="/assets/automation/triplet.png"
+                  alt="Equate cards stack"
                   className="w-full max-w-md h-auto object-contain"
                   loading="lazy"
                 />

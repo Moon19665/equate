@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 export default function EmbeddedProductSection() {
   return (
@@ -10,7 +10,9 @@ export default function EmbeddedProductSection() {
             Embed cards into your product.
           </h2>
           <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto">
-            Building payments requires a ton of work, from creating a credit model to fighting fraud 24/7. So skip it — and let embedded finance take care of everything.
+            Building payments requires a ton of work, from creating a credit
+            model to fighting fraud 24/7. So skip it — and let embedded finance
+            take care of everything.
           </p>
         </div>
 
@@ -19,24 +21,11 @@ export default function EmbeddedProductSection() {
           {/* Left: Video */}
           <div className="w-full lg:w-1/2 flex justify-center">
             <div className="w-full max-w-md">
-              <video
-                name="Stack_V1"
-                autoPlay
-                muted
-                loop
-                playsInline
-                preload="none"
-                poster="https://brand.brex.com/m/166da2ea4ac07f9a/webimage-Stack_V1.jpg"
-                className="w-full h-auto rounded-xl  object-contain"
-                crossOrigin="anonymous"
-              >
-                <source src="https://brand.brex.com/m/166da2ea4ac07f9a/original/Stack_V1.mp4" type="video/mp4" />
-                <img
-                  src="https://brand.brex.com/m/166da2ea4ac07f9a/webimage-Stack_V1.jpg"
-                  alt="Product Card Stack"
-                  className="w-full h-auto object-contain"
-                />
-              </video>
+              <img
+                src="/assets/homepage-images/equate-card.png"
+                alt="Product Card Stack"
+                className="w-full h-auto rounded-xl object-contain"
+              />
             </div>
           </div>
 
@@ -52,7 +41,9 @@ export default function EmbeddedProductSection() {
                   Unlock new revenue globally
                 </h3>
                 <p className="text-gray-600 text-base">
-                  Create new revenue streams by leveraging a global corporate card platform for local-currency payments in 50+ countries with no FX markups.
+                  Create new revenue streams by leveraging a global corporate
+                  card platform for local-currency payments in 50+ countries
+                  with no FX markups.
                 </p>
               </div>
             </div>
@@ -66,7 +57,9 @@ export default function EmbeddedProductSection() {
                   Deliver best-in-class payment workflows
                 </h3>
                 <p className="text-gray-600 text-base">
-                  Automate core workflows across expenses, payments, and accounting. Give your customers peace of mind with complete reconciliation.
+                  Automate core workflows across expenses, payments, and
+                  accounting. Give your customers peace of mind with complete
+                  reconciliation.
                 </p>
               </div>
             </div>
@@ -80,7 +73,9 @@ export default function EmbeddedProductSection() {
                   Credit and capital risk managed for you
                 </h3>
                 <p className="text-gray-600 text-base">
-                  Deliver a great customer experience in days, not months, without the overhead of underwriting, capital markets, fraud and credit risk.
+                  Deliver a great customer experience in days, not months,
+                  without the overhead of underwriting, capital markets, fraud
+                  and credit risk.
                 </p>
               </div>
             </div>

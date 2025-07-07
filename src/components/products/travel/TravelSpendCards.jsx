@@ -124,9 +124,9 @@ export default function TravelSpendCards() {
        {/* Phones Image */}
        <div className="w-full flex justify-center">
          <img
-           src="https://brand.brex.com/transform/9e8e795a-cf95-4b81-b7a7-61024cca93fa/vp-dashboard?io=transform:fit,width:2000,height:570&quality=95"
+           src="/assets/travel/mobile.png"
            alt="Corporate travel dashboard on mobile"
-           className="w-full h-auto object-contain"
+           className="w-full h-[500px] object-contain"
            draggable={false}
          />
        </div>

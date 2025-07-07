@@ -37,9 +37,9 @@ export default function GroupEventsSection() {
         <div className="flex-1 flex flex-col items-center">
           <div className="bg-gradient-to-br from-[#232a33] to-[#58615d] rounded-2xl p-4 shadow-lg w-full max-w-xs">
             <img
-              src="https://brand.brex.com/transform/165ff5ff-1384-4df2-9af9-a15c49d0ba0f/Group-event-attendees?io=transform:fit,width:2000,height:1613&quality=95"
+              src="/assets/travel/reminder.png"
               alt="Austin Offsite 2023"
-              className="rounded-xl w-full h-32 object-cover mb-4"
+              className="rounded-xl w-full h-80 mb-4 object-contain "
               draggable={false}
             />
             <div className="text-white text-sm mb-2">
@@ -93,9 +93,9 @@ export default function GroupEventsSection() {
             of preset travel policies and spend limits.
           </p>
           <img
-            src="https://brand.brex.com/transform/182fe95d-74e4-451a-a811-e785616e53a7/Group-events-Booking?io=transform:fit,width:2000,height:1408&quality=95"
+            src="/assets/homepage-images/equate-cards.png"
             alt="Personalized booking"
-            className="rounded-xl w-full h-36 object-contain"
+            className="rounded-xl w-full h-60 object-contain"
             draggable={false}
           />
         </div>
@@ -109,7 +109,7 @@ export default function GroupEventsSection() {
             reimbursements, and expenses all in the Brex app.
           </p>
           <img
-            src="https://brand.brex.com/transform/4f55cb70-1de4-4987-96ce-a3dd7d455a0a/Group-events-Itinerary?io=transform:fit,width:2000,height:1408&quality=95"
+            src="/assets/travel/reservation.png"
             alt="Itinerary changes"
             className="rounded-xl w-full h-36 object-contain"
             draggable={false}
@@ -125,7 +125,7 @@ export default function GroupEventsSection() {
             or live chat — with no hidden fees.
           </p>
           <img
-            src="https://brand.brex.com/transform/007d7295-7cab-4cff-9970-a1810bd37453/Group-events-Support?io=transform:fit,width:2000,height:1408&quality=95"
+            src="/assets/travel/support.png"
             alt="24/7 support"
             className="rounded-xl w-full h-36 object-contain"
             draggable={false}
@@ -134,7 +134,7 @@ export default function GroupEventsSection() {
       </div>
     </div>
     <div className="w-full flex bg-black items-center justify-center px-2">
-    <div className="w-full max-w-7xl  overflow-hidden bg-black flex items-center justify-center aspect-video">
+    {/* <div className="w-full max-w-7xl  overflow-hidden bg-black flex items-center justify-center aspect-video">
       <video
         className="w-full h-full object-cover"
         src="https://brand.brex.com/m/4c4ffd800de90d2a/original/Brex-Empower2-0-TravelFullEdit-NoAudio-720p-LQ-opt-26.mp4"
@@ -146,7 +146,7 @@ export default function GroupEventsSection() {
         poster="https://pplx-res.cloudinary.com/image/private/user_uploads/44520532/150cb20b-ef19-4b49-bc0e-8cafc8fd5503/image.jpg"
         aria-label="Brex built-in spend controls video"
       />
-    </div>
+    </div> */}
   </div>
    </>
   );

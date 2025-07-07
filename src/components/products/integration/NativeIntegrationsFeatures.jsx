@@ -6,7 +6,7 @@ const features = [
     description:
       "Save hours preparing, reviewing, and exporting expenses with accounting integrations that help you speed up your monthly close.",
     cta: { text: "Explore accounting automation →", href: "#" },
-    image: "https://brand.brex.com/transform/00444994-32dd-4e16-a52e-41442e833da9/Continuous-Reconciliation?io=transform:fit,width:2500,height:1381&quality=95",
+    image: "/assets/integrations/calender.png",
     alt: "Continuous Reconciliation",
     imageFirst: true,
     highlight: "94% transactions automatically synced",
@@ -16,7 +16,7 @@ const features = [
     description:
       "Increase accountability with the most accurate view of data you can trust. Import and export your accounting data with our direct ERP integrations or Universal ERP CSV transfer.",
     cta: { text: "Explore our award-winning NetSuite integration →", href: "#" },
-    image: "https://brand.brex.com/transform/d9926924-c4e0-46f7-ba55-20bb57f8aaf5/ERP?io=transform:fit,width:2500,height:1381&quality=95",
+    image: "/assets/integrations/partner.png",
     alt: "ERP Integrations",
     imageFirst: false,
   },
@@ -30,7 +30,7 @@ const features = [
       "Set rules to ensure expenses are coded accurately",
       "Manage your HRIS and ERP fields in a central place",
     ],
-    image: "https://brand.brex.com/transform/6a891302-3d93-43bb-ad85-0cde36ce6f6e/Integrations_custom-fields?io=transform:fit,width:2500,height:1381&quality=95",
+    image: "/assets/integrations/sync.png",
     alt: "Integrations Custom Fields",
     imageFirst: true,
   },
@@ -45,7 +45,7 @@ const features = [
     description:
       "Issue Brex virtual cards with built-in controls directly in third-party procurement, travel, and ERP platforms to save time, control costs, and automate reconciliation across every type of spend.",
     cta: { text: "Explore Brex Embedded solutions →", href: "#" },
-    image: "https://brand.brex.com/transform/6b80bcbc-62f8-4b96-9c55-4e03b261c24b/Integrations-embedded-callout?io=transform:fit,width:2500,height:1381&quality=95",
+    image: "/assets/integrations/logo-card.png",
     alt: "Brex Embedded",
     imageFirst: false,
   },
@@ -115,52 +115,22 @@ export default function NativeIntegrationsFeatures() {
     
     <div className="max-w-[1920px] px-3 md:px-12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
       {/* Video 1 */}
-      <div className="w-full flex flex-col items-center">
-        <video
-          name="eco-hris-r2-4x3_YivALuuU"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="none"
-          poster="https://brand.brex.com/m/3c533eb84683dfd6/webimage-eco-hris-r2-4x3_YivALuuU.jpg"
-          className="w-full h-auto rounded-xl shadow object-contain"
-          crossOrigin="anonymous"
-        >
-          <source
-            src="https://brand.brex.com/m/3c533eb84683dfd6/original/eco-hris-r2-4x3_YivALuuU.mp4"
-            type="video/mp4"
-          />
-          <img
-            src="https://brand.brex.com/m/3c533eb84683dfd6/webimage-eco-hris-r2-4x3_YivALuuU.jpg"
-            alt="HRIS Integration"
-            className="w-full h-auto object-contain"
-          />
-        </video>
+       <div className="w-full flex flex-col items-center">
+        <img
+          src="/assets/integrations/onboarding.png"
+          alt="Brex Sage Integration"
+          className="w-full h-auto rounded-xl object-contain"
+          loading="lazy"
+        />
       </div>
       {/* Video 2 */}
       <div className="w-full flex flex-col items-center">
-        <video
-          name="eco-auto-r1-4x3_y6Wji4nx"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="none"
-          poster="https://brand.brex.com/m/5a641c2e0657f22a/webimage-eco-auto-r1-4x3_y6Wji4nx.jpg"
+        <img
+          src="https://brand.brex.com/transform/049dd2d3-c19b-45e3-a01b-9d508eafebbe/Brex_Sage-1?io=transform:fit,width:2000,height:1500&quality=95"
+          alt="Brex Sage Integration"
           className="w-full h-auto rounded-xl shadow object-contain"
-          crossOrigin="anonymous"
-        >
-          <source
-            src="https://brand.brex.com/m/5a641c2e0657f22a/original/eco-auto-r1-4x3_y6Wji4nx.mp4"
-            type="video/mp4"
-          />
-          <img
-            src="https://brand.brex.com/m/5a641c2e0657f22a/webimage-eco-auto-r1-4x3_y6Wji4nx.jpg"
-            alt="Automation Integration"
-            className="w-full h-auto object-contain"
-          />
-        </video>
+          loading="lazy"
+        />
       </div>
       {/* Image */}
       <div className="w-full flex flex-col items-center">

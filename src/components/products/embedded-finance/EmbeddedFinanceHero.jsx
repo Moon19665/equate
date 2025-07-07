@@ -1,95 +1,35 @@
-'use client';
+"use client";
 
 export default function EmbeddedFinanceHero() {
   return (
-    <section className="relative max-w-[1920px] mx-auto min-h-screen overflow-hidden">
-      {/* Desktop Video Background */}
-      <div className="hidden lg:block absolute inset-0 z-0">
-        <video
-          name="Hero_1680x692_V2"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          poster="https://brand.brex.com/m/3398b619d6d411e1/webimage-Hero_1680x692_V2.jpg"
-          className="w-full h-full object-cover"
-          crossOrigin="anonymous"
-        >
-          <source 
-            src="https://brand.brex.com/m/3398b619d6d411e1/original/Hero_1680x692_V2.mp4" 
-            type="video/mp4" 
-          />
-          <img 
-            src="https://brand.brex.com/m/3398b619d6d411e1/webimage-Hero_1680x692_V2.jpg" 
-            alt="Embedded Finance Hero"
-            className="w-full h-full object-cover"
-          />
-        </video>
-      </div>
-
-      {/* Mobile Layout */}
-      <div className="lg:hidden ">
-        {/* Mobile Content Section */}
-        <div className="flex flex-col items-center justify-center min-h-[40vh] bg-gradient-to-br from-gray-100 to-gray-200 ">
-          <div className="max-w-lg w-full text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-              Embedded Finance
-            </h1>
-            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              Embed virtual cards in your B2B software to unlock global payments with automated reconciliation.
-            </p>
-            <button className="bg-[#033175] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg">
-              Partner with Us
-            </button>
-          </div>
-        </div>
-
-        {/* Mobile Video Section */}
-        <div className="relative">
-          <video
-            name="Hero_1680x692_V2"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="auto"
-            poster="https://brand.brex.com/m/3398b619d6d411e1/webimage-Hero_1680x692_V2.jpg"
-            className="w-full h-auto"
-            crossOrigin="anonymous"
-          >
-            <source 
-              src="https://brand.brex.com/m/3398b619d6d411e1/original/Hero_1680x692_V2.mp4" 
-              type="video/mp4" 
-            />
-            <img 
-              src="https://brand.brex.com/m/3398b619d6d411e1/webimage-Hero_1680x692_V2.jpg" 
-              alt="Embedded Finance Hero"
-              className="w-full h-auto"
-            />
-          </video>
-        </div>
-      </div>
-
-      {/* Desktop Content Overlay */}
-      <div className="hidden lg:flex absolute inset-0 z-10 items-center ">
-        <div className="max-w-[1920px] px-3 md:px-12">
-          <div className=" text-start ">
-            <h1 className="text-4xl xl:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-              Embedded Finance
-            </h1>
-            <p className="text-xl text-gray-700 mb-8 leading-relaxed max-w-lg">
-              Embed virtual cards in your B2B software to unlock global payments with automated reconciliation.
-            </p>
-            <button className="bg-[#033175] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg">
-              Partner with Us
-            </button>
-          </div>
-        </div>
-      </div>
-
+    <section className="relative max-w-[1920px] mx-auto px-3 md:px-12  overflow-hidden flex flex-col lg:flex-row items-center justify-between">
       {/* Gradient Overlay for Desktop Text Readability */}
-      <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-white/80 via-white/60 to-transparent pointer-events-none z-5"></div>
+      <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-white/80 via-white/60 to-transparent pointer-events-none z-10"></div>
+
+      {/* Left Column - Background Image (formerly video) */}
+      <div className="relative w-full lg:w-1/2 z-20 flex items-center justify-start py-12 lg:py-0">
+        <div className="max-w-lg w-full text-center lg:text-left">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+            Embedded Finance
+          </h1>
+          <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
+            Embed virtual cards in your B2B software to unlock global payments
+            with automated reconciliation.
+          </p>
+          <button className="bg-[#033175] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg">
+            Partner with Us
+          </button>
+        </div>
+      </div>
+
+      {/* Right Column - Graphic/Image */}
+      <div className="relative w-full lg:w-1/2  h-auto overflow-hidden z-0">
+        <img
+          src="/assets/automation/triplet.png"
+          alt="Embedded Finance Hero Background"
+          className=" object-contain"
+        />
+      </div>
     </section>
   );
 }

@@ -3,18 +3,18 @@
 export default function TravelHero() {
   return (
     <div
-      className="w-full min-h-[800px] flex flex-col justify-center items-center relative bg-cover bg-center bg-no-repeat"
-      style={{
-        backgroundImage:
-          "url('https://brand.brex.com/transform/6756c00e-34b0-4507-a518-2cd046a0afc8/1_Travel-Homehero-desktop?io=transform:fit,width:3000,height:1496&quality=95')",
-      }}
+      className="w-full flex flex-col justify-center items-center relative bg-black"
+      // style={{
+      //   backgroundImage:
+      //     "url('https://brand.brex.com/transform/6756c00e-34b0-4507-a518-2cd046a0afc8/1_Travel-Homehero-desktop?io=transform:fit,width:3000,height:1496&quality=95')",
+      // }}
     >
       {/* Overlay for text readability */}
 
       {/* Hero Content */}
-      <div className="relative z-10 w-full max-w-4xl mx-auto flex flex-col items-center justify-end  text-center px-4 py-20">
-        <h1 className="text-white text-3xl sm:text-4xl   md:text-5xl font-bold my-4 md:my-24   leading-tight ">
-          All-in-one travel &amp;<br className="hidden md:block" /> expense management.
+      <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col items-center justify-end  text-center px-4 pb-20">
+        <h1 className="text-white text-3xl sm:text-4xl   md:text-5xl font-bold my-4 md:my-12   leading-tight ">
+          All-in-one travel &amp; expense management.
         </h1>
         <p className="text-[#bfc6ce] text-base md:text-lg mb-8 max-w-2xl mx-auto">
           Simplify travel with global inventory and auto-enforced expense policies on one platform.

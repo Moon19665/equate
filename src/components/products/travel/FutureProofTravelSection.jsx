@@ -27,9 +27,9 @@ export default function FutureProofTravelSection() {
       <div className="w-full relative">
         {/* Background Image */}
         <div 
-          className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[470px] bg-cover bg-center bg-no-repeat"
+          className="max-w-[1920px] mx-auto h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px] bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('https://brand.brex.com/transform/5976eaf5-7cd6-4e4b-a71c-22f4ad05acce/Travel-T-E-Desktop?io=transform:fit,width:2000,height:570&quality=95')"
+            backgroundImage: "url('/assets/travel/offsite.png')"
           }}
         >
         </div>
