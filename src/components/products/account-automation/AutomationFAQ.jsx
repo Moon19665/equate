@@ -42,8 +42,8 @@ export default function AutomationFAQ() {
   };
 
   return (
-    <section className="bg-black min-h-screen py-16 px-4">
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-black  py-16 px-4">
+      <div className="max-w-[1920px] mx-auto px-3 md:px-12">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">FAQ</h2>
         <div className="divide-y divide-gray-700">
           {faqData.map((item, idx) => (

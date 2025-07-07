@@ -11,8 +11,8 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-[#d6dde3] pt-12 pb-6 px-4 text-[14px]">
-      <div className="max-w-7xl mx-auto">
+    <footer className="bg-black text-[#d6dde3] pt-12 pb-6  text-[14px]">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto">
         {/* Top: Logo and Columns */}
         <div className="flex flex-col md:flex-row md:justify-between gap-10">
           {/* Logo */}

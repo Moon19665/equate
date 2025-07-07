@@ -73,7 +73,7 @@ export default function LocalCurrencySection() {
         </div>
       </div>
     </section>
-     <section className="w-full bg-white py-12 px-4">
+     <section className="w-full bg-white py-12 px-3 md:px-12">
      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
        {features.map((f, idx) => (
          <div
@@ -86,7 +86,7 @@ export default function LocalCurrencySection() {
            <p className="text-gray-700 text-base mb-6 flex-1">{f.description}</p>
            <a
              href={f.link}
-             className="text-orange-500 hover:text-orange-600 font-semibold text-base transition-colors"
+             className="text-[#033175] font-semibold text-base transition-colors"
            >
              {f.linkText}
            </a>

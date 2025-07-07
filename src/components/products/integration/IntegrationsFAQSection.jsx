@@ -38,8 +38,8 @@ export default function IntegrationsFAQSection() {
   };
 
   return (
-    <section className="w-full min-h-screen bg-black py-16 px-4">
-      <div className="max-w-7xl mx-auto">
+    <section className="w-full  bg-black py-16 px-4">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">FAQ</h2>
         <div className="divide-y divide-gray-800 border-t border-b border-gray-800">
           {faqData.map((item, idx) => (

@@ -1,7 +1,7 @@
 export default function AccountingAutomationSection() {
     return (
       <section className="bg-gray-50 py-16 lg:py-24">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-[1920px] mx-auto px-3 md:px-12">
           {/* Main Header Section */}
           <div className="text-center mb-16 lg:mb-20">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-6 max-w-4xl mx-auto leading-tight">
@@ -21,7 +21,7 @@ export default function AccountingAutomationSection() {
                   <svg 
                     className="w-10 h-10 text-gray-700" 
                     fill="none" 
-                    stroke="currentColor" 
+                    stroke="#033175" 
                     strokeWidth="1.5" 
                     viewBox="0 0 24 24"
                   >
@@ -49,7 +49,7 @@ export default function AccountingAutomationSection() {
                   <svg 
                     className="w-10 h-10 text-gray-700" 
                     fill="none" 
-                    stroke="currentColor" 
+                    stroke="#033175" 
                     strokeWidth="1.5" 
                     viewBox="0 0 24 24"
                   >
@@ -76,7 +76,7 @@ export default function AccountingAutomationSection() {
                   <svg 
                     className="w-10 h-10 text-gray-700" 
                     fill="none" 
-                    stroke="currentColor" 
+                    stroke="#033175" 
                     strokeWidth="1.5" 
                     viewBox="0 0 24 24"
                   >
@@ -116,17 +116,13 @@ export default function AccountingAutomationSection() {
                   crossOrigin="anonymous" 
                   playsInline 
                   preload="metadata"
-                  poster="https://brand.brex.com/transform/06bbc94b-dbc4-4c10-babe-565268bebb48/01_Brex_Empower-App-Video_V1-1?io=transform:fit,width:2000,height:1125&quality=95"
+                  autoPlay
                 >
                   <source 
-                    src="https://brand.brex.com/m/23b9f6c2d49b1441/original/Accounting-video.mp4" 
+                    src="/assets/business-banking/equate.mp4" 
                     type="video/mp4"
                   />
-                  <img 
-                    src="https://brand.brex.com/transform/06bbc94b-dbc4-4c10-babe-565268bebb48/01_Brex_Empower-App-Video_V1-1?io=transform:fit,width:2000,height:1125&quality=95" 
-                    alt="Accounting video preview"
-                    className="w-full h-auto"
-                  />
+                  
                 </video>
               </div>
             </div>

@@ -37,7 +37,7 @@ const features = [
   {
     title: (
       <>
-        <span className="text-orange-600 font-semibold">Brex Embedded</span>
+        <span className="text-[#033175] font-semibold">Brex Embedded</span>
         <br />
         Get the power of Brex cards in other platforms
       </>
@@ -54,8 +54,8 @@ const features = [
 export default function NativeIntegrationsFeatures() {
   return (
     <>
-    <section className="w-full bg-white py-16 px-4">
-      <div className="max-w-7xl mx-auto flex flex-col gap-24">
+    <section className="w-full bg-white py-16 ">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto flex flex-col gap-24">
         {features.map((f, idx) => (
           <div
             key={idx}
@@ -79,7 +79,7 @@ export default function NativeIntegrationsFeatures() {
               {f.cta && (
                 <a
                   href={f.cta.href}
-                  className="text-orange-600 hover:text-orange-700 font-semibold text-base transition-colors"
+                  className="text-[#033175] font-semibold text-base transition-colors"
                 >
                   {f.cta.text}
                 </a>
@@ -111,9 +111,9 @@ export default function NativeIntegrationsFeatures() {
         ))}
       </div>
     </section>
-    <section className="w-full bg-white py-16 px-4">
+    <section className="w-full bg-white py-16 ">
     
-    <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div className="max-w-[1920px] px-3 md:px-12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
       {/* Video 1 */}
       <div className="w-full flex flex-col items-center">
         <video

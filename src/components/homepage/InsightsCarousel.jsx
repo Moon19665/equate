@@ -121,7 +121,7 @@ export default function InsightsCarousel() {
 
   return (
     <section className="w-full bg-white py-10">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-[1920px] mx-auto px-3 md:px-12">
         {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-black">
           Insights on AI-powered spend management.

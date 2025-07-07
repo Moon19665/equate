@@ -2,10 +2,10 @@
 
 export default function Hero() {
   return (
-    <section className="relative bg-[#fafbfc] min-h-[480px] flex items-center justify-center px-0">
-      <div className="w-full flex flex-col md:flex-row items-center justify-between gap-12">
+    <section className="relative bg-[#fafbfc] min-h-[480px] max-w-[1920px] mx-auto flex items-center justify-center px-0">
+      <div className="w-full flex flex-col md:flex-row items-center justify-between ">
         {/* Left: Text & CTA */}
-        <div className="flex-1 pl-2 md:pl-32 ">
+        <div className="flex-1 px-3 md:px-12">
           <h1 className="text-4xl md:text-6xl font-bold text-black leading-tight md:leading-[1.1]">
             Spend smarter.<br />
             Move faster.
@@ -40,11 +40,11 @@ export default function Hero() {
           </p>
         </div>
         {/* Right: Image */}
-        <div className="flex-1 flex items-end justify-end w-full">
+        <div className="flex-1 flex justify-end px-3 md:px-0 my-3 md:my-0 w-full">
           <img
             src="/assets/homepage-images/homepage-hero.png  "
             alt="Brex card and app"
-            className="w-full max-w-xl object-contain "
+            className="w-full  object-contain max-w-2xl "
             loading="lazy"
           />
         </div>

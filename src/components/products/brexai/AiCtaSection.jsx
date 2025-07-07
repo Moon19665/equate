@@ -10,7 +10,7 @@ export default function AiCtaSection() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+        <div className="relative z-10 max-w-[1920px] px-3 md:px-12 mx-auto flex flex-col md:flex-row items-center justify-between ">
           {/* Left: Text Content */}
           <div className="w-full md:w-1/2 mb-12 md:mb-0">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
@@ -19,7 +19,7 @@ export default function AiCtaSection() {
             <p className="text-white text-base md:text-lg mb-8 max-w-lg">
               The time is now to increase efficiency, compliance, and control with AI-powered spend management. Let’s talk.
             </p>
-            <button className="bg-[#ff6600] hover:bg-[#ff5500] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg">
+            <button className="bg-[#033175] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg">
               Get started
             </button>
           </div>

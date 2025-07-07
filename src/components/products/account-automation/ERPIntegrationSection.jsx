@@ -1,7 +1,7 @@
 export default function ERPIntegrationSection() {
     return (
       <section className="py-16 lg:py-24 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-[1920px] mx-auto px-3 md:px-12">
   
           {/* ERP Integration Section */}
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-20">
@@ -65,9 +65,9 @@ export default function ERPIntegrationSection() {
               </ul>
             </div>
             {/* Image Column */}
-            <div className="w-full lg:w-1/2 flex justify-center items-center mb-10 lg:mb-0">
+            <div className="w-full lg:w-1/2 flex justify-end items-center mb-10 lg:mb-0">
               <img
-                src="https://brand.brex.com/transform/1e5ed5b0-4d47-4f4e-a985-8b22be6d7861/Frame-1073714726-1?io=transform:fit,width:2000,height:1723&quality=95"
+                src="/assets/automation/oracle.png"
                 alt="ERP Integration Illustration"
                 className="w-full max-w-md rounded-2xl  object-contain"
                 loading="lazy"
@@ -78,9 +78,9 @@ export default function ERPIntegrationSection() {
           {/* Automate Your Close Section */}
           <div className="mt-20 flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             {/* Left: Card Illustration */}
-            <div className="w-full lg:w-1/2 flex justify-center items-center mb-10 lg:mb-0">
+            <div className="w-full lg:w-1/2 flex justify-start items-center mb-10 lg:mb-0">
               <img
-                src="https://brand.brex.com/transform/631b0250-ddd8-488a-aaf0-01d65391f1a2/Frame-1073714725-1?io=transform:fit,width:2000,height:1723&quality=95"
+                src="/assets/automation/mapping.png"
                 alt="Automate your close illustration"
                 className="w-full max-w-md rounded-2xl object-contain"
                 loading="lazy"
@@ -174,9 +174,9 @@ export default function ERPIntegrationSection() {
               </ul>
             </div>
             {/* Image Column */}
-            <div className="w-full lg:w-1/2 flex justify-center items-center mb-10 lg:mb-0">
+            <div className="w-full lg:w-1/2 flex justify-end items-center mb-10 lg:mb-0">
               <img
-                src="https://brand.brex.com/transform/46c0ae80-a98c-442a-8c33-fad31d59cd65/Acct-Page-taxes?io=transform:fit,width:2000,height:1318&quality=95"
+                src="/assets/automation/triplet.png"
                 alt="Multi-entity accounting illustration"
                 className="w-full max-w-md rounded-2xl  object-contain"
                 loading="lazy"

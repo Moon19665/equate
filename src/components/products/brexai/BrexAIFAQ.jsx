@@ -38,8 +38,8 @@ export default function BrexAIFAQ() {
   };
 
   return (
-    <section className="bg-[#0A0E14] min-h-screen py-16 px-4">
-      <div className="max-w-4xl mx-auto">
+    <section className="bg-[#0A0E14]  py-16 ">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">FAQ</h2>
         
         <div className="space-y-0">

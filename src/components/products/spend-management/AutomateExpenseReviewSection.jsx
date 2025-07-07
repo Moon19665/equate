@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function AutomateExpenseReviewSection() {
   return (
-    <div className="w-full bg-[#07111c] pt-16 pb-0 px-4">
+    <div className="w-full bg-black pt-16 pb-0 px-4">
       <div className="max-w-5xl mx-auto flex flex-col items-center text-center">
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
           Automate expense reviews.
@@ -14,15 +14,15 @@ export default function AutomateExpenseReviewSection() {
         </p>
         <a
           href="#"
-          className="text-[#ff6600] font-semibold text-base md:text-lg hover:underline mb-8"
+          className="text-[#033175] font-semibold text-base md:text-lg hover:underline mb-8"
         >
           Learn more about Brex AI &rarr;
         </a>
       </div>
       <div className="w-full flex justify-center mt-4 mb-0">
-      <div className="relative w-full  aspect-[2000/738] rounded-2xl shadow-xl overflow-hidden">
+      <div className="relative w-full  aspect-[2000/738] shadow-xl overflow-hidden">
         <Image
-          src="https://brand.brex.com/transform/4292e102-9cdd-4f92-8736-5ed5dd3586c9/AI-Desktop-Inbox-NEW?io=transform:fit,width:2000,height:738&quality=95"
+          src="/assets/business-banking/reviewsbg.png"
           alt="Automated expense review screenshot"
           fill
           className="object-contain"

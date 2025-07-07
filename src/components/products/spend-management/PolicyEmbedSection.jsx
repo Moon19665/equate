@@ -16,11 +16,11 @@ export default function PolicyEmbedSection() {
             <li className="flex items-start gap-4">
               {/* Icon 1 */}
               <span className="mt-1">
-                <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
-                  <rect x="5" y="5" width="22" height="22" rx="4" fill="#B6F0EA" />
-                  <rect x="10" y="10" width="12" height="2" rx="1" fill="#181c20" />
-                  <rect x="10" y="15" width="8" height="2" rx="1" fill="#181c20" />
-                  <rect x="10" y="20" width="6" height="2" rx="1" fill="#181c20" />
+                <svg width="28" height="28" viewBox="0 0 32 32" fill="#033175">
+                  <rect x="5" y="5" width="22" height="22" rx="4" fill="#033175" />
+                  <rect x="10" y="10" width="12" height="2" rx="1" fill="#033175" />
+                  <rect x="10" y="15" width="8" height="2" rx="1" fill="#033175" />
+                  <rect x="10" y="20" width="6" height="2" rx="1" fill="#033175" />
                 </svg>
               </span>
               <span className="text-white text-base md:text-lg">
@@ -31,10 +31,10 @@ export default function PolicyEmbedSection() {
               {/* Icon 2 */}
               <span className="mt-1">
                 <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
-                  <circle cx="16" cy="16" r="12" fill="#B6F0EA" />
-                  <circle cx="16" cy="13" r="3" fill="#181c20" />
-                  <rect x="13" y="19" width="6" height="2" rx="1" fill="#181c20" />
-                  <rect x="15" y="15" width="2" height="4" rx="1" fill="#181c20" />
+                  <circle cx="16" cy="16" r="12" fill="#033175" />
+                  <circle cx="16" cy="13" r="3" fill="#033175" />
+                  <rect x="13" y="19" width="6" height="2" rx="1" fill="#033175" />
+                  <rect x="15" y="15" width="2" height="4" rx="1" fill="#033175" />
                 </svg>
               </span>
               <span className="text-white text-base md:text-lg">
@@ -45,8 +45,8 @@ export default function PolicyEmbedSection() {
               {/* Icon 3 */}
               <span className="mt-1">
                 <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
-                  <circle cx="16" cy="16" r="14" fill="#B6F0EA" />
-                  <path d="M10 16l4 4 8-8" stroke="#181c20" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <circle cx="16" cy="16" r="14" fill="#033175" />
+                  <path d="M10 16l4 4 8-8" stroke="#033175" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </span>
               <span className="text-white text-base md:text-lg">
@@ -65,8 +65,8 @@ export default function PolicyEmbedSection() {
               muted
               playsInline
               preload="none"
-              poster="https://brand.brex.com/m/4f64e1f3f6b899e4/webimage-Policy-R4.jpg"
-              className="w-full h-full object-cover"
+              poster="/assets/business-banking/cardup.png"
+              className="w-full h-full object-contain"
               style={{ aspectRatio: '9/19.5', background: '#111' }}
             >
               

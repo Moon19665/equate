@@ -6,8 +6,8 @@ export default function NativeIntegrationHero() {
   const [email, setEmail] = useState('');
 
   return (
-    <section className="w-full bg-[#fafbfc] py-16 px-4">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+    <section className="w-full bg-[#fafbfc] py-16 ">
+      <div className="max-w-[1920px] mx-auto px-3 md:px-12 flex flex-col md:flex-row items-center justify-between gap-8">
         {/* Left: Content */}
         <div className="w-full md:w-1/2 flex flex-col items-start justify-center mb-10 md:mb-0">
           <h1 className="text-3xl md:text-5xl font-bold text-black mb-6 leading-tight">
@@ -28,7 +28,7 @@ export default function NativeIntegrationHero() {
               />
               <button
                 type="submit"
-                className="px-4 mr-2 bg-[#ff6600] hover:bg-[#ff5500] text-white  text-[14px] transition-colors duration-200  rounded-md"
+                className="px-4 mr-2 bg-[#033175] text-white  text-[14px] transition-colors duration-200  rounded-md"
                 
               >
                 Get started

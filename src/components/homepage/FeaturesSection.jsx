@@ -7,12 +7,8 @@ export default function BrexFeatureSection() {
     <section
       className="
         w-full bg-white py-12
-        px-4
-        sm:px-6
-        md:px-10
-        lg:px-[72px]
-        xl:px-[96px]
-        font-inter
+        px-3
+        md:px-12
       "
     >
       {/* Heading */}
@@ -29,13 +25,13 @@ export default function BrexFeatureSection() {
       {/* Cards */}
       <div
         className="
-        max-w-7xl mx-auto
+        max-w-[1920px] mx-auto
         grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5
         gap-4
       "
       >
         {/* Card Template */}
-        <div className="bg-[#f7fafc] rounded-2xl shadow-sm px-6 py-6 pb-0 flex flex-col justify-between min-h-[330px] items-center max-w-[340px] mx-auto w-full transition-all">
+        <div className="bg-[#f7fafc] rounded-2xl shadow-sm px-6 py-6 pb-0 flex flex-col justify-between min-h-[330px] items-center  mx-auto w-full transition-all">
           <div>
             <h3 className="font-semibold text-lg text-black mb-2">
               Corporate cards
@@ -52,13 +48,13 @@ export default function BrexFeatureSection() {
             <img
               src="/assets/homepage-images/equate-cards.png"
               alt="Brex Corporate Cards"
-              className="  object-contain  h-45"
+              className="  object-contain  w-[160px]"
               loading="lazy"
             />
           </div>
         </div>
 
-        <div className="bg-[#f7fafc] rounded-2xl shadow-sm px-4 py-6  flex flex-col justify-between min-h-[330px] max-w-[340px] mx-auto w-full transition-all">
+        <div className="bg-[#f7fafc] rounded-2xl shadow-sm px-4 py-6  flex flex-col justify-between min-h-[330px]  mx-auto w-full transition-all">
           <div>
             <h3 className="font-semibold text-lg text-black mb-2">
               Expense management
@@ -71,12 +67,12 @@ export default function BrexFeatureSection() {
           <img
             src="/assets/homepage-images/receipt.png "
             alt="Expense management illustration"
-            className="w-full object-cover rounded-xl h-35"
+            className="w-full object-contain rounded-xl h-40"
           />
         </div>
 
         {/* Travel */}
-        <div className="bg-[#f7fafc] rounded-2xl shadow-sm px-4 py-6 flex flex-col justify-between min-h-[330px] max-w-[340px] mx-auto w-full transition-all">
+        <div className="bg-[#f7fafc] rounded-2xl shadow-sm px-4 py-6 flex flex-col justify-between min-h-[330px]  mx-auto w-full transition-all">
           <div>
             <h3 className="font-semibold text-lg text-black mb-2">Travel</h3>
             <p className="text-gray-600 text-[14px] sm:text-[13px] mb-4 leading-snug">
@@ -86,12 +82,12 @@ export default function BrexFeatureSection() {
           <img
             src="/assets/homepage-images/equate-card.png"
             alt="Travel reservation illustration"
-            className=" object-cover "
+            className=" object-contain max-w-[250px] w-full mx-auto"
           />
         </div>
 
         {/* Bill pay */}
-        <div className="bg-[#f7fafc] rounded-2xl shadow-sm px-6 py-6 flex flex-col justify-between min-h-[330px] max-w-[340px] mx-auto w-full transition-all">
+        <div className="bg-[#f7fafc] rounded-2xl shadow-sm px-6 py-6 flex flex-col justify-between min-h-[330px]  mx-auto w-full transition-all">
           <div>
             <h3 className="font-semibold text-lg text-black mb-2">Bill pay</h3>
             <p className="text-gray-600 text-[14px] sm:text-[13px] mb-4 leading-snug">
@@ -145,7 +141,7 @@ export default function BrexFeatureSection() {
         </div>
 
         {/* Banking and treasury */}
-        <div className="bg-[#f7fafc] rounded-2xl shadow-sm px-3 py-4 flex flex-col justify-between min-h-[330px] max-w-[340px] mx-auto w-full transition-all">
+        <div className="bg-[#f7fafc] rounded-2xl shadow-sm px-3 py-4 flex flex-col justify-between min-h-[330px]  mx-auto w-full transition-all">
           <div>
             <h3 className="font-semibold text-lg text-black mb-2">
               Banking and treasury
@@ -166,7 +162,7 @@ export default function BrexFeatureSection() {
             src="/assets/homepage-images/treasury.png" // 🔁 change path as needed
             alt="Interest Growth Graph"
             layout="fill"
-            objectFit="cover"
+            objectFit="contain"
             className="rounded-xl"
             priority // optional, removes lazy loading if above the fold
           />

@@ -56,8 +56,8 @@ export default function TestimonialSection() {
   const currentTestimonial = testimonials[activeTab];
 
   return (
-    <section className="w-full bg-gray-50 py-16 px-4">
-      <div className="max-w-7xl mx-auto">
+    <section className="max-w-[1920px] mx-auto bg-gray-50 py-16 px-3 md:px-12">
+      <div className="max-w-8xl mx-auto">
         {/* Tabs */}
         <div className="flex justify-center mb-12 ">
           <div className="flex w-5xl items-center justify-between ">
@@ -90,14 +90,14 @@ export default function TestimonialSection() {
             <img
               src={currentTestimonial.image}
               alt={currentTestimonial.author}
-              className="w-full h-64 lg:h-full object-cover rounded-xl"
+              className="w-full h-64 lg:h-full object-contain rounded-xl"
               loading="lazy"
             />
           </div>
 
           {/* Text Content */}
           <div className="w-full lg:w-1/2 flex flex-col justify-center space-y-6 text-center lg:text-left">
-            <div>{currentTestimonial.logo}</div>
+            <div className="flex justify-center lg:justify-start">{currentTestimonial.logo}</div>
             <blockquote className="text-xl text-gray-900 font-medium leading-relaxed">
               "{currentTestimonial.quote}"
             </blockquote>

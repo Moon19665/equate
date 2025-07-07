@@ -13,7 +13,7 @@ export default function TaxPolicyComplianceSection() {
           <>
             Add receipts in any language and currency, and Brex will use OCR to match them to the right expense.
             <br />
-            <span className="text-orange-500 font-medium">Brex auto-collects many receipts &rarr;</span>
+            <span className="text-[#033175] font-medium">Brex auto-collects many receipts &rarr;</span>
           </>
         ),
       },
@@ -27,7 +27,7 @@ export default function TaxPolicyComplianceSection() {
   
     return (
       <>
-      <section className="w-full bg-white py-16 px-4">
+      <section className="w-full bg-white py-16 px-3 md:px-12">
         <div className="max-w-5xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-2">
             Drive local tax and policy compliance.
@@ -68,7 +68,7 @@ export default function TaxPolicyComplianceSection() {
       </div>
       <a
         href="#"
-        className="text-orange-600 hover:text-orange-500 font-semibold text-base transition-colors"
+        className="text-[#033175] font-semibold text-base transition-colors"
       >
         Read more &rarr;
       </a>

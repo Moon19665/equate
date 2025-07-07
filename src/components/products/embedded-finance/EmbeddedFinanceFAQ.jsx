@@ -46,8 +46,8 @@ export default function EmbeddedFinanceFAQ() {
   };
 
   return (
-    <section className="bg-white py-16 px-2 sm:px-4">
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-white mt-16">
+      <div className="max-w-[1920px] mx-auto px-3 md:px-12">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-10 sm:mb-12">
           FAQ
         </h2>
@@ -55,7 +55,7 @@ export default function EmbeddedFinanceFAQ() {
           {faqData.map((item, idx) => (
             <div key={idx}>
               <button
-                className="w-full flex justify-between items-center py-5 text-left text-base sm:text-lg font-medium text-black hover:text-orange-600 focus:outline-none transition-colors"
+                className="w-full flex justify-between items-center py-5 text-left text-base sm:text-lg font-medium text-black  focus:outline-none transition-colors"
                 onClick={() => handleToggle(idx)}
                 aria-expanded={openIndex === idx}
                 aria-controls={`faq-answer-${idx}`}
@@ -63,7 +63,7 @@ export default function EmbeddedFinanceFAQ() {
                 <span>{item.question}</span>
                 <FaChevronDown
                   className={`ml-2 transition-transform duration-300 ${
-                    openIndex === idx ? 'rotate-180 text-orange-600' : ''
+                    openIndex === idx ? 'rotate-180 text-[#033175]' : ''
                   }`}
                   aria-hidden="true"
                 />

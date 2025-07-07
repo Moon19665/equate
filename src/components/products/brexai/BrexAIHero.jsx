@@ -58,7 +58,7 @@ export default function BrexAIHero() {
             <p className="text-white text-lg mb-8">
               Reduce expense busywork by 10x while increasing compliance and accuracy.
             </p>
-            <button className="bg-[#ff6600] hover:bg-[#ff5500] text-white font-semibold px-8 py-3 rounded-lg text-lg transition-colors duration-200 shadow-lg">
+            <button className="bg-[#033175] text-white font-semibold px-8 py-3 rounded-lg text-lg transition-colors duration-200 shadow-lg">
               Get started
             </button>
           </div>

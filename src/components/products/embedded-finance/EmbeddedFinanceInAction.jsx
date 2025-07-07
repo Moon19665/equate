@@ -25,7 +25,7 @@ export default function EmbeddedFinanceInAction() {
   
     return (
       <section className="bg-gray-50 py-16 lg:py-24">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-[1920px] mx-auto px-3 md:px-12">
           
           {/* Header */}
           <div className="text-center mb-16">
@@ -59,7 +59,7 @@ export default function EmbeddedFinanceInAction() {
                 {/* Learn More Link */}
                 <a 
                   href={partner.learnMoreLink}
-                  className="inline-flex items-center text-orange-500 hover:text-orange-600 font-semibold text-sm transition-colors"
+                  className="inline-flex items-center text-[#033175] font-semibold text-sm transition-colors"
                 >
                   Learn more
                   <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -88,7 +88,7 @@ export default function EmbeddedFinanceInAction() {
                 <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-6">
                   Learn more about partnering with Brex.
                 </h3>
-                <button className="bg-[#ff6600] hover:bg-[#ff5500] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200">
+                <button className="bg-[#033175] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200">
                   Partner with Brex
                 </button>
               </div>

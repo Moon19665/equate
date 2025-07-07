@@ -21,8 +21,8 @@ const logos = [
 
 export default function TrustedBySection() {
   return (
-    <section className="bg-[#f7f7fa] py-10 px-4 w-full">
-      <div className="max-w-6xl mx-auto flex flex-col items-center">
+    <section className="bg-[#f7f7fa] py-10  max-w-[1920px] mt-3 mx-auto">
+      <div className="max-w-8xl mx-auto flex flex-col items-center">
         <h2
           className="font-inter font-bold text-[1.4rem] xs:text-[1.7rem] sm:text-[2rem] md:text-[2.25rem] lg:text-[2.5rem] text-[#111] text-center mb-8 tracking-tight"
           style={{ fontWeight: 700, lineHeight: 1.15 }}

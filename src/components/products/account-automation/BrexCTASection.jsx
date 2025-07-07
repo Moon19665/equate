@@ -12,7 +12,7 @@ export default function BrexCTASection() {
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black/20"></div>
         
-        <div className="relative z-10 max-w-7xl mx-auto px-6">
+        <div className="relative z-10 max-w-[1920px] mx-auto px-2 md:px-12">
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             
             {/* Left Content Column */}
@@ -23,13 +23,13 @@ export default function BrexCTASection() {
               <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
                 Add accuracy, automation, and efficiency to your accounting — from document collection to journal entries, and everywhere in between.
               </p>
-              <button className="bg-[#ff6600] hover:bg-[#ff5500] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
+              <button className="bg-[#033175]  text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
                 Get started
               </button>
             </div>
             
             {/* Right Image Column */}
-            <div className="w-full lg:w-1/2 flex justify-center items-center">
+            <div className="w-full lg:w-1/2 flex justify-end items-center">
               <div className="relative max-w-lg w-full">
                 <img
                   src="https://brand.brex.com/transform/d2f2341f-92ea-4983-a67d-417a52921900/Closed-loop-dark?io=transform:fit,width:2000,height:1633&quality=95"

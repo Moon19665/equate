@@ -37,8 +37,8 @@ export default function HeroBanking() {
           <div className="relative aspect-video bg-[#f4f4f4]">
             <video
               className="absolute top-0 left-0 w-full h-full object-cover"
-              src="https://brand.brex.com/m/223ccdc4ca7c7398/original/Hero-2x.mp4"
-              poster="https://brand.brex.com/m/223ccdc4ca7c7398/webimage-Hero-2x.jpg"
+              src="/assets/business-banking/equate.mp4"
+              
               autoPlay
               loop
               muted

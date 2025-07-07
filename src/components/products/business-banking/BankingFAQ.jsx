@@ -69,7 +69,7 @@ export default function BankingFAQ() {
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto py-16 px-4">
+    <div className="w-full max-w-[1920px] mx-auto py-16 px-3 md:px-12">
       <h2 className="text-3xl md:text-4xl font-bold mb-8">FAQ</h2>
       <div className="border-t border-gray-200">
         {faqData.map((item, idx) => (

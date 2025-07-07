@@ -44,7 +44,7 @@ export default function Carousel({ slides, title }) {
 
   return (
     <section className="w-full bg-white py-10">
-      <div className="  max-w-full mr-0 ">
+      <div className="  max-w-[1920px] mx-auto px-3 md:px-12 ">
         {title && (
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-black">
             {title}
@@ -82,7 +82,7 @@ export default function Carousel({ slides, title }) {
                     </p>
                     {slide.author && (
                       <div className="mt-3">
-                        <span className="text-orange-600 font-semibold text-[14px]">
+                        <span className="text-[#033175] font-semibold text-[14px]">
                           {slide.authorType}
                         </span>
                         <span className="block font-bold text-black text-[14px]">

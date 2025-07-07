@@ -5,7 +5,7 @@ export default function BrexAIFullPage() {
   return (
     <div className="bg-[#070B12] w-full">
       {/* Section 1: Automate workflows */}
-      <section className="w-full border-t border-b border-[#23262B] px-4 py-12">
+      <section className="w-full border-t border-b border-[#23262B] px-3 md:px-12 py-12">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white text-center mb-2">
             Automate workflows for every type<br className="hidden sm:inline" /> of spend.
@@ -58,8 +58,8 @@ export default function BrexAIFullPage() {
       </section>
 
       {/* Section 3: Manage spend smarter with AI */}
-      <section className="w-full py-16 px-4 bg-[#070B12]">
-        <div className="max-w-7xl mx-auto">
+      <section className="w-full py-16  bg-[#070B12]">
+        <div className="max-w-[1920px] px-3 md:px-12 mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white text-center mb-10">
             Manage spend smarter with AI.
           </h2>
@@ -77,7 +77,7 @@ export default function BrexAIFullPage() {
               </p>
             </div>
             {/* Right: Mobile Video */}
-            <div className="w-full lg:w-1/2 flex justify-center">
+            <div className="w-full lg:w-1/2 flex justify-end">
               <div className="max-w-xs w-full rounded-2xl overflow-hidden shadow-2xl bg-black">
                 <video
                   name="BrexAi-AiScroll-Mobile-R3-OPT (1)"
@@ -107,7 +107,7 @@ export default function BrexAIFullPage() {
       </section>
 
       {/* Section 4: See Brex AI in action */}
-      <section className="w-full py-16 px-4 bg-[#070B12]">
+      <section className="w-full py-16 px-3 md:px-12 bg-[#070B12]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-8">
             See Brex AI <span className="text-blue-400">in action.</span>
@@ -140,8 +140,8 @@ export default function BrexAIFullPage() {
       </section>
 
       {/* Section 5: Put expense reports on autopilot */}
-      <section className="w-full py-16 px-4 bg-[#070B12]">
-        <div className="max-w-7xl mx-auto">
+      <section className="w-full py-16  bg-[#070B12]">
+        <div className="max-w-[1920px] px-3 md:px-12 mx-auto">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
             {/* Left: Video */}
             <div className="w-full lg:w-1/2 flex justify-center">
@@ -183,8 +183,8 @@ export default function BrexAIFullPage() {
       </section>
 
       {/* Section 6: Get instant answers 24/7 (with video) */}
-      <section className="bg-black w-full py-16 px-4">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
+      <section className="bg-black w-full py-16 ">
+        <div className="max-w-[1920px] px-3 md:px-12 mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left: Text Content */}
           <div className="w-full lg:w-1/2 mb-10 lg:mb-0">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -223,8 +223,8 @@ export default function BrexAIFullPage() {
           </div>
         </div>
       </section>
-      <section className="bg-[#070B12] w-full py-16 px-4">
-  <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
+      <section className="bg-[#070B12] w-full py-16 ">
+  <div className="max-w-[1920px] px-3 md:px-12 mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
     {/* Left: Video */}
     <div className="w-full lg:w-1/2 flex justify-center mb-8 lg:mb-0">
       <div className="w-full max-w-md rounded-2xl overflow-hidden shadow-2xl bg-black">
@@ -278,7 +278,7 @@ export default function BrexAIFullPage() {
           </p>
           <a
             href="#"
-            className="text-orange-500 hover:text-orange-400 font-semibold transition-colors text-base inline-flex items-center"
+            className="text-[#fff] font-semibold transition-colors text-base inline-flex items-center"
           >
             Check out Brex expense management &rarr;
           </a>
@@ -294,9 +294,9 @@ export default function BrexAIFullPage() {
         </div>
       </div>
     </section>
-    <section className="bg-[#070B12] w-full py-16 px-4">
+    <section className="bg-[#070B12] w-full py-16 ">
       {/* Features Row */}
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start text-center md:text-left gap-8 md:gap-0 border-b border-[#23262B] pb-12">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto flex flex-col md:flex-row justify-between items-start text-center md:text-left gap-8 md:gap-0 border-b border-[#23262B] pb-12">
         {/* Feature 1 */}
         <div className="flex-1 flex flex-col items-center md:items-start">
           {/* Shield Icon */}
@@ -352,7 +352,7 @@ export default function BrexAIFullPage() {
       </div>
     </section>
     <section className="bg-[#06101B] py-16 lg:py-24">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto ">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
           {/* Left: Image */}
           <div className="w-full lg:w-1/2 flex justify-center">

@@ -1,7 +1,7 @@
 export default function AccrualsAccountingSection() {
     return (
       <section className="py-16 lg:py-24 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-[1920px] mx-auto px-3 md:px-12">
           {/* Main Content Row */}
           <div className="flex flex-col items-center gap-12 lg:gap-20">
            
@@ -43,7 +43,7 @@ export default function AccrualsAccountingSection() {
              {/* Image Column */}
              <div className="w-full  flex justify-center items-center mb-10 lg:mb-0">
               <img
-                src="https://brand.brex.com/transform/d3da16dc-ba48-416d-9fb3-38b61cd37eb6/accruals-screen_accounting?io=transform:fit,width:2000,height:685&quality=95"
+                src="/assets/automation/equate-ss.png"
                 alt="Accruals accounting screen"
                 className="w-full  rounded-2xl object-contain"
                 loading="lazy"
@@ -67,10 +67,10 @@ export default function AccrualsAccountingSection() {
                 </span>
               </div>
               <ul className="mt-2 text-gray-700 space-y-1 text-base pl-2">
-                <li><span className="text-red-600 font-medium">Manually</span> chase receipts</li>
-                <li><span className="text-red-600 font-medium">Manually</span> check for accuracy</li>
-                <li><span className="text-red-600 font-medium">Manually</span> record entries in GL accounts</li>
-                <li><span className="text-red-600 font-medium">Manually</span> track across tech stack</li>
+                <li><span className="text-[#033175] font-medium">Manually</span> chase receipts</li>
+                <li><span className="text-[#033175] font-medium">Manually</span> check for accuracy</li>
+                <li><span className="text-[#033175] font-medium">Manually</span> record entries in GL accounts</li>
+                <li><span className="text-[#033175] font-medium">Manually</span> track across tech stack</li>
                 <li>Close can take weeks</li>
               </ul>
             </div>

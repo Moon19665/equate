@@ -4,7 +4,7 @@ export default function PolicyTestimonialSection() {
   return (
     <div className="w-full bg-[#15191e] py-16 px-4">
       {/* Features Row */}
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 text-center">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 text-center">
         <div className="flex flex-col items-center">
           {/* Icon: Document */}
           <svg width="24" height="24" fill="currentColor" className="mb-3 text-[#e8e9e3]">
@@ -37,19 +37,19 @@ export default function PolicyTestimonialSection() {
 
       {/* Testimonial */}
       <div className="max-w-3xl mx-auto flex flex-col items-center text-center">
-        <img
+        {/* <img
           src="https://brand.brex.com/transform/44f64157-a674-44d0-b7ab-b373b0d008fc/DoorDash-White?io=transform:fit,width:2000,height:243&quality=95"
           alt="DoorDash Logo"
           className="h-10 mb-4"
           style={{ filter: 'brightness(0) invert(1)' }}
-        />
+        /> */}
         <blockquote className="text-white text-2xl md:text-3xl font-light mb-6 leading-snug">
           “By making it easier for employees to comply, finance went from the bad cop to the hero.”
         </blockquote>
         <div className="text-[#e8e9e3] text-base mb-2">
           — <span className="underline">Mike Kim</span>, VP of Finance, DoorDash
         </div>
-        <a href="#" className="text-[#ff6600] font-semibold text-base hover:underline">
+        <a href="#" className="text-[#033175] font-semibold text-base hover:underline">
           Read more &rarr;
         </a>
       </div>

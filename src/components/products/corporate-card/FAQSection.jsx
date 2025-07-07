@@ -61,8 +61,8 @@ export default function FAQSection() {
   };
 
   return (
-    <div className="w-full bg-[#0a1018] py-16 px-4">
-      <div className="max-w-7xl mx-auto">
+    <div className="w-full bg-black py-16 ">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto">
         <h2 className="text-4xl font-bold text-white mb-12">FAQ</h2>
         
         <div className="space-y-0">

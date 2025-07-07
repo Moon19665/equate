@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React,{ useState } from 'react';
 
 const faqData = [
   {
@@ -45,8 +45,8 @@ export default function SpendManagementFAQ() {
   };
 
   return (
-    <div className="w-full bg-[#0f1419] py-16 px-4">
-      <div className="max-w-7xl mx-auto">
+    <div className="w-full bg-[#0f1419] py-16 ">
+      <div className="max-w-7xl mx-auto px-3 md:px-12">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-12">FAQ</h2>
         
         <div className="space-y-0">

@@ -2,7 +2,7 @@
 
 export default function EmbeddedFinanceHero() {
   return (
-    <section className="relative min-h-screen overflow-hidden">
+    <section className="relative max-w-[1920px] mx-auto min-h-screen overflow-hidden">
       {/* Desktop Video Background */}
       <div className="hidden lg:block absolute inset-0 z-0">
         <video
@@ -29,9 +29,9 @@ export default function EmbeddedFinanceHero() {
       </div>
 
       {/* Mobile Layout */}
-      <div className="lg:hidden">
+      <div className="lg:hidden ">
         {/* Mobile Content Section */}
-        <div className="flex flex-col items-center justify-center min-h-[60vh] bg-gradient-to-br from-gray-100 to-gray-200 px-4 sm:px-8 py-16">
+        <div className="flex flex-col items-center justify-center min-h-[40vh] bg-gradient-to-br from-gray-100 to-gray-200 ">
           <div className="max-w-lg w-full text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
               Embedded Finance
@@ -39,7 +39,7 @@ export default function EmbeddedFinanceHero() {
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               Embed virtual cards in your B2B software to unlock global payments with automated reconciliation.
             </p>
-            <button className="bg-[#ff6600] hover:bg-[#ff5500] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg">
+            <button className="bg-[#033175] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg">
               Partner with Us
             </button>
           </div>
@@ -72,16 +72,16 @@ export default function EmbeddedFinanceHero() {
       </div>
 
       {/* Desktop Content Overlay */}
-      <div className="hidden lg:flex absolute inset-0 z-10 items-center">
-        <div className="w-full">
-          <div className="max-w-3xl text-start px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 ml-0 lg:ml-10 xl:ml-20">
+      <div className="hidden lg:flex absolute inset-0 z-10 items-center ">
+        <div className="max-w-[1920px] px-3 md:px-12">
+          <div className=" text-start ">
             <h1 className="text-4xl xl:text-5xl font-bold text-gray-900 mb-6 leading-tight">
               Embedded Finance
             </h1>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed max-w-lg">
               Embed virtual cards in your B2B software to unlock global payments with automated reconciliation.
             </p>
-            <button className="bg-[#ff6600] hover:bg-[#ff5500] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg">
+            <button className="bg-[#033175] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg">
               Partner with Us
             </button>
           </div>

@@ -1,6 +1,6 @@
 export default function EmpireTestimonialSection() {
     return (
-      <section className="w-full bg-[#f7f7fa] py-16 px-4">
+      <section className="w-full bg-[#f7f7fa] py-16 px-3 md:px-12">
         <div className="max-w-3xl mx-auto text-center">
           <img
             src="https://brand.brex.com/transform/7edc34df-e397-4783-9200-0ae1c49f3fd6/empire-group-logo?io=transform:fit,width:2000,height:1515&quality=95"

@@ -41,7 +41,7 @@ export default function IntegrationsSliderSection() {
   }, []);
 
   return (
-    <section className="w-full bg-[#fafbfc] py-16 px-4 overflow-hidden">
+    <section className="w-full bg-[#fafbfc] py-16  overflow-hidden">
       {/* Header */}
       <div className="max-w-4xl mx-auto text-center mb-12">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -54,7 +54,7 @@ export default function IntegrationsSliderSection() {
       </div>
 
       {/* Logo Sliders */}
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto">
         {/* Top Row - Moving Right */}
         <div className="flex mb-8 overflow-hidden">
           <div

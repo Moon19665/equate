@@ -3,9 +3,9 @@ export default function GlobalFeaturesAndTestimonial() {
       {
         icon: (
           <span className="inline-block w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center mb-4">
-            <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth={2} className="text-gray-700">
+            <svg width="20" height="20" fill="#033175" stroke="currentColor" strokeWidth={2} className="text-gray-700">
               <circle cx="10" cy="10" r="8" />
-              <rect x="7" y="7" width="6" height="6" rx="1.5" fill="currentColor" className="text-gray-500" />
+              <rect x="7" y="7" width="6" height="6" rx="1.5" fill="#033175" className="text-gray-500" />
             </svg>
           </span>
         ),
@@ -17,7 +17,7 @@ export default function GlobalFeaturesAndTestimonial() {
       {
         icon: (
           <span className="inline-block w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center mb-4">
-            <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth={2} className="text-gray-700">
+            <svg width="20" height="20" fill="none" stroke="#033175" strokeWidth={2} className="text-gray-700">
               <circle cx="10" cy="10" r="8" />
               <path d="M6 10h8M10 6v8" stroke="currentColor" strokeWidth={2} strokeLinecap="round" />
             </svg>
@@ -31,7 +31,7 @@ export default function GlobalFeaturesAndTestimonial() {
       {
         icon: (
           <span className="inline-block w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center mb-4">
-            <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth={2} className="text-gray-700">
+            <svg width="20" height="20" fill="none" stroke="#033175" strokeWidth={2} className="text-gray-700">
               <circle cx="10" cy="10" r="8" />
               <path d="M7 13l3-3 3 3" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
             </svg>
@@ -45,7 +45,7 @@ export default function GlobalFeaturesAndTestimonial() {
     ];
   
     return (
-      <section className="w-full bg-[#fafbfc] py-12 px-4">
+      <section className="w-full bg-[#fafbfc] py-12 px-3 md:px-12">
         {/* Features Row */}
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           {features.map((f, idx) => (
@@ -58,7 +58,7 @@ export default function GlobalFeaturesAndTestimonial() {
               <p className="text-gray-700 text-base mb-4 flex-1">{f.description}</p>
               <a
                 href={f.link.href}
-                className="text-orange-600 hover:text-orange-700 font-semibold text-base transition-colors"
+                className="text-[#033175] font-semibold text-base transition-colors"
               >
                 {f.link.text}
               </a>

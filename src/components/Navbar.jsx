@@ -226,9 +226,9 @@ export default function Navbar() {
             {/* New Release Card */}
             <div className="mt-6 bg-[#f8f9fa] border border-[#ececec] rounded-2xl p-5 flex flex-col items-start">
               <img
-                src="https://brand.brex.com/transform/ae0c5b71-0d4a-4a0e-bc6d-4b2d7f1f5c0b/Grow-Your-Cash?io=transform:fit,width:400,height:200&quality=95"
+                src="/assets/nav-img.png"
                 alt="Grow Your Cash"
-                className="w-28 h-16 object-contain mb-4"
+                className=" object-contain mb-4"
                 draggable={false}
               />
               <div className="text-xs text-[#033175] font-bold mb-1">
@@ -588,7 +588,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full bg-white border-b border-gray-100 z-50 relative">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6">
+      <div className="max-w-[1920px] mx-auto flex items-center justify-between px-3 md:px-12">
         <Link href="/" className="flex items-center gap-2 py-3">
           <img
             src="/logo.png"
@@ -653,12 +653,12 @@ export default function Navbar() {
                       Products
                     </div>
                     <ul className="space-y-2">
-                      <li>
+                      <li className="hover:text-[#033175]">
                         <a
                           href="/corporate-card"
-                          className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
+                          className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
-                          <FiCreditCard className="text-xl text-[#222]" />
+                          <FiCreditCard className="text-xl  " />
                           <div>
                             <div className="text-[#111] font-medium">
                               Corporate card
@@ -670,12 +670,12 @@ export default function Navbar() {
                         </a>
                       </li>
 
-                      <li>
+                      <li className="hover:text-[#033175]">
                         <a
                           href="/business-banking"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
-                          <FiBriefcase className="text-xl text-[#222]" />
+                          <FiBriefcase className="text-xl" />
                           <div>
                             <div className="text-[#111] font-medium">
                               Business banking
@@ -686,12 +686,12 @@ export default function Navbar() {
                           </div>
                         </a>
                       </li>
-                      <li>
+                      <li  className="hover:text-[#033175]">
                         <a
                           href="/spend-management"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
-                          <FiBarChart2 className="text-xl text-[#222]" />
+                          <FiBarChart2 className="text-xl" />
                           <div>
                             <div className="text-[#111] font-medium">
                               Spend management
@@ -707,12 +707,12 @@ export default function Navbar() {
                   <div className="flex-1 min-w-[220px]">
                     <div className="mb-4 text-xs text-gray-400 font-semibold uppercase tracking-widest"></div>
                     <ul className="space-y-2">
-                      <li>
+                      <li  className="hover:text-[#033175]">
                         <a
                           href="/travel"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
-                          <MdOutlineTravelExplore className="text-xl text-[#222]" />
+                          <MdOutlineTravelExplore className="text-xl" />
                           <div>
                             <div className="text-[#111] font-medium">
                               Travel
@@ -723,12 +723,12 @@ export default function Navbar() {
                           </div>
                         </a>
                       </li>
-                      <li>
+                      <li  className="hover:text-[#033175]">
                         <a
                           href="/bill-pay"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
-                          <MdOutlinePayment className="text-xl text-[#222]" />
+                          <MdOutlinePayment className="text-xl" />
                           <div>
                             <div className="text-[#111] font-medium">
                               Bill pay
@@ -739,12 +739,12 @@ export default function Navbar() {
                           </div>
                         </a>
                       </li>
-                      <li>
+                      <li  className="hover:text-[#033175]">
                         <a
                           href="/account-automation"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
-                          <MdOutlineAutoAwesome className="text-xl text-[#222]" />
+                          <MdOutlineAutoAwesome className="text-xl" />
                           <div>
                             <div className="text-[#111] font-medium">
                               Accounting automation
@@ -763,12 +763,12 @@ export default function Navbar() {
                       Platform
                     </div>
                     <ul className="space-y-2">
-                      <li>
+                      <li  className="hover:text-[#033175]">
                         <a
                           href="/embedded-finance"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
-                          <FiGlobe className="text-xl text-[#222]" />
+                          <FiGlobe className="text-xl" />
                           <div>
                             <div className="text-[#111] font-medium">
                               Equate Embedded
@@ -779,12 +779,12 @@ export default function Navbar() {
                           </div>
                         </a>
                       </li>
-                      <li>
+                      <li  className="hover:text-[#033175]">
                         <a
                           href="/integrations"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
-                          <MdOutlineIntegrationInstructions className="text-xl text-[#222]" />
+                          <MdOutlineIntegrationInstructions className="text-xl" />
                           <div>
                             <div className="text-[#111] font-medium">
                               Native integrations
@@ -795,12 +795,12 @@ export default function Navbar() {
                           </div>
                         </a>
                       </li>
-                      <li>
+                      <li  className="hover:text-[#033175]">
                         <a
                           href="/equate-ai"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
-                          <FaRobot className="text-xl text-[#222]" />
+                          <FaRobot className="text-xl" />
                           <div>
                             <div className="text-[#111] font-medium">
                               Equate AI
@@ -811,12 +811,12 @@ export default function Navbar() {
                           </div>
                         </a>
                       </li>
-                      <li>
+                      <li  className="hover:text-[#033175]">
                         <a
                           href="/global"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
-                          <MdOutlineAccountBalance className="text-xl text-[#222]" />
+                          <MdOutlineAccountBalance className="text-xl" />
                           <div>
                             <div className="text-[#111] font-medium">
                               Global ready
@@ -833,7 +833,7 @@ export default function Navbar() {
                   <div className="flex-1 min-w-[260px] flex flex-col justify-between">
                     <div className="bg-[#f8f9fa] border border-[#ececec] rounded-2xl p-5 flex flex-col items-start h-full">
                       <img
-                        src="https://brand.brex.com/transform/0743d79a-f7df-4ba7-944c-0a9817bab214/Banking-Preview-Nav-Thumbnail-2?io=transform:fit,width:2000,height:1178&quality=95"
+                        src="/assets/nav-img.png"
                         alt="Grow Your Cash"
                         className=" object-contain mb-4"
                         draggable={false}

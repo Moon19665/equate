@@ -119,7 +119,7 @@ export default function AccountingAutomationSlider() {
                 </cite>
                 <a
                   href={item.readMoreLink}
-                  className="mt-2 inline-flex items-center text-orange-500 hover:text-orange-600 font-semibold transition-colors"
+                  className="mt-2 inline-flex items-center text-[#033175] font-semibold transition-colors"
                 >
                   Read more
                   <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -139,7 +139,7 @@ export default function AccountingAutomationSlider() {
               onClick={() => goToSlide(idx)}
               aria-label={`Go to testimonial ${idx + 1}`}
               className={`w-3 h-3 rounded-full transition-transform duration-300 ${
-                idx === currentIndex ? 'bg-orange-500 scale-125' : 'bg-gray-300 hover:bg-gray-400'
+                idx === currentIndex ? 'bg-[#033175] scale-125' : 'bg-gray-300 hover:bg-gray-400'
               }`}
             />
           ))}

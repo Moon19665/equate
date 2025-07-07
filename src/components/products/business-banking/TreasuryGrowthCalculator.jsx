@@ -52,9 +52,9 @@ export default function TreasuryGrowthCalculator() {
             step={100000}
             value={balance}
             onChange={e => setBalance(Number(e.target.value))}
-            className="w-full h-2 accent-[#ff6600] bg-[#f2f2f2] rounded-full outline-none"
+            className="w-full h-2 accent-[#033175] bg-[#033175] rounded-full outline-none"
             style={{
-              background: `linear-gradient(to right, #ff6600 0%, #ff6600 ${((balance - 100000) / (20000000 - 100000)) * 100}%, #e5e5e5 ${((balance - 100000) / (20000000 - 100000)) * 100}%, #e5e5e5 100%)`
+              background: `linear-gradient(to right, #033175 0%, #033175 ${((balance - 100000) / (20000000 - 100000)) * 100}%, #e5e5e5 ${((balance - 100000) / (20000000 - 100000)) * 100}%, #e5e5e5 100%)`
             }}
           />
         </div>
