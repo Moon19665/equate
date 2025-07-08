@@ -8,7 +8,7 @@ export default function IntegrationsSliderSection() {
     { name: "Zapier", logo: "https://logo.clearbit.com/zapier.com" },
     { name: "Slack", logo: "https://logo.clearbit.com/slack.com" },
     { name: "1Password", logo: "https://logo.clearbit.com/1password.com" },
-    { name: "Dash", logo: "https://logo.clearbit.com/plotly.com" },
+    { name: "Dash", logo: "assets/integrations/plotly.com" },
     { name: "Sage", logo: "https://logo.clearbit.com/sage.com" },
     { name: "Xero", logo: "https://logo.clearbit.com/xero.com" },
     { name: "BambooHR", logo: "https://logo.clearbit.com/bamboohr.com" },
@@ -48,7 +48,7 @@ export default function IntegrationsSliderSection() {
           Automate manual work with 1,000s of integrations.
         </h2>
         <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto">
-          Brex integrates with all your software so you can manage your business with ease — from one place.
+          Equate integrates with all your software so you can manage your business with ease — from one place.
           Boost efficiency with auto-categorized expense data, smoother payroll, and built-in alerts.
         </p>
       </div>

@@ -4,7 +4,7 @@ export default function AiCtaSection() {
         className="relative w-full py-20 md:py-32"
         style={{
           backgroundImage:
-            "url('https://brand.brex.com/transform/27154a50-bd40-4abf-90b3-a842cbf6776d/AI-Footer-desktop-bg?io=transform:fit,width:2000,height:760&quality=95')",
+            "url('/assets/equate-ai/ai-bg.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -26,7 +26,7 @@ export default function AiCtaSection() {
           {/* Right: Brex ai logo */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <div className="flex items-center">
-              <span className="text-5xl md:text-6xl font-bold text-white">Brex</span>
+              <span className="text-5xl md:text-6xl font-bold text-white">Equate</span>
               <span className="ml-2 inline-flex items-center px-3 py-1 rounded border border-white text-white text-xl font-mono font-semibold bg-black/40 shadow">
                 ai
               </span>

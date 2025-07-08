@@ -126,18 +126,18 @@ export default function NativeIntegrationsFeatures() {
       {/* Video 2 */}
       <div className="w-full flex flex-col items-center">
         <img
-          src="https://brand.brex.com/transform/049dd2d3-c19b-45e3-a01b-9d508eafebbe/Brex_Sage-1?io=transform:fit,width:2000,height:1500&quality=95"
+          src="/assets/integrations/wix.png"
           alt="Brex Sage Integration"
-          className="w-full h-auto rounded-xl shadow object-contain"
+          className="w-full h-auto rounded-xl shadow object-cover"
           loading="lazy"
         />
       </div>
       {/* Image */}
       <div className="w-full flex flex-col items-center">
         <img
-          src="https://brand.brex.com/transform/049dd2d3-c19b-45e3-a01b-9d508eafebbe/Brex_Sage-1?io=transform:fit,width:2000,height:1500&quality=95"
+          src="/assets/integrations/sage.png"
           alt="Brex Sage Integration"
-          className="w-full h-auto rounded-xl shadow object-contain"
+          className="w-full h-auto  object-cover"
           loading="lazy"
         />
       </div>

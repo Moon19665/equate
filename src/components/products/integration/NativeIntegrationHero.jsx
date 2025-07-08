@@ -39,7 +39,7 @@ export default function NativeIntegrationHero() {
         {/* Right: Image */}
         <div className="w-full md:w-1/2 flex justify-center items-center">
           <img
-            src="https://brand.brex.com/transform/c56c68d8-f1ef-4c5f-bb9a-c74a8ca5c39c/dif-eco-hero-image-v2?io=transform:fit,width:2000,height:1653&quality=95"
+            src="/assets/corporate-card-ass/card-group.png"
             alt="Brex Integrations Illustration"
             className="w-full max-w-md h-auto object-contain"
             loading="lazy"
