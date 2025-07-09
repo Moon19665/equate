@@ -5,7 +5,7 @@ export default function TreetGrowthSection() {
         <section className="w-full py-16 px-3 md:px-12 flex flex-col items-center text-center bg-[#f5f6fa]">
           {/* Treet Logo */}
           <img
-            src="https://brand.brex.com/transform/a7f04a2d-72e2-4a3c-b87e-3242ca6c91c7/treet-logo?io=transform:fit,width:2000,height:523&quality=95"
+            src="/assets/startups/treet-logo.webp"
             alt="Treet Logo"
             className="h-8 md:h-10 mb-8 mx-auto"
             style={{ objectFit: "contain" }}
@@ -34,9 +34,9 @@ export default function TreetGrowthSection() {
           {/* Left: Growth Image */}
           <div className="w-full md:w-1/2 flex justify-end mb-10 md:mb-0">
             <img
-              src="https://brand.brex.com/transform/aed0fcd8-8e0d-4278-80ad-40df65c3748d/Growth?io=transform:fit,width:2000,height:1503&quality=95"
+              src="/assets/startups/approve.png"
               alt="Growth UI"
-              className="w-full max-w-md rounded-2xl object-contain"
+              className="w-full max-w-2xl bg-white p-2 rounded-2xl object-contain"
               style={{ boxShadow: "none" }}
             />
           </div>
@@ -57,7 +57,7 @@ export default function TreetGrowthSection() {
             </ul>
             <a
               href="#"
-              className="text-orange-600 font-medium hover:underline transition text-sm"
+              className="text-[#033175] font-medium hover:underline transition text-sm"
             >
               Learn more about expense management &rarr;
             </a>

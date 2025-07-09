@@ -2,7 +2,7 @@ export default function StartupsCorporateCard() {
     return (
       <>
         {/* Main Card Section */}
-        <section className="w-full bg-white py-12 px-4  flex flex-col-reverse lg:flex-row items-center justify-center">
+        <section className="w-full max-w-[1920px] mx-auto bg-white py-12 px-3 md:px-12  flex flex-col-reverse lg:flex-row items-center justify-between">
           {/* Left: Text content */}
           <div className="w-full max-w-xl mt-10 lg:mt-0 lg:mr-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -18,7 +18,7 @@ export default function StartupsCorporateCard() {
               <li>
                 <a
                   href="#"
-                  className="text-orange-600 hover:underline font-medium"
+                  className="text-[#033175] hover:underline font-medium"
                 >
                   Rewards
                 </a>{" "}
@@ -29,7 +29,7 @@ export default function StartupsCorporateCard() {
             </ul>
             <a
               href="#"
-              className="text-orange-600 font-medium hover:underline transition text-base"
+              className="text-[#033175] font-medium hover:underline transition text-base"
             >
               Discover everything that Brex cards offer as you scale &rarr;
             </a>
@@ -39,7 +39,7 @@ export default function StartupsCorporateCard() {
             {/* Card image */}
             <div className="relative w-full">
               <img
-                src="https://brand.brex.com/transform/d6ceb7b7-1517-4220-939a-954a1cdfa438/Early-Stage?io=transform:fit,width:2000,height:1533&quality=95"
+                src="/assets/startups/spent.png"
                 alt="Brex Corporate Card"
                 className="w-full"
               />

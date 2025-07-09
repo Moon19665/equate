@@ -5,7 +5,7 @@ export default function XealTestimonialAndComparison() {
       <section className="w-full max-w-4xl mx-auto py-16 px-4 flex flex-col items-center text-center">
         {/* Xeal Logo */}
         <img
-          src="https://brand.brex.com/transform/5a13d6b8-d930-4542-b712-3155ac7135a5/Xeal-Logo?io=transform:fit,width:2000,height:823&quality=95"
+          src="/assets/startups/Xeal-Logo.webp"
           alt="Xeal Logo"
           className="h-10 md:h-12 mb-8"
           style={{ objectFit: "contain" }}

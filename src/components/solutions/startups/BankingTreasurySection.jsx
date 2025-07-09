@@ -5,11 +5,11 @@ export default function BankingTreasurySection() {
         <section className="w-full bg-[#f5f6fa] py-12 px-4 flex flex-col lg:flex-row items-center justify-center">
           {/* Left: Image Card */}
           <div className="w-full max-w-md mb-10 lg:mb-0 lg:mr-12 flex-shrink-0">
-            <div className="rounded-2xl overflow-hidden ">
+            <div className="rounded-2xl bg-white p-2 overflow-hidden ">
               <img
-                src="https://brand.brex.com/transform/bd99b7f7-1588-420c-878b-89cd512d8bbd/startups-launch-banking?io=transform:fit,width:2000,height:1968&quality=95"
+                src="/assets/startups/prime.png"
                 alt="Brex banking and treasury"
-                className="w-full h-80 object-cover object-center md:h-96"
+                className="w-full h-80 object-contain  bg-white p-2 object-center md:h-96"
               />
             </div>
           </div>
@@ -29,9 +29,9 @@ export default function BankingTreasurySection() {
             </ul>
             <a
               href="#"
-              className="text-orange-600 text-sm font-medium hover:underline transition"
+              className="text-[#033175] text-sm font-medium hover:underline transition"
             >
-              Learn more about Brex business accounts &rarr;
+              Learn more about Equate business accounts &rarr;
             </a>
           </div>
         </section>
@@ -78,7 +78,7 @@ export default function BankingTreasurySection() {
         <section className="w-full bg-[#f5f6fa] py-16 px-4 flex flex-col items-center">
       {/* Logo */}
       <img
-        src="https://brand.brex.com/transform/67a44632-d234-49fe-936c-3753b428cebd/Standard-Metrics-Logo?io=transform:fit,width:2000,height:643&quality=95"
+        src="/assets/startups/Standard-Logo.webp"
         alt="Standard Metrics Logo"
         className="h-10 md:h-14 mb-8"
         style={{ objectFit: "contain" }}
@@ -87,7 +87,7 @@ export default function BankingTreasurySection() {
       {/* Quote */}
       <blockquote className="max-w-3xl text-center">
         <p className="text-xl md:text-2xl font-serif text-gray-900 leading-snug md:leading-normal mb-8">
-          “Brex allows us to generate yield on our cash through a money market fund while seamlessly processing wires and ACH.”
+          Equate allows us to generate yield on our cash through a money market fund while seamlessly processing wires and ACH.”
         </p>
         <footer className="text-gray-500 text-base md:text-lg">
           <a

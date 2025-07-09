@@ -1,9 +1,9 @@
 import React from "react";
 
 const bgUrl =
-  "https://brand.brex.com/transform/b456b630-23dd-444f-8452-eb3b5e35a0bb/Prefooter-Background?io=transform:fit,width:2000,height:758&quality=95";
+  "/assets/startups/cta-bg.webp";
 const illustrationUrl =
-  "https://brand.brex.com/transform/d9ab580b-fa31-40d4-891b-e5e1453c0447/Signup-Illustration?io=transform:fit,width:2000,height:1938&quality=95";
+  "/assets/travel/mobile.png";
 
 export default function StartupSignupSection() {
   return (
@@ -26,7 +26,7 @@ export default function StartupSignupSection() {
             Our team of venture-backed tech experts is ready to support you. Get an operating account, bill pay, and corporate cards with one application today.
           </p>
           <div className="flex flex-wrap  gap-4">
-            <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 text-sm rounded transition">
+            <button className="bg-[#033175] text-white font-semibold px-6 py-3 text-sm rounded transition">
               Contact sales
             </button>
             <button className="bg-transparent border border-white hover:bg-white hover:text-black text-white text-sm font-semibold px-6 py-3 rounded transition">
@@ -39,7 +39,7 @@ export default function StartupSignupSection() {
           <img
             src={illustrationUrl}
             alt="Signup illustration"
-            className="max-w-[500px] w-full h-auto object-contain"
+            className="max-w-[400px] w-full h-auto object-contain"
             loading="lazy"
           />
         </div>

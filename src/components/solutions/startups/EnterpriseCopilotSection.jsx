@@ -1,9 +1,9 @@
 export default function EnterpriseCopilotSection() {
     return (
-      <section className="w-full bg-white py-16  flex justify-center">
-        <div className="max-w-[1920px] px-3 md:px-12 flex flex-col md:flex-row items-center justify-between">
+      <section className="w-full bg-white py-16 ">
+        <div className="max-w-[1920px] mx-auto px-3 md:px-12 flex flex-col md:flex-row items-center justify-between">
           {/* Left: Text Content */}
-          <div className="  md:pr-10 mb-10 md:mb-0">
+          <div className="  mb-10 md:mb-0">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Your copilot at every stage.
             </h2>
@@ -41,7 +41,7 @@ export default function EnterpriseCopilotSection() {
             </ul>
             <a
               href="#"
-              className="text-orange-600 text-sm font-medium hover:underline transition inline-flex items-center"
+              className="text-[#033175] text-sm font-medium hover:underline transition inline-flex items-center"
             >
               Get started <span className="ml-1">&rarr;</span>
             </a>
@@ -49,9 +49,9 @@ export default function EnterpriseCopilotSection() {
           {/* Right: Product Image */}
           <div className=" flex justify-center">
             <img
-              src="https://brand.brex.com/transform/6a749a54-dfca-4be0-84fd-6d0810af51ba/Enterprise-Product?io=transform:fit,width:2000,height:1758&quality=95"
+              src="/assets/startups/mobile.png"
               alt="Brex Enterprise Product"
-              className="w-full max-w-xs md:max-w-lg rounded-xl object-contain"
+              className="w-full max-w-xs md:max-w-2xl rounded-xl object-contain"
               style={{ boxShadow: "none" }}
             />
           </div>
