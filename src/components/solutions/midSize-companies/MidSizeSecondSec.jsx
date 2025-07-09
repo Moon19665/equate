@@ -17,8 +17,8 @@ export default function MidSizeSecondSec() {
         <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
           <div className="bg-[#f9f7f4] p-6 md:p-10 max-w-[420px] w-full flex items-center justify-center">
             <img
-              src="https://brand.brex.com/transform/973b0acc-4f1b-4b1a-930c-0f41a5350c15/Issue-Cards3?io=transform:fit,width:2000,height:1765&quality=95"
-              alt="Brex Cards"
+              src="/assets/midsize/default.png"
+              alt="Equate Cards"
               className="w-full h-auto object-contain"
               loading="lazy"
             />
@@ -55,7 +55,7 @@ export default function MidSizeSecondSec() {
         {/* Right Image */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="https://brand.brex.com/transform/50d276dc-290e-404d-9b82-1c6b180f8732/Group-Event-Planning?io=transform:fit,width:2000,height:1378&quality=95"
+            src="/assets/midsize/guest.png"
             alt="Group Event Planning"
             className="w-full h-auto"
             loading="lazy"
@@ -69,7 +69,7 @@ export default function MidSizeSecondSec() {
         {/* Left Image */}
         <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
           <img
-            src="https://brand.brex.com/transform/b37ce8f1-1f30-46b0-826c-8d5992402550/Book-Travel?io=transform:fit,width:2000,height:1403&quality=95"
+            src="/assets/travel/offsite.png"
             alt="Book Travel"
             className="w-full h-auto"
             loading="lazy"
@@ -82,7 +82,7 @@ export default function MidSizeSecondSec() {
             Book global travel with<br className="hidden md:inline" /> exclusive rates.
           </h2>
           <p className="text-gray-600 text-base md:text-lg mb-4">
-            Lower your travel costs with pre-negotiated discounts on flights, hotels, and car rentals. And if an employee ever needs help? Brex offers 24/7 support, anywhere in the world, with unlimited self-serve itinerary changes.
+            Lower your travel costs with pre-negotiated discounts on flights, hotels, and car rentals. And if an employee ever needs help? Equate offers 24/7 support, anywhere in the world, with unlimited self-serve itinerary changes.
           </p>
           <a
             href="#"
@@ -113,9 +113,9 @@ export default function MidSizeSecondSec() {
         {/* Right Visual */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="https://brand.brex.com/transform/0fc3a243-455b-48d9-ac88-84d7374c74f9/MM-Expenses-Check?io=transform:fit,width:2000,height:1573&quality=95"
+            src="/assets/midsize/spend-limit.png"
             alt="Marketing Spend Visual"
-            className="w-full max-w-md h-auto"
+            className="w-full max-w-md bg-white p-2 h-auto"
             loading="lazy"
             style={{ borderRadius: 0, boxShadow: "none" }}
           />
@@ -127,7 +127,7 @@ export default function MidSizeSecondSec() {
         {/* Left Visual */}
         <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
           <img
-            src="https://brand.brex.com/transform/4276adc6-519b-426d-a9a3-051c241f4bec/AI?io=transform:fit,width:2000,height:1508&quality=95"
+            src="/assets/midsize/progress.png"
             alt="AI Automation Visual"
             className="w-full max-w-md h-auto"
             loading="lazy"
@@ -140,7 +140,7 @@ export default function MidSizeSecondSec() {
             Automate expense<br className="hidden md:inline" /> and accounting<br className="hidden md:inline" /> busywork with AI.
           </h2>
           <p className="text-gray-600 text-base md:text-lg mb-4">
-            Brex AI automates receipt capture, expense categorization, and manager approvals so you can close the books faster. And Brex Assistant instantly answers employee questions, like: “How much can I spend on a team dinner?”
+            Equate AI automates receipt capture, expense categorization, and manager approvals so you can close the books faster. And Equate Assistant instantly answers employee questions, like: “How much can I spend on a team dinner?”
           </p>
           <a
             href="#"

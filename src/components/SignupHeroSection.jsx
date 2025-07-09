@@ -1,9 +1,9 @@
 import React from "react";
 
 const defaultBgUrl =
-  "https://brand.brex.com/transform/b456b630-23dd-444f-8452-eb3b5e35a0bb/Prefooter-Background?io=transform:fit,width:2000,height:758&quality=95";
+  "/assets/startups/cta-bg.webp";
 const defaultIllustrationUrl =
-  "https://brand.brex.com/transform/d9ab580b-fa31-40d4-891b-e5e1453c0447/Signup-Illustration?io=transform:fit,width:2000,height:1938&quality=95";
+  "/assets/travel/mobile.png";
 
 export default function SignupHeroSection({
   title,
@@ -17,7 +17,7 @@ export default function SignupHeroSection({
 }) {
   return (
     <section
-      className="relative w-full min-h-[500px] flex items-center justify-center py-12 md:py-24"
+      className="relative w-full  py-12 md:py-24"
       style={{
         backgroundImage: `url(${bgUrl})`,
         backgroundSize: "cover",
@@ -25,7 +25,7 @@ export default function SignupHeroSection({
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="max-w-[1920px] md-3 md:px-12 mx-auto flex flex-col-reverse md:flex-row items-center justify-center ">
+      <div className="max-w-[1920px] px-3 md:px-12 mx-auto flex flex-col-reverse md:flex-row items-center justify-between ">
         {/* Left Column */}
         <div className="w-full md:w-1/1 flex flex-col items-start justify-center text-white z-10 ">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-white">
@@ -54,7 +54,7 @@ export default function SignupHeroSection({
           <img
             src={illustrationUrl}
             alt="Signup illustration"
-            className="max-w-[600px] w-full h-auto object-contain"
+            className="max-w-[400px] w-full h-auto object-contain"
             loading="lazy"
           />
         </div>

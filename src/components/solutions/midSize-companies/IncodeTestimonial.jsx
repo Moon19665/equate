@@ -8,7 +8,7 @@ export default function IncodeTestimonial() {
         "https://brand.brex.com/transform/c6bad31c-e06e-434c-ba0d-d3c49293aa72/Business-travel-preview?io=transform:fit,width:2500,height:1313&quality=95",
       title: "Business travel reimagined: The modern way to do T&E",
       description:
-        "It took a technology partnership and an overhaul of the entire process to create Brex travel, but business travel is finally good again.",
+        "It took a technology partnership and an overhaul of the entire process to create Equate travel, but business travel is finally good again.",
       link: "#",
       author: null,
       authorType: null,
@@ -61,7 +61,7 @@ export default function IncodeTestimonial() {
         {/* Incode Logo */}
         <div className="mb-6 flex justify-center">
           <img
-            src="https://brand.brex.com/transform/e8b524bf-4811-4501-b303-3c6ee601e92f/Incode-Logo?io=transform:fit,width:2000,height:500&quality=95"
+            src="/assets/midsize/Incode-Logo.webp"
             alt="Incode Logo"
             className="h-10 md:h-12 w-auto object-contain"
             loading="lazy"
@@ -69,7 +69,7 @@ export default function IncodeTestimonial() {
         </div>
         {/* Quote */}
         <blockquote className="max-w-3xl mx-auto text-center text-xl md:text-2xl text-gray-900 font-normal leading-snug mb-6">
-          “Brex travel gives our employees easy access to great options and
+          Equate travel gives our employees easy access to great options and
           rates, and our policies are auto-enforced, so it's easy for them to
           book the air and hotel they want while staying in policy.”
         </blockquote>

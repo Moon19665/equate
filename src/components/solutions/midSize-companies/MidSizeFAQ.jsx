@@ -9,19 +9,19 @@ const faqs = [
       "T&E stands for Travel and Expense. It refers to the costs and processes associated with business travel and related expenses.",
   },
   {
-    question: "What is T&E on Brex?",
+    question: "What is T&E on Equate?",
     answer:
-      "T&E on Brex refers to Brex's integrated solution for managing travel bookings and expense reporting in one unified platform.",
+      "T&E on Equate refers to Equate's integrated solution for managing travel bookings and expense reporting in one unified platform.",
   },
   {
-    question: "How does Brex compare to other travel management solutions?",
+    question: "How does Equate compare to other travel management solutions?",
     answer:
-      "Brex offers a modern, unified platform for travel and expense management, with automated policy enforcement, real-time tracking, and seamless user experience.",
+      "Equate offers a modern, unified platform for travel and expense management, with automated policy enforcement, real-time tracking, and seamless user experience.",
   },
   {
-    question: "Does Brex have a business travel management app?",
+    question: "Does Equate have a business travel management app?",
     answer:
-      "Yes, Brex provides a mobile app for business travel management, allowing employees to book travel, manage expenses, and stay in policy on the go.",
+      "Yes, Equate provides a mobile app for business travel management, allowing employees to book travel, manage expenses, and stay in policy on the go.",
   },
 ];
 
