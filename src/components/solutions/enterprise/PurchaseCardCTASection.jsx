@@ -12,13 +12,13 @@ const PurchaseCardCTASection = () => {
 
       {/* Section: Purchase Cards CTA */}
       <section
-        className="w-full px-4  py-20 bg-cover bg-center text-white"
+        className="w-full  py-20 bg-cover bg-center text-white"
         style={{
           backgroundImage:
-            "url('https://brand.brex.com/transform/64a56a7f-bfeb-4f6e-9029-1b4a854abfc7/P-Card-CTA-BG-Updated?io=transform:fit,width:2000,height:690&quality=95')",
+            "url('/assets/enterprise/cta-bg.webp')",
         }}
       >
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between bg-black rounded-2xl p-10 shadow-xl">
+        <div className="max-w-[1920px] px-3 md:px-12 mx-auto flex flex-col lg:flex-row items-center justify-between bg-black ">
           <div className="lg:w-1/2 mb-10 lg:mb-0 text-left">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
               Looking for purchase cards?

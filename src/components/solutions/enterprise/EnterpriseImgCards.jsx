@@ -45,7 +45,7 @@ export default function EnterpriseImgCards() {
           Personalize spend limits and policies to each entity’s customs and currency. The right policy will be intelligently applied to expenses and reimbursements, and expense reports will be auto-filled to boost compliance.          </p>
           <a
             href="#"
-            className="inline-block text-orange-600 font-medium text-base md:text-lg hover:underline transition"
+            className="inline-block text-[#033175] font-medium text-base md:text-lg hover:underline transition"
           >
            Explore Equate expense management <span aria-hidden="true">→</span>
           </a>
@@ -83,7 +83,7 @@ export default function EnterpriseImgCards() {
           Personalize spend limits and policies to each entity’s customs and currency. The right policy will be intelligently applied to expenses and reimbursements, and expense reports will be auto-filled to boost compliance.          </p>
           <a
             href="#"
-            className="inline-block text-orange-600 font-medium text-base md:text-lg hover:underline transition"
+            className="inline-block text-[#033175] font-medium text-base md:text-lg hover:underline transition"
           >
            Explore Brex expense management <span aria-hidden="true">→</span>
           </a>
@@ -101,7 +101,7 @@ export default function EnterpriseImgCards() {
           Ensure accuracy and close the books faster. Track VAT and export it to your ERP automatically to comply with local tax rules. Automatically classify and export transactions to the correct subsidiary with entity-level ERP mapping.          </p>
           <a
             href="#"
-            className="inline-block text-orange-600 font-medium text-base md:text-lg hover:underline transition"
+            className="inline-block text-[#033175] font-medium text-base md:text-lg hover:underline transition"
           >
             Explore accounting automations<span aria-hidden="true">→</span>
           </a>
@@ -151,7 +151,7 @@ export default function EnterpriseImgCards() {
           Issue Brex virtual cards with built-in controls directly in third-party procurement, travel, and ERP platforms to save time, control costs, and automate reconciliation across every type of spend.</p>
           <a
             href="#"
-            className="inline-block text-orange-600 font-medium text-base md:text-lg hover:underline transition"
+            className="inline-block text-[#033175] font-medium text-base md:text-lg hover:underline transition"
           >
           Explore Equate Embedded solutions <span aria-hidden="true">→</span>
           </a>
