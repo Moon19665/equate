@@ -6,73 +6,30 @@ export default function GlobalHeroSection() {
   const [email, setEmail] = useState('');
 
   return (
-    <section className="relative min-h-screen w-full overflow-hidden">
-      {/* Desktop Video Background */}
+    <section className="relative  w-full overflow-hidden">
+      {/* Desktop Background Image */}
       <div className="hidden md:block absolute inset-0 z-0">
-        <video
-          name="Global-Hero-Desktop-R13-opt"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          poster="https://brand.brex.com/m/5fd5f034d1741bf4/webimage-Global-Hero-Desktop-R13-opt.jpg"
+        <img
+          src="/assets/global/global-bg.png"
+          alt="Global Hero Desktop"
           className="w-full h-full object-cover"
-          crossOrigin="anonymous"
-        >
-          <source
-            src="https://brand.brex.com/m/5fd5f034d1741bf4/original/Global-Hero-Desktop-R13-opt.mp4"
-            type="video/mp4"
-          />
-          <img
-            src="https://brand.brex.com/m/5fd5f034d1741bf4/webimage-Global-Hero-Desktop-R13-opt.jpg"
-            alt="Global Hero"
-            className="w-full h-full object-cover"
-          />
-        </video>
-      </div>
-      {/* Mobile Video */}
-      <div className="md:hidden w-full">
-        <video
-          name="Global-Hero-Mobile-R13_Compressed"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          poster="https://brand.brex.com/m/1f639e949186e05f/webimage-Global-Hero-Mobile-R13_Compressed.jpg"
-          className="w-full h-auto object-cover"
-          crossOrigin="anonymous"
-        >
-          <source
-            src="https://brand.brex.com/m/1f639e949186e05f/original/Global-Hero-Mobile-R13_Compressed.mp4"
-            type="video/mp4"
-          />
-          <img
-            src="https://brand.brex.com/m/1f639e949186e05f/webimage-Global-Hero-Mobile-R13_Compressed.jpg"
-            alt="Global Hero"
-            className="w-full h-auto object-cover"
-          />
-        </video>
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-transparent"></div>
       </div>
 
-      {/* Overlay for readability (desktop only) */}
-      <div className="hidden md:block absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-transparent z-0"></div>
-
-      {/* Currency Selector (visible on all screens, adjust as needed) */}
-      <div className="absolute top-8 right-8 z-20">
-        <div className="bg-white/80 backdrop-blur-md border border-gray-300 rounded-full flex items-center px-4 py-2 shadow-md">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg"
-            alt="UK Flag"
-            className="w-6 h-6 rounded-full mr-2"
-          />
-          <span className="font-medium text-gray-800 mr-2">GBP</span>
-          <span className="text-gray-500 font-semibold">£</span>
-        </div>
+      {/* Mobile Background Image */}
+      <div className="md:hidden absolute inset-0 z-0">
+        <img
+          src="/assets/global/global-bg.png"
+          alt="Global Hero Mobile"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
-      {/* Desktop Content Overlay */}
+     
+
+      {/* Desktop Content */}
       <div className="hidden md:flex relative z-10 flex-col justify-center min-h-screen pl-24">
         <div className="max-w-xl pt-32 md:pt-0">
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight drop-shadow-lg">
@@ -101,8 +58,8 @@ export default function GlobalHeroSection() {
         </div>
       </div>
 
-      {/* Mobile Content Overlay (black background, white text) */}
-      <div className="md:hidden relative z-10 bg-black py-16 px-4 flex flex-col justify-center">
+      {/* Mobile Content */}
+      <div className="md:hidden relative z-10 bg-transparent py-16 px-4 flex flex-col justify-center">
         <div className="max-w-xl mx-auto">
           <h1 className="text-white text-4xl font-bold mb-4">
             Spend globally.<br />Operate locally.

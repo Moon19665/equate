@@ -14,29 +14,14 @@ export default function GlobalDiagramSection() {
       </div>
       {/* Responsive Video Diagram */}
       <div className="max-w-7xl mx-auto">
-        <div className="w-full rounded-2xl overflow-hidden  bg-gray-100">
-          <video
-            name="Global diagram"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="none"
-            poster="https://brand.brex.com/m/47f134372a614b38/webimage-Brex-Product-Preview-Desktop-opt4.jpg"
-            className="w-full h-auto object-contain"
-            crossOrigin="anonymous"
-          >
-            <source
-              src="https://brand.brex.com/m/47f134372a614b38/original/Brex-Product-Preview-Desktop-opt4.mp4"
-              type="video/mp4"
-            />
-            <img
-              src="https://brand.brex.com/m/47f134372a614b38/webimage-Brex-Product-Preview-Desktop-opt4.jpg"
-              alt="Global Platform Diagram"
-              className="w-full h-auto object-contain"
-            />
-          </video>
-        </div>
+       <div className="w-full rounded-2xl overflow-hidden bg-gray-100">
+  <img
+    src="/assets/automation/equate-ss.png"
+    alt="Global Platform Diagram"
+    className="w-full h-auto object-contain"
+  />
+</div>
+
       </div>
     </section>
   );

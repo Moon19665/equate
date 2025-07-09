@@ -23,7 +23,7 @@ export default function IndustryCoverageSection() {
         {/* Map Image */}
         <div className="max-w-7xl mx-auto">
           <img
-            src="/_next/image?url=https%3A%2F%2Fbrand.brex.com%2Ftransform%2F219a91a6-553b-4c1d-aeb1-8814cd9fcbd7%2FGlobal-Map-mobile&w=3840&q=100"
+            src="/assets/global/map.png"
             alt="Global Map Coverage"
             className="w-full h-auto rounded-2xl  object-contain"
             loading="lazy"

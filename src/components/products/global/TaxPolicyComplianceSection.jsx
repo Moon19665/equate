@@ -1,13 +1,13 @@
 export default function TaxPolicyComplianceSection() {
     const features = [
       {
-        image: "https://brand.brex.com/transform/1254df65-0c8b-4148-97c7-074200a6d1ec/Travel-policy?io=transform:fit,width:2000,height:1550&quality=95",
+        image: "/assets/integrations/onboarding.png",
         title: "Localized expense policies and compliance.",
         description:
           "Customize policies to local markets, currencies, tax regulations, and team needs — we’ll ensure employees are compliant everywhere.",
       },
       {
-        image: "https://brand.brex.com/transform/20144e6b-b64b-426a-9a99-58f3684d2919/multi-currency?io=transform:fit,width:2000,height:1215&quality=95",
+        image: "/assets/integrations/wix.png",
         title: "Multi-currency receipt matching.",
         description: (
           <>
@@ -18,7 +18,7 @@ export default function TaxPolicyComplianceSection() {
         ),
       },
       {
-        image: "https://brand.brex.com/transform/33275e1f-8dca-4965-994c-555787200ccf/VAT-tracking?io=transform:fit,width:2000,height:1550&quality=95",
+        image: "/assets/integrations/sage.png",
         title: "VAT tracking to simplify tax reporting.",
         description:
           "Brex collects and stores VAT information across international expenses that you can export to your ERP for recapture and compliance with local tax regulations.",
@@ -43,7 +43,7 @@ export default function TaxPolicyComplianceSection() {
                 <img
                   src={f.image}
                   alt={f.title}
-                  className="max-h-44 w-auto rounded-lg object-contain"
+                  className=" w-auto rounded-lg object-contain"
                   loading="lazy"
                 />
               </div>

@@ -44,34 +44,19 @@ export default function LocalCurrencySection() {
         </h2>
       </div>
       {/* Content Row */}
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-12">
-        {/* Right: Video */}
-        <div className="w-full flex justify-center">
-          <div className="w-full ">
-            <video
-              name="Global diagram"
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="none"
-              poster="https://brand.brex.com/m/4b7bafe405d2c72b/webimage-Global-diagram.jpg"
-              className="w-full h-auto  object-contain"
-              crossOrigin="anonymous"
-            >
-              <source
-                src="https://brand.brex.com/m/4b7bafe405d2c72b/original/Global-diagram.mp4"
-                type="video/mp4"
-              />
-              <img
-                src="https://brand.brex.com/m/4b7bafe405d2c72b/webimage-Global-diagram.jpg"
-                alt="Global currency diagram"
-                className="w-full h-auto object-contain"
-              />
-            </video>
-          </div>
-        </div>
-      </div>
+   <div className="max-w-3xl mx-auto flex flex-col md:flex-row items-center justify-center gap-12">
+  {/* Right: Image */}
+  <div className="w-full flex justify-center">
+    <div className="w-full">
+      <img
+        src="/assets/global/spent.png"
+        alt="Global currency diagram"
+        className="w-full h-auto object-contain"
+      />
+    </div>
+  </div>
+</div>
+
     </section>
      <section className="w-full bg-white py-12 px-3 md:px-12">
      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

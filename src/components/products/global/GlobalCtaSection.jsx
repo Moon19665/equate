@@ -28,9 +28,9 @@ export default function GlobalCtaSection() {
         {/* Right: Illustration */}
         <div className="w-full md:w-1/2 flex justify-end items-center">
           <img
-            src="https://brand.brex.com/transform/d9ab580b-fa31-40d4-891b-e5e1453c0447/Signup-Illustration?io=transform:fit,width:2000,height:1938&quality=95"
+            src="/assets/automation/triplet.png"
             alt="Brex Illustration"
-            className="w-full max-w-md h-auto object-contain"
+            className="w-full max-w-md h-auto rounded-xl object-contain"
             loading="lazy"
           />
         </div>
