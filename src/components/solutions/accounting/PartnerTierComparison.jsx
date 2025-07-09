@@ -6,13 +6,13 @@ const tiers = ['Gold', 'Platinum', 'Diamond'];
 const data = [
   { feature: 'Number of referrals', values: ['1-9', '10-29', '30+'] },
   { feature: 'Revenue share', values: [true, true, true] },
-  { feature: 'Brex Pro Access', values: [true, true, true] },
+  { feature: 'Equate Pro Access', values: [true, true, true] },
   { feature: 'Dedicated partner success manager', values: [true, true, true] },
   { feature: 'Premium support & implementation services', values: [true, true, true] },
   { feature: 'Inclusion in Find-An-Accountant Directory', values: [true, true, true] },
   { feature: 'Partner level badges', values: [true, true, true] },
   { feature: 'Featured listing', values: [false, true, true] },
-  { feature: 'Brex.com branded webpage', values: [false, true, true] },
+  { feature: 'Equate.com branded webpage', values: [false, true, true] },
   { feature: 'Co-marketing opportunities', values: [false, true, true] },
   { feature: 'Co-hosted events & webinars', values: [false, false, true] },
   { feature: 'Strategic Advisory Council eligibility', values: [false, false, true] },
@@ -22,7 +22,7 @@ const data = [
 export default function PartnerTierComparison() {
   return (
     <section className="w-full py-20 bg-white overflow-x-auto">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-[1920px] mx-auto px-3 md:px-12">
         <table className="w-full table-auto border-collapse text-sm md:text-base">
           <thead>
             <tr className="text-left">

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function BecomePartnerSection() {
   return (
-    <section className="w-full bg-black text-white">
+    <section className="w-full max-w-[1920px] mx-auto px-3 md:px-12 bg-black text-white">
       {/* Desktop View */}
       <div
         className="hidden md:flex justify-between items-center px-8 lg:px-20 py-24 bg-no-repeat bg-cover bg-center"

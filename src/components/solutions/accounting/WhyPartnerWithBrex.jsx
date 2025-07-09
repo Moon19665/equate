@@ -8,7 +8,7 @@ export default function WhyPartnerWithBrex() {
     <div className="max-w-7xl mx-auto px-4 lg:px-8 py-16">
       <div className="text-center max-w-3xl mx-auto mb-14">
         <h2 className="text-3xl sm:text-4xl font-bold text-black mb-4">
-          Why partner with Brex?
+          Why partner with Equate?
         </h2>
         <p className="text-gray-600 text-lg leading-relaxed">
           Manage all of your clients in one platform — with accounting automation, real-time spend insights, <br className="hidden sm:inline-block" /> and AP workflows that save you time and your clients money.
@@ -21,13 +21,13 @@ export default function WhyPartnerWithBrex() {
             Manage multiple clients with one login.
           </h3>
           <p className="text-gray-700 text-[16px] mb-6">
-            Brex ProAccess lets you sign into your dashboard and toggle between all of your client accounts. Your clients grant you access once, and you're good to go.
+            Equate ProAccess lets you sign into your dashboard and toggle between all of your client accounts. Your clients grant you access once, and you're good to go.
           </p>
           <a
             href="#"
             className="text-orange-600 font-semibold text-[15px] hover:underline inline-flex items-center"
           >
-            Explore Brex ProAccess &rarr;
+            Explore Equate ProAccess &rarr;
           </a>
         </div>
         <div className="flex-1 w-full max-w-md">
@@ -65,7 +65,7 @@ export default function WhyPartnerWithBrex() {
             href="#"
             className="text-orange-600 font-semibold text-[15px] hover:underline inline-flex items-center"
           >
-            Explore Brex accounting automation &rarr;
+            Explore Equate accounting automation &rarr;
           </a>
         </div>
 
@@ -80,7 +80,7 @@ export default function WhyPartnerWithBrex() {
             Attract new clients and earn rewards.
           </h3>
           <p className="text-gray-700 text-[16px] mb-4">
-            Earn rewards for every qualified client you refer to Brex, and increase your firm’s reach within our directory.
+            Earn rewards for every qualified client you refer to Equate, and increase your firm’s reach within our directory.
           </p>
           <ul className="list-disc pl-5 text-gray-700 text-[16px] space-y-2 mb-6">
             <li>Earn revenue share and tiered rewards that scale.</li>
@@ -108,7 +108,7 @@ export default function WhyPartnerWithBrex() {
 
      {/* Quote */}
      <blockquote className="text-2xl sm:text-3xl font-light text-black leading-relaxed mb-6">
-       “We love being a Brex accounting partner. I’ve been a fan of Brex since day zero, and even more since the integration and partnership.”
+       “We love being a Equate accounting partner. I’ve been a fan of Equate since day zero, and even more since the integration and partnership.”
      </blockquote>
 
      {/* Author */}
