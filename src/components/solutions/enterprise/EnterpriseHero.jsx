@@ -10,7 +10,7 @@ export default function MidSizeHero() {
   };
 
   return (
-    <section className="w-full bg-black text-white">
+    <section className="w-full ">
       <div className="max-w-[1920px] mx-auto px-3 md:px-12 py-16 lg:py-24">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           
@@ -19,11 +19,11 @@ export default function MidSizeHero() {
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-semibold leading-tight mb-6">
               Optimize your spend on a global scale.
             </h1>
-            <p className="text-lg lg:text-xl text-gray-300 mb-8 leading-relaxed">
+            <p className="text-lg lg:text-xl mb-8 leading-relaxed">
               Global travel and spend management for unmatched efficiency and control in any market.
             </p>
 
-            <form onSubmit={handleSubmit} className="w-full max-w-md">
+            <form onSubmit={handleSubmit} className="w-full max-w-xl">
               <div className="flex w-full py-2 rounded-xl border border-gray-200 bg-white overflow-hidden">
                 <input
                   type="email"
@@ -42,16 +42,16 @@ export default function MidSizeHero() {
               </div>
             </form>
 
-            <p className="text-sm text-gray-400 mt-4">
+            <p className="text-sm mt-4">
               Equate is a financial technology company, not a bank. Checking and banking services provided by Column N.A., Member FDIC.
             </p>
           </div>
 
           {/* Right Column: Image */}
           <div className="w-full lg:w-1/2">
-            <div className="rounded-2xl overflow-hidden shadow-lg">
+            <div className="rounded-2xl overflow-hidden ">
               <img
-                src="https://brand.brex.com/transform/d9e28e22-e1ee-4f0a-ae37-efd6cce9c857/Enterprise-Header-Mobile?io=transform:fit,width:2000,height:1538&quality=95"
+                src="/assets/enterprise/hero-bg.png"
                 alt="Equate financial platform interface"
                 className="w-full h-full object-cover object-center"
               />

@@ -9,54 +9,54 @@ const EnterpriseOverviewSection = () => {
     <>
     
 
-      {/* Section: Implement Brex in Weeks */}
+      {/* Section: Implement Equate in Weeks */}
       <section className="w-full bg-[#f8f9fb]  py-16">
         <div className="max-w-[1920px] px-3 md:px-12 mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
           <div className="lg:w-1/2 text-left">
-            <h2 className="text-3xl font-semibold mb-4">Implement Brex in weeks.</h2>
+            <h2 className="text-3xl font-semibold mb-4">Implement Equate in weeks.</h2>
             <p className="text-gray-600 mb-4">
-              Brex provides comprehensive professional services, change management, and ongoing support to help you go live in as little as 6 to 8 weeks. No matter your unique challenge, we’ll solve it.
+              Equate provides comprehensive professional services, change management, and ongoing support to help you go live in as little as 6 to 8 weeks. No matter your unique challenge, we’ll solve it.
             </p>
-            <a href="#" className="text-orange-600 font-medium inline-flex items-center hover:underline">
+            <a href="#" className="text-[#033175] font-medium inline-flex items-center hover:underline">
               See our implementation process →
             </a>
           </div>
-          <div className="lg:w-1/2">
+          <div className="lg:w-1/2 flex justify-end">
             <Image
-              src="https://brand.brex.com/transform/92780014-0b3b-4116-94bd-6c1120f650fc/Enterprise-Services-hero?io=transform:fit,width:2000,height:1803&quality=95"
+              src="/assets/enterprise/team.png"
               alt="Implementation timeline"
-              width={1000}
-              height={800}
+              width={400}
+              height={400}
               className=""
             />
           </div>
         </div>
       </section>
 
-      {/* Section: Brex Global is Enterprise Ready */}
+      {/* Section: Equate Global is Enterprise Ready */}
       <section
         className="w-full py-16 text-black bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://brand.brex.com/transform/1a6e3aad-a8b9-4b32-a35c-2945c15bd9d1/Global-Enterprise-Ready-BG?io=transform:fit,width:2000,height:1165&quality=95')",
+            "url('/assets/enterprise/overlay.webp')",
         }}
       >
         <div className=" rounded-xl max-w-[1920px] px-3 md:px-12 mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 ">
           <div className="lg:w-1/2">
             <Image
-              src="https://brand.brex.com/transform/abbbb54e-66b5-470d-bed9-cc11730c4610/Global-Enterprise-Ready?io=transform:fit,width:2000,height:1915&quality=95"
+              src="/assets/enterprise/code.png"
               alt="Enterprise ready phone"
-              width={300}
+              width={1000}
               height={900}
-              className=""
+              className="mix-blend-multiply"
             />
           </div>
           <div className="lg:w-1/2 text-left xl:text-right">
-            <h2 className="text-3xl font-semibold mb-4">Brex global is enterprise-ready.</h2>
+            <h2 className="text-3xl font-semibold mb-4">Equate global is enterprise-ready.</h2>
             <p className="text-gray-700 mb-4">
               Get the highest levels of customization and security — from account co-branding to fraud monitoring.
             </p>
-            <a href="#" className="text-orange-600 font-medium inline-flex items-center hover:underline mb-4">
+            <a href="#" className="text-[#033175] font-medium inline-flex items-center hover:underline mb-4">
               See how we protect you →
             </a>
             <ul className="text-sm text-gray-800 space-y-2">

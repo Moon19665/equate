@@ -13,10 +13,10 @@ const PurchaseCardCTASection = () => {
       {/* Section: Purchase Cards CTA */}
       <section
         className="w-full  py-20 bg-cover bg-center text-white"
-        style={{
-          backgroundImage:
-            "url('/assets/enterprise/cta-bg.webp')",
-        }}
+        // style={{
+        //   backgroundImage:
+        //     "url('/assets/enterprise/cta-bg.webp')",
+        // }}
       >
         <div className="max-w-[1920px] px-3 md:px-12 mx-auto flex flex-col lg:flex-row items-center justify-between bg-black ">
           <div className="lg:w-1/2 mb-10 lg:mb-0 text-left">
@@ -30,13 +30,13 @@ const PurchaseCardCTASection = () => {
               Explore Equate p-cards
             </button>
           </div>
-          <div className="lg:w-1/2">
+          <div className="lg:w-1/2 flex justify-end rounded-xl ">
             <Image
-              src="https://brand.brex.com/transform/2d3221de-594c-41e2-8ab1-d64b8eee2884/P-Card-CTA-Image-updated?io=transform:fit,width:2000,height:1440&quality=95"
+              src="/assets/enterprise/apple.png"
               alt="P-card UI preview"
-              width={1000}
+              width={500}
               height={600}
-              className=""
+              className="p-2 bg-white"
             />
           </div>
         </div>

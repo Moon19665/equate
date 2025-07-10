@@ -38,17 +38,17 @@ export default function InterpriseFAQ() {
             <div key={index} className="group">
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full text-left px-6 py-5 flex items-center justify-between hover:bg-gray-50 transition"
+                className="w-full text-left py-5 flex items-center justify-between hover:bg-gray-50 transition"
               >
                 <span className="text-black font-medium text-[16px]">
                   {faq.question}
                 </span>
-                <span className="ml-4 text-gray-500">
+                <span className="text-gray-500">
                   {openIndex === index ? <FaChevronUp /> : <FaChevronDown />}
                 </span>
               </button>
               {openIndex === index && (
-                <div className="px-6 pb-6 text-gray-700 text-[15px] leading-relaxed">
+                <div className="px-2 pb-6 text-gray-700 text-[15px] leading-relaxed">
                   {faq.answer}
                 </div>
               )}
