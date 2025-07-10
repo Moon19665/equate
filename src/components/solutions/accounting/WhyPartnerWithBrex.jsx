@@ -25,14 +25,14 @@ export default function WhyPartnerWithBrex() {
           </p>
           <a
             href="#"
-            className="text-orange-600 font-semibold text-[15px] hover:underline inline-flex items-center"
+            className="text-[#033175] font-semibold text-[15px] hover:underline inline-flex items-center"
           >
             Explore Equate ProAccess &rarr;
           </a>
         </div>
         <div className="flex-1 w-full max-w-md">
           <img
-            src="https://brand.brex.com/transform/a18785e0-cef3-46bb-a010-24bfb7c2da45/Frame-1073717318?io=transform:fit,width:2000,height:1253&quality=95"
+            src="/assets/accounting/client.png"
             alt="Switch client"
             className="w-full h-auto rounded-lg shadow-md"
           />
@@ -72,7 +72,7 @@ export default function WhyPartnerWithBrex() {
         {/* Right Box: Attract Clients */}
         <div className="bg-[#f6f7fa] rounded-xl p-6 md:p-10">
           <img
-            src="https://brand.brex.com/transform/bf991f74-86d1-4b0e-84c9-d02cbea56b69/Accounting-partners-volley?io=transform:fit,width:2000,height:1338&quality=95"
+            src="/assets/accounting/trust.png"
             alt="Accountant directory"
             className="w-full h-auto mb-6 rounded-lg"
           />
@@ -101,7 +101,7 @@ export default function WhyPartnerWithBrex() {
    <div className="max-w-4xl mx-auto px-4 text-center">
      {/* Inkle Logo */}
      <img
-       src="https://brand.brex.com/transform/a925636c-9b43-40ae-9058-75a75211c525/Inkle-Logo?io=transform:fit,width:2000,height:755&quality=95"
+       src="/assets/accounting/Inkle-Logo.webp"
        alt="Inkle Logo"
        className="mx-auto h-10 mb-6 object-contain"
      />

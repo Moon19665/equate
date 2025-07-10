@@ -2,7 +2,7 @@
 
 export default function AccountingPartnerSection() {
   return (
-    <section className="w-full bg-[#f7f8fa] py-16">
+    <section className="w-full  py-16">
       <div className="max-w-[1920px] mx-auto px-3 md:px-12 flex flex-col lg:flex-row items-center gap-12">
         {/* Left Column */}
         <div className="flex-1 max-w-full">
@@ -14,15 +14,15 @@ export default function AccountingPartnerSection() {
           </p>
           <div className="w-full">
             <img
-              src="https://brand.brex.com/transform/2f6cd8a7-4a07-47bd-a3c2-90eaac3852b9/accounting-partner_hero?io=transform:fit,width:2000,height:1273&quality=95"
+              src="/assets/accounting/hero-img.png"
               alt="Equate for accounting firms"
-              className="w-full h-auto rounded-xl max-w-3xl"
+              className="w-full h-auto rounded-xl max-w-xl"
             />
           </div>
         </div>
 
         {/* Right Column (Form) */}
-        <div className="flex-1 w-full bg-white p-8 rounded-xl shadow-md max-w-xl">
+        <div className="flex-1 w-full bg-white  rounded-xl  max-w-xl">
           <h3 className="text-xl font-semibold text-black mb-6">
             Talk to a dedicated partner manager.
           </h3>

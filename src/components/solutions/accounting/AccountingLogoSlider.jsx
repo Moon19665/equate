@@ -3,14 +3,14 @@
 import Image from 'next/image';
 
 const logos = [
-  "https://brand.brex.com/transform/3bf04ed7-15aa-443b-b018-49108ddbc664/Lazo?io=transform:fit,width:280,height:140&quality=95",
-  "https://brand.brex.com/transform/af377341-1eaf-42e1-80a0-ecc81c66cfd5/Escalon?io=transform:fit,width:372,height:130&quality=95",
-  "https://brand.brex.com/transform/8cb32b3b-9bf1-410b-8b91-8e2de7e0528c/1618309117522?io=transform:fit,width:322,height:100&quality=95",
-  "https://brand.brex.com/transform/c5a8cfc9-8f1e-4610-8211-4c3b11f4129e/kruze-logo-2x?io=transform:fit,width:346,height:100&quality=95",
-  "https://brand.brex.com/transform/46f9deaa-b571-4836-906e-f51a14772d4e/Burkland-Logo?io=transform:fit,width:432,height:90&quality=95",
-  "https://brand.brex.com/transform/53b4b29b-fe0f-4baa-8ad3-4a1d88713264/Inkle?io=transform:fit,width:190,height:70&quality=95",
-  "https://brand.brex.com/transform/2f867d1c-ac14-48bf-8ba5-eede4a892848/digits-logo?io=transform:fit,width:322,height:90&quality=95",
-  "https://brand.brex.com/transform/c0aba9d0-3ba4-49dd-90c2-dcc6af3694e5/trivium-logo?io=transform:fit,width:372,height:90&quality=95",
+  "/assets/accounting/Lazo.webp",
+  "/assets/accounting/Escalon.webp",
+  "/assets/accounting/1618309117522.webp",
+  "/assets/accounting/kruze-logo.webp",
+  "/assets/accounting/Burkland-Logo.webp",
+  "/assets/accounting/Inkle.webp",
+  "/assets/accounting/digits-logo.webp",
+  "/assets/accounting/trivium-logo.webp",
 ];
 
 // Duplicate list for seamless infinite scroll
