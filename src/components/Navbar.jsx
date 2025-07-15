@@ -591,7 +591,7 @@ export default function Navbar() {
       <div className="max-w-[1920px] mx-auto flex items-center justify-between px-3 md:px-12">
         <Link href="/" className="flex items-center gap-2 py-3">
           <img
-            src="/logo.png"
+            src="/assets/bw-logo.png"
             alt="Brex Logo"
             className="w-auto"
             style={{ maxWidth: "120px" }}
