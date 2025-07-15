@@ -3,7 +3,7 @@
   { "id": "trusted", "component": "TrustedBySection", "visible": true },
   { "id": "features", "component": "FeaturesSection", "visible": true },
   { "id": "finHero", "component": "FinancialOperationsHero", "visible": false },
-  { "id": "testimonials", "component": "TestimonialSection", "visible": false },
+  { "id": "testimonials", "component": "TestimonialSection", "visible": true },
   { "id": "cta", "component": "BrexHeroCTA", "visible": true },
   { "id": "insights", "component": "InsightsCarousel", "visible": false }
 ]

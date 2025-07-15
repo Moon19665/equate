@@ -9,7 +9,7 @@ export default function TestimonialSection() {
       logo: (
         <img
           className="h-16 w-auto"
-          src="https://brand.brex.com/transform/562cb564-b9c0-4bf2-89bb-500790952152/HP-DD?io=transform:fit,width:2000,height:653&quality=95"
+          src="/assets/homepage-images/odoor.webp"
           alt="DoorDash logo"
         />
       ),
@@ -18,14 +18,14 @@ export default function TestimonialSection() {
       author: "Mike Kim",
       title: "Vice President of Finance, DoorDash",
       image:
-        "https://brand.brex.com/transform/d6e02b41-6540-4e6c-a495-db96a00499c3/doordash-HP?io=transform:fit,width:2000,height:1480&quality=95",
+        "/assets/homepage-images/door.webp",
     },
 
     SeatGeek: {
       logo: (
         <img
           className="h-16 w-auto"
-          src="https://brand.brex.com/transform/3c43480a-27de-45ff-b471-74ffba2c8122/HP-Seatgeek?io=transform:fit,width:2000,height:653&quality=95"
+          src="/assets/homepage-images/osea.webp"
           alt="SeekGate logo"
         />
       ),
@@ -34,13 +34,13 @@ export default function TestimonialSection() {
       author: "Mike Kim",
       title: "Vice President of Finance, SeatGeek",
       image:
-        "https://brand.brex.com/transform/ea4cbcb5-b876-402d-9aa5-7c2289ed4caa/Seat-geek-Teddy-Collins?io=transform:fit,width:2000,height:1488&quality=95",
+        "/assets/homepage-images/sea.webp",
     },
     Lemonade: {
       logo: (
         <img
           className="h-16 w-auto"
-          src="https://brand.brex.com/transform/c2056f12-6320-4431-818d-d0ea5d4d11a8/HP-Lemonade?io=transform:fit,width:2000,height:653&quality=95"
+          src="/assets/homepage-images/olemon.webp"
           alt="Lemonade"
         />
       ),
@@ -49,7 +49,7 @@ export default function TestimonialSection() {
       author: "Mike Kim",
       title: "Vice President of Finance, Lemonade",
       image:
-        "https://brand.brex.com/transform/e358cb2f-089e-4de2-882c-d9a89cc16c75/Lemonade-Case?io=transform:fit,width:2000,height:1488&quality=95",
+        "/assets/homepage-images/lemon.webp",
     },
   };
 
