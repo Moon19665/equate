@@ -180,8 +180,8 @@ export default function ControlsSection() {
         </div>
       </div>
 
-      <section className="w-full flex justify-center  bg-white">
-        <div className="w-full max-w-[1920px] pb-[32px] mx-auto flex flex-col items-center text-center md:text-start py-4 md:py-0 md:flex-row overflow-hidden ">
+      <section className="w-full flex justify-center pb-8 bg-white">
+        <div className="w-full max-w-[1920px]  mx-auto flex flex-col items-center text-center md:text-start py-4 md:py-0 md:flex-row overflow-hidden ">
           {/* Left Column: Content */}
           <div className="flex-1 flex flex-col justify-center items-start px-3 md:px-12 ">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-4 leading-tight">
