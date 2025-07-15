@@ -19,7 +19,7 @@ export default function equateSplitHero() {
           <div className="w-full md:w-1/2 h-64 md:h-auto relative">
             <img
               src="/assets/homepage-images/cta.png"
-              alt="Brex app on mobile"
+              alt="Equate app on mobile"
               className="w-full h-full object-cover"
               draggable={false}
             />

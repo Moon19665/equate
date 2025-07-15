@@ -47,7 +47,7 @@ export default function BrexFeatureSection() {
           <div className="flex-1 flex items-end">
             <img
               src="/assets/homepage-images/equate-cards.png"
-              alt="Brex Corporate Cards"
+              alt="Equate Corporate Cards"
               className="  object-contain  w-[160px]"
               loading="lazy"
             />
