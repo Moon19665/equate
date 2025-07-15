@@ -97,7 +97,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  // href="/business-banking"
+                  href="/business-banking"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiBriefcase className="text-xl text-[#222]" />
@@ -672,7 +672,7 @@ export default function Navbar() {
 
                       <li className="hover:text-[#033175]">
                         <a
-                          // href="/business-banking"
+                          href="/business-banking"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiBriefcase className="text-xl" />
