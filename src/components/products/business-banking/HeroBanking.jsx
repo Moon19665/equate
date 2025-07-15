@@ -30,7 +30,7 @@ export default function HeroBanking() {
             Smarter. Faster.<br />Business banking.
           </h1>
           <p className="text-base md:text-lg text-[#444] mb-6">
-            Earn up to <span className="text-[#2366d1] font-semibold">4.34%*</span> with same-hour liquidity, no hidden fees, and no minimums. Equate offers the highest-returning, lowest-risk treasury product. Period.
+            Earn up to <span className="text-[#033175] font-semibold">4.34%*</span> with same-hour liquidity, no hidden fees, and no minimums. Equate offers the highest-returning, lowest-risk treasury product. Period.
           </p>
 
           <form onSubmit={formik.handleSubmit} className="mt-8 w-full max-w-2xl">
