@@ -56,8 +56,8 @@ export default function Footer() {
                   { label: "Travel", href: "#" },
                   { label: "Startups", href: "#" },
                   { label: "Product release", href: "#" },
-                ].map(({ label, href }) => (
-                  <li key={href}>
+                ].map(({ label, href,index }) => (
+                  <li key={label}>
                     <Link
                       href={href}
                       className="hover:underline   cursor-pointer transition"
@@ -79,8 +79,8 @@ export default function Footer() {
                   { label: "Equate AI", href: "#" },
                   { label: "Global ready", href: "#" },
                   { label: "Native integrations", href: "#" },
-                ].map(({ label, href }) => (
-                  <li key={href}>
+                ].map(({ label, href,index }) => (
+                  <li key={label}>
                     <Link
                       href={href}
                       className="hover:underline   cursor-pointer transition"
@@ -98,9 +98,9 @@ export default function Footer() {
               </div>
 
               <ul className="space-y-2">
-                {[{ label: "Careers", href: "/careers" }].map(
+                {[{ label: "Careers", href: "#" }].map(
                   ({ label, href }) => (
-                    <li key={href}>
+                    <li key={label}>
                       <Link
                         href={href}
                         className="hover:underline   cursor-pointer transition"
@@ -123,8 +123,8 @@ export default function Footer() {
                   { label: "Help center", href: "#" },
                   { label: "Setup guide", href: "#" },
                   { label: "Webinars", href: "#" },
-                ].map(({ label, href }) => (
-                  <li key={href}>
+                ].map(({ label, href ,index}) => (
+                  <li key={label}>
                     <Link
                       href={href}
                       className="hover:underline   cursor-pointer transition"
