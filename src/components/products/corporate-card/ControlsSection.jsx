@@ -77,12 +77,12 @@ export default function ControlsSection() {
           {/* Testimonial */}
           <div className="flex flex-col items-center text-center">
             {/* <img
-              src="https://brand.brex.com/m/7e1c9f7c0b0e4e7d/webimage-goody-logo.png"
+              src="https://brand.Equate.com/m/7e1c9f7c0b0e4e7d/webimage-goody-logo.png"
               alt="Goody logo"
               className="h-8 mb-4"
             /> */}
             <blockquote className="text-2xl text-white font-medium mb-3 max-w-2xl">
-              “We’ve used our Brex rewards for a team offsite — and got a Times
+              “We’ve used our Equate rewards for a team offsite — and got a Times
               Square billboard.”
             </blockquote>
             <div className="text-[#b2b8be] mb-2">
@@ -165,7 +165,7 @@ export default function ControlsSection() {
             className="h-6 mb-3"
           /> */}
           <blockquote className="text-lg text-white font-medium mb-2">
-            “We’ve used our Brex rewards for a team offsite — and got a Times
+            “We’ve used our Equate rewards for a team offsite — and got a Times
             Square billboard.”
           </blockquote>
           <div className="text-[#b2b8be] text-[15px] mb-2">

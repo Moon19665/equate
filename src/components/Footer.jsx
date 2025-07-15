@@ -33,9 +33,7 @@ export default function Footer() {
               <div className="font-semibold mb-3 text-white text-[15px]">
                 Product
               </div>
-
-              <ul className="space-y-2">
-                {[
+{/* [
                   { label: "Corporate card", href: "/corporate-card" },
                   { label: "Business banking", href: "/business-banking" },
                   { label: "Expense management", href: "/spend-management" },
@@ -47,7 +45,18 @@ export default function Footer() {
                   { label: "Travel", href: "/travel" },
                   { label: "Startups", href: "/startups" },
                   { label: "Product release", href: "/spring-2025" },
-                ].map(({ label, href }) => (
+                ] */}
+              <ul className="space-y-2">
+                {[
+  { label: "Corporate card", href: "#" },
+  { label: "Business banking", href: "#" },
+  { label: "Expense management", href: "#" },
+  { label: "Accounting automation", href: "#" },
+  { label: "Bill pay", href: "#" },
+  { label: "Travel", href: "#" },
+  { label: "Startups", href: "#" },
+  { label: "Product release", href: "#" },
+].map(({ label, href }) => (
                   <li key={href}>
                     <Link
                       href={href}
@@ -67,9 +76,9 @@ export default function Footer() {
 
               <ul className="space-y-2">
                 {[
-                  { label: "Equate AI", href: "/equate-ai" },
-                  { label: "Global ready", href: "/global" },
-                  { label: "Native integrations", href: "/integrations" },
+                  { label: "Equate AI", href: "#" },
+                  { label: "Global ready", href: "#" },
+                  { label: "Native integrations", href: "#" },
                 ].map(({ label, href }) => (
                   <li key={href}>
                     <Link
@@ -111,9 +120,9 @@ export default function Footer() {
 
               <ul className="space-y-2">
                 {[
-                  { label: "Help center", href: "/support" },
-                  { label: "Setup guide", href: "/implementation" },
-                  { label: "Webinars", href: "/webinar" },
+                  { label: "Help center", href: "#" },
+                  { label: "Setup guide", href: "#" },
+                  { label: "Webinars", href: "#" },
                 ].map(({ label, href }) => (
                   <li key={href}>
                     <Link
@@ -189,7 +198,7 @@ export default function Footer() {
         </div>
 
         {/* Disclaimer */}
-        <div className="mt-12 text-[11px] text-[#b0b7bc] leading-snug space-y-2 max-w-5xl mx-auto">
+        {/* <div className="mt-12 text-[11px] text-[#b0b7bc] leading-snug space-y-2 max-w-5xl mx-auto">
           <p>
             *Total treasury return includes yield and additional return and is
             subject to the total balances in Checking, Treasury, and Vault.
@@ -269,7 +278,7 @@ export default function Footer() {
             user, per month, and more advanced features are available for $12
             per user, per month.
           </p>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

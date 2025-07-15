@@ -77,8 +77,8 @@ export default function FeaturesAccordion() {
   };
 
   return (
-    <div className="bg-gray-100 py-8 px-2 sm:px-6 min-h-screen">
-      <div className="max-w-7xl mx-auto">
+    <div className="bg-gray-100 py-8 ">
+      <div className="max-w-[1920px] mx-auto px-3 md:px-12">
         {accordionData.map((item, idx) => (
           <div key={item.label} className="border-b border-gray-200">
             <button

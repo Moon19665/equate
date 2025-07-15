@@ -2,9 +2,9 @@
 
 export default function TreasuryFeature() {
   return (
-    <div className="w-full bg-white py-12 px-4 flex flex-col items-center">
+    <div className="w-full bg-white py-12 flex flex-col items-center px-3 md:px-12">
       {/* Centered Heading and Subheading */}
-      <div className="w-full max-w-4xl mx-auto flex flex-col items-center text-center mb-12">
+      <div className="w-full max-w-[1920px] mx-auto flex flex-col items-center text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-[#111] mb-3">
           This is banking made powerful.
         </h1>
@@ -45,7 +45,7 @@ export default function TreasuryFeature() {
         </div>
 
         {/* Right: Video with Card Overlay */}
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-end">
           <div className="relative w-full max-w-md rounded-2xl overflow-hidden bg-[#eeeff7] flex items-center justify-between min-h-[340px]">
             <img
               src="/assets/corporate-card-ass/control.png"
@@ -57,7 +57,7 @@ export default function TreasuryFeature() {
       </div>
       <div className="w-full max-w-7xl mt-10 flex flex-col-reverse md:flex-row items-center gap-10">
         {/* Right: Video with Card Overlay */}
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-start">
           <div className="relative w-full max-w-md rounded-2xl overflow-hidden bg-[#eeeff7] flex items-center justify-between min-h-[340px]">
            <img
               src="/assets/business-banking/treasury.png"
@@ -123,7 +123,7 @@ export default function TreasuryFeature() {
           </ul>
         </div>
         {/* Right: Video with Card Overlay */}
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-end">
           <div className="relative w-full max-w-md rounded-2xl overflow-hidden bg-[#eeeff7] flex items-center justify-between min-h-[340px]">
           <img
               src="/assets/corporate-card-ass/expense.png"

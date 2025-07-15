@@ -8,7 +8,7 @@
   {
     "id": "carousel",
     "component": "Carousel",
-    "visible": true,
+    "visible": false,
     "props": {
       "title": "Latest Insights on Financial Technology",
       "slides": "insights"

@@ -46,7 +46,7 @@ export default function WhyPartnerWithBrex() {
         {/* Left Box: Boost Productivity */}
         <div className="bg-[#f9f9f9] rounded-xl p-6 md:p-10">
           <img
-            src="https://brand.brex.com/transform/4dfd311d-feb7-42dc-9100-e5051fdca030/Accounting-partners-volley-2?io=transform:fit,width:2000,height:1338&quality=95"
+            src="/assets/accounting/spiral.png"
             alt="ERP sync"
             className="w-full h-auto mb-6 rounded-lg"
           />
@@ -63,7 +63,7 @@ export default function WhyPartnerWithBrex() {
           </ul>
           <a
             href="#"
-            className="text-orange-600 font-semibold text-[15px] hover:underline inline-flex items-center"
+            className="text-[#033175] font-semibold text-[15px] hover:underline inline-flex items-center"
           >
             Explore Equate accounting automation &rarr;
           </a>
@@ -89,7 +89,7 @@ export default function WhyPartnerWithBrex() {
           </ul>
           <a
             href="#"
-            className="text-orange-600 font-semibold text-[15px] hover:underline inline-flex items-center"
+            className="text-[#033175] font-semibold text-[15px] hover:underline inline-flex items-center"
           >
             Explore Equate accountant directory &rarr;
           </a>

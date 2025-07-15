@@ -1,8 +1,8 @@
 export default function WebinarHeroSection() {
     return (
-      <section className="bg-[#f4f5fa] py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <p className="text-orange-600 font-medium text-sm mb-1">Webinars</p>
+      <section className="bg-[#f4f5fa] py-16 ">
+        <div className="max-w-[1920px] mx-auto px-3 md:px-12">
+          <p className="text-[#033175] font-medium text-sm mb-1">Webinars</p>
           <h1 className="text-3xl md:text-5xl font-bold text-[#111] leading-tight mb-10">
             Timely conversations and actionable <br className="hidden md:block" /> insights.
           </h1>
@@ -40,7 +40,7 @@ export default function WebinarHeroSection() {
             {/* Image Section */}
             <div>
               <img
-                src="https://brand.brex.com/transform/f66f1df8-7c5f-4463-be7f-5cb3b37c8575/Respaid-webinar-preview?io=transform:fit,width:2000,height:1125&quality=95"
+                src="/assets/webinar/respaid.png"
                 alt="Webinar preview"
                 className="w-full h-full object-cover rounded-xl"
               />

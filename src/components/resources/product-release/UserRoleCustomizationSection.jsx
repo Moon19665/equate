@@ -20,12 +20,7 @@ export default function UserRoleCustomizationSection() {
 
   return (
     <section className="bg-white py-12 px-4">
-      {/* Hidden video to sync progress (could also be shared from a parent ref) */}
-      <video
-        ref={videoRef}
-        style={{ display: "none" }}
-        src="https://brand.brex.com/m/2c3597355c823fce/original/LP-05_Create-new-roles-to-match-how-you-operate_hb.mp4"
-      />
+      
 
       {/* Orange Progress Bar */}
       <div className="max-w-6xl mx-auto mb-6 border-b border-gray-200 relative">
@@ -46,7 +41,7 @@ export default function UserRoleCustomizationSection() {
           </h3>
           <p className="text-sm text-gray-600 mt-2">
             Create, define, and provision custom roles with fine-grained permissions to read, create,
-            and update any object on Brex.
+            and update any object on Equate.
           </p>
         </div>
         <div>
@@ -63,7 +58,7 @@ export default function UserRoleCustomizationSection() {
 
       {/* CTA */}
       <div className="text-center mt-8">
-        <a href="#" className="text-orange-600 font-medium hover:underline">
+        <a href="#" className="text-[#033176] font-medium hover:underline">
           Learn more about custom roles →
         </a>
       </div>

@@ -1,62 +1,88 @@
 'use client';
 
+import { useFormik } from 'formik';
+import * as Yup from 'yup';
+import toast from 'react-hot-toast';
+
 export default function HeroBanking() {
+  const formik = useFormik({
+    initialValues: {
+      email: '',
+    },
+    validationSchema: Yup.object({
+      email: Yup.string()
+        .email('Please enter a valid email address')
+        .required('Email is required'),
+    }),
+    onSubmit: (values, { resetForm }) => {
+      toast.success(`Thanks! We'll reach out to ${values.email}`);
+      resetForm();
+    },
+  });
+
   return (
     <div className="w-full bg-white flex flex-col items-center">
       {/* Hero Section */}
-      <div className="w-full flex flex-col items-center pt-10 pb-16 px-2">
+      <div className="w-full flex flex-col items-center pt-10 pb-16 max-w-[1920px] mx-auto px-3 md:px-12">
         {/* Headline and CTA */}
         <div className="max-w-2xl w-full flex flex-col items-center text-center mb-10">
           <h1 className="text-4xl md:text-6xl font-bold text-[#111] mb-4 leading-tight">
             Smarter. Faster.<br />Business banking.
           </h1>
           <p className="text-base md:text-lg text-[#444] mb-6">
-            Earn up to <span className="text-[#2366d1] font-semibold">4.34%*</span> with same-hour liquidity, no hidden fees, and no minimums. Brex offers the highest-returning, lowest-risk treasury product. Period.
+            Earn up to <span className="text-[#2366d1] font-semibold">4.34%*</span> with same-hour liquidity, no hidden fees, and no minimums. Equate offers the highest-returning, lowest-risk treasury product. Period.
           </p>
-          <form className="mt-8 w-full max-w-xl">
-            <div className="flex w-full py-2 rounded-xl border border-gray-200 bg-white overflow-hidden">
-              <input
-                type="email"
-                placeholder="Enter your work email"
-                className="flex-1 px-5 py-3 text-base bg-transparent border-none outline-none focus:ring-0 placeholder:text-gray-500"
-                
-              />
-              <button
-                type="submit"
-                className="px-4 mr-2 bg-[#ff6600] hover:bg-[#ff5500] text-white  text-[14px] transition-colors duration-200  rounded-md"
-                
-              >
-                Get started
-              </button>
+
+          <form onSubmit={formik.handleSubmit} className="mt-8 w-full max-w-2xl">
+            <div className="flex flex-col gap-1 w-full">
+              <div className="flex w-full py-2 rounded-xl border border-gray-200 bg-white overflow-hidden">
+                <input
+                  type="email"
+                  name="email"
+                  onChange={formik.handleChange}
+                  onBlur={formik.handleBlur}
+                  value={formik.values.email}
+                  placeholder="Enter your work email"
+                  className="flex-1 px-5 py-3 text-base bg-transparent border-none outline-none focus:ring-0 placeholder:text-gray-500"
+                />
+                <button
+                  type="submit"
+                  className="px-4 mr-2 bg-[#033175] text-white text-[14px] transition-colors duration-200 rounded-md"
+                >
+                  Get started
+                </button>
+              </div>
+              {formik.touched.email && formik.errors.email && (
+                <div className="text-sm text-red-500 px-2">{formik.errors.email}</div>
+              )}
             </div>
           </form>
         </div>
 
         {/* Responsive Video */}
-        <div className="w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-lg">
+        <div className="w-full max-w-7xl mx-auto rounded-2xl overflow-hidden">
           <div className="relative aspect-video bg-[#f4f4f4]">
             <video
               className="absolute top-0 left-0 w-full h-full object-cover"
               src="/assets/business-banking/equate.mp4"
-              
               autoPlay
               loop
               muted
               playsInline
               preload="none"
-              aria-label="Brex banking demo video"
+              aria-label="Equate banking demo video"
             />
           </div>
         </div>
       </div>
 
       {/* Trust Section */}
-      <div className="w-full bg-[#f8f9fa] py-12 px-4">
-        <div className="max-w-7xl mx-auto">
+      <div className="w-full bg-[#f8f9fa] py-12">
+        <div className="max-w-[1920px] mx-auto px-3 md:px-12">
           {/* Disclaimer */}
           <div className="text-center mb-8">
             <p className="text-xs md:text-sm text-[#666] max-w-4xl mx-auto">
-              Brex is a financial technology company, not a bank. Checking accounts and banking services provided by Column N.A., Member FDIC.
+              Equate is a financial technology company, not a bank. Checking accounts and banking services provided by Column N.A., Member FDIC.
             </p>
           </div>
 

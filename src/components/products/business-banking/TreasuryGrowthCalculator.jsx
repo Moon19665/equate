@@ -125,10 +125,10 @@ export default function TreasuryGrowthCalculator() {
       </div>
 
       {/* Disclaimer */}
-      <div className="w-full max-w-md mt-6">
+      <div className="w-full max-w-3xl mt-6">
         <p className="text-xs text-[#888] text-center leading-relaxed">
           Yield is 3.99%† for funds invested in OD/XXX.† Additional return ranging from 0.00% to 0.35% may apply based on your total balance. 
-          The new yield structure is live for new Brex business account customers as of June 4, 2025, and will become available to existing 
+          The new yield structure is live for new Equate business account customers as of June 4, 2025, and will become available to existing 
           customers starting July 1, 2025.
         </p>
       </div>

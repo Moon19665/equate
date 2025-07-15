@@ -8,7 +8,7 @@ export default function BankingCTA() {
               Banking built for<br />modern business.
             </h2>
             <p className="text-lg text-[#e0e0e0] mb-8 max-w-lg">
-              Discover how Brex business banking helps you move faster, earn more, and manage your company’s finances with ease.
+              Discover how Equate business banking helps you move faster, earn more, and manage your company’s finances with ease.
             </p>
             <button className="bg-[#033175] text-white font-semibold rounded-lg px-7 py-3 text-base transition-colors duration-200">
               Open your account

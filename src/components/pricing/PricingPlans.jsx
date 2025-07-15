@@ -8,12 +8,12 @@ export default function PricingPlans() {
   // Helper function to generate card border classes based on selection
   const cardBorderClass = (plan) =>
     plan === selectedPlan
-      ? "border-4 border-orange-500"
+      ? "border-4 border-[#033175]"
       : "border border-gray-200";
 
   return (
-    <section className="bg-gray-50 py-12 px-4">
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-gray-50 py-12 ">
+      <div className="max-w-[1920px] mx-auto px-3 md:px-12">
         <div className="flex flex-col gap-8 md:flex-row md:gap-6 justify-center">
           {/* Essentials Plan */}
           <div
@@ -31,7 +31,7 @@ export default function PricingPlans() {
             <div className="text-3xl font-bold text-gray-900 mb-2">
               $0 <span className="text-base font-normal">user/month</span>
             </div>
-            <button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-md py-2 mb-6 transition">
+            <button className="w-full bg-[#033175] text-white font-semibold rounded-md py-2 mb-6 transition">
               Get started for free
             </button>
             <ul className="text-gray-700 space-y-3 text-left flex-1">
@@ -64,7 +64,7 @@ export default function PricingPlans() {
             <div className="text-3xl font-bold text-gray-900 mb-2">
               $12 <span className="text-base font-normal">user/month</span>
             </div>
-            <button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-md py-2 mb-6 transition">
+            <button className="w-full bg-[#033175] text-white font-semibold rounded-md py-2 mb-6 transition">
               Open an account
             </button>
             <ul className="text-gray-700 space-y-3 text-left flex-1">
@@ -97,7 +97,7 @@ export default function PricingPlans() {
             <div className="text-3xl font-bold text-gray-900 mb-2">
               Custom pricing
             </div>
-            <button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-md py-2 mb-6 transition">
+            <button className="w-full bg-[#033175] text-white font-semibold rounded-md py-2 mb-6 transition">
               Contact sales
             </button>
             <ul className="text-gray-700 space-y-3 text-left flex-1">

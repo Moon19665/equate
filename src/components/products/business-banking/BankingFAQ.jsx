@@ -4,16 +4,16 @@ import { useState } from 'react';
 
 const faqData = [
   {
-    question: 'How is the Brex Business Account set up?',
-    answer: 'Brex Business Accounts are set up online in minutes. You provide your business details, verify your identity, and connect your business bank account to get started.',
+    question: 'How is the Equate Business Account set up?',
+    answer: 'Equate Business Accounts are set up online in minutes. You provide your business details, verify your identity, and connect your business bank account to get started.',
   },
   {
-    question: 'How is the Brex business account different from a bank account?',
-    answer: 'Brex is a financial technology company, not a bank. While you get many features of a traditional bank account, Brex offers modern tools, integrations, and automations for businesses.',
+    question: 'How is the Equate business account different from a bank account?',
+    answer: 'Equate is a financial technology company, not a bank. While you get many features of a traditional bank account, Equate offers modern tools, integrations, and automations for businesses.',
   },
   {
     question: 'Where is my cash actually stored?',
-    answer: 'Your cash is stored with Brex’s partner banks and is FDIC-insured up to the applicable limits.',
+    answer: 'Your cash is stored with Equate’s partner banks and is FDIC-insured up to the applicable limits.',
   },
   {
     question: 'What are the benefits of expense management software?',
@@ -21,7 +21,7 @@ const faqData = [
   },
   {
     question: 'Are my deposits FDIC-insured?',
-    answer: 'Yes, deposits are FDIC-insured up to the standard limits through Brex’s partner banks.',
+    answer: 'Yes, deposits are FDIC-insured up to the standard limits through Equate’s partner banks.',
   },
   {
     question: 'What is required to open a business bank account?',
@@ -29,35 +29,35 @@ const faqData = [
   },
   {
     question: "Can I apply for an account if I'm not physically in the United States or a United States resident?",
-    answer: 'Brex primarily serves U.S.-based businesses, but eligibility may vary. Check Brex’s website for the most up-to-date requirements.',
+    answer: 'Equate primarily serves U.S.-based businesses, but eligibility may vary. Check Equate’s website for the most up-to-date requirements.',
   },
   {
-    question: 'How much does a Brex business account cost?',
-    answer: 'Brex business accounts have no monthly fees, no minimum balances, and no transaction fees for most standard activities.',
+    question: 'How much does a Equate business account cost?',
+    answer: 'Equate business accounts have no monthly fees, no minimum balances, and no transaction fees for most standard activities.',
   },
   {
-    question: "What makes Brex's approach to startup business bank accounts innovative?",
-    answer: 'Brex combines banking, cards, and expense management in a single platform, with modern APIs and automation for startups.',
+    question: "What makes Equate's approach to startup business bank accounts innovative?",
+    answer: 'Equate combines banking, cards, and expense management in a single platform, with modern APIs and automation for startups.',
   },
   {
     question: 'What are the key factors to consider when choosing a startup bank?',
     answer: 'Consider fees, integrations, automation, support, and whether the bank offers features tailored for startups.',
   },
   {
-    question: "How does Brex's startup bank account solution help maximize your cash flow?",
-    answer: 'Brex offers high-yield treasury, fast payments, and spend controls to help you manage and optimize cash flow.',
+    question: "How does Equate's startup bank account solution help maximize your cash flow?",
+    answer: 'Equate offers high-yield treasury, fast payments, and spend controls to help you manage and optimize cash flow.',
   },
   {
-    question: 'Why is Brex considered the best business banking solution for startups?',
-    answer: 'Brex is built for startups, offering no personal guarantees, modern software, and seamless integrations.',
+    question: 'Why is Equate considered the best business banking solution for startups?',
+    answer: 'Equate is built for startups, offering no personal guarantees, modern software, and seamless integrations.',
   },
   {
-    question: 'How can you open a Brex business account in just minutes?',
+    question: 'How can you open a Equate business account in just minutes?',
     answer: 'Apply online, provide your business details, and get approved quickly with minimal paperwork.',
   },
   {
-    question: 'Does Brex offer invoicing?',
-    answer: 'Yes, Brex offers invoicing tools as part of its business banking platform.',
+    question: 'Does Equate offer invoicing?',
+    answer: 'Yes, Equate offers invoicing tools as part of its business banking platform.',
   },
 ];
 

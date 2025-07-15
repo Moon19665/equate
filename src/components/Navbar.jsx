@@ -67,7 +67,7 @@ export default function Navbar() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="/corporate-card"
+                  // href="/corporate-card"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiCreditCard className="text-xl text-[#222]" />
@@ -83,7 +83,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/bill-pay"
+                  // href="/bill-pay"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlinePayment className="text-xl text-[#222]" />
@@ -97,7 +97,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/business-banking"
+                  // href="/business-banking"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiBriefcase className="text-xl text-[#222]" />
@@ -113,7 +113,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/spend-management"
+                  // href="/spend-management"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiBarChart2 className="text-xl text-[#222]" />
@@ -129,7 +129,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/travel"
+                  // href="/travel"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineTravelExplore className="text-xl text-[#222]" />
@@ -143,7 +143,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/account-automation"
+                  // href="/account-automation"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineAutoAwesome className="text-xl text-[#222]" />
@@ -164,7 +164,7 @@ export default function Navbar() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="/embedded-finance"
+                  // href="/embedded-finance"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiGlobe className="text-xl text-[#222]" />
@@ -180,7 +180,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/integrations"
+                  // href="/integrations"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineIntegrationInstructions className="text-xl text-[#222]" />
@@ -196,7 +196,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/equate-ai"
+                  // href="/equate-ai"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FaRobot className="text-xl text-[#222]" />
@@ -210,7 +210,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/global"
+                  // href="/global"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineAccountBalance className="text-xl text-[#222]" />
@@ -271,7 +271,7 @@ export default function Navbar() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="/startups"
+                  // href="/startups"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiUsers className="text-xl text-[#222]" />
@@ -285,7 +285,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/mid-size-companies"
+                  // href="/mid-size-companies"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiBriefcase className="text-xl text-[#222]" />
@@ -301,7 +301,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/enterprise"
+                  // href="/enterprise"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiGlobe className="text-xl text-[#222]" />
@@ -320,7 +320,7 @@ export default function Navbar() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="/accounting"
+                  // href="/accounting"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineAccountBalance className="text-xl text-[#222]" />
@@ -336,7 +336,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/embedded-finance"
+                  // href="/embedded-finance"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiLayers className="text-xl text-[#222]" />
@@ -350,7 +350,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/private-equity"
+                  // href="/private-equity"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <MdOutlineBusinessCenter className="text-xl text-[#222]" />
@@ -396,7 +396,7 @@ export default function Navbar() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="/support"
+                  // href="/support"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiHelpCircle className="text-xl text-[#222]" />
@@ -410,7 +410,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/implementation"
+                  // href="/implementation"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiInfo className="text-xl text-[#222]" />
@@ -424,7 +424,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/spring-2025"
+                  // href="/spring-2025"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiPackage className="text-xl text-[#222]" />
@@ -445,7 +445,7 @@ export default function Navbar() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="/webinar"
+                  // href="/webinar"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiVideo className="text-xl text-[#222]" />
@@ -458,7 +458,7 @@ export default function Navbar() {
 
               <li>
                 <a
-                  href="/careers"
+                  // href="/careers"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiBriefcase className="text-xl text-[#222]" />
@@ -562,14 +562,14 @@ export default function Navbar() {
           </div>
         )}
       </div>
-      <a
+      {/* <a
         href="#"
         className="px-4 py-2 text-[#111] font-medium hover:bg-gray-100 rounded transition"
       >
         Customers
-      </a>
+      </a> */}
       <a
-        href="/pricing"
+        // href="/pricing"
         className="px-4 py-2   text-[#111] font-medium hover:bg-gray-100 rounded transition"
       >
         Pricing
@@ -655,7 +655,7 @@ export default function Navbar() {
                     <ul className="space-y-2">
                       <li className="hover:text-[#033175]">
                         <a
-                          href="/corporate-card"
+                          // href="/corporate-card"
                           className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiCreditCard className="text-xl  " />
@@ -672,7 +672,7 @@ export default function Navbar() {
 
                       <li className="hover:text-[#033175]">
                         <a
-                          href="/business-banking"
+                          // href="/business-banking"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiBriefcase className="text-xl" />
@@ -688,7 +688,7 @@ export default function Navbar() {
                       </li>
                       <li  className="hover:text-[#033175]">
                         <a
-                          href="/spend-management"
+                          // href="/spend-management"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiBarChart2 className="text-xl" />
@@ -709,7 +709,7 @@ export default function Navbar() {
                     <ul className="space-y-2">
                       <li  className="hover:text-[#033175]">
                         <a
-                          href="/travel"
+                          // href="/travel"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineTravelExplore className="text-xl" />
@@ -725,7 +725,7 @@ export default function Navbar() {
                       </li>
                       <li  className="hover:text-[#033175]">
                         <a
-                          href="/bill-pay"
+                          // href="/bill-pay"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlinePayment className="text-xl" />
@@ -741,7 +741,7 @@ export default function Navbar() {
                       </li>
                       <li  className="hover:text-[#033175]">
                         <a
-                          href="/account-automation"
+                          // href="/account-automation"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineAutoAwesome className="text-xl" />
@@ -765,7 +765,7 @@ export default function Navbar() {
                     <ul className="space-y-2">
                       <li  className="hover:text-[#033175]">
                         <a
-                          href="/embedded-finance"
+                          // href="/embedded-finance"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiGlobe className="text-xl" />
@@ -781,7 +781,7 @@ export default function Navbar() {
                       </li>
                       <li  className="hover:text-[#033175]">
                         <a
-                          href="/integrations"
+                          // href="/integrations"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineIntegrationInstructions className="text-xl" />
@@ -797,7 +797,7 @@ export default function Navbar() {
                       </li>
                       <li  className="hover:text-[#033175]">
                         <a
-                          href="/equate-ai"
+                          // href="/equate-ai"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FaRobot className="text-xl" />
@@ -813,7 +813,7 @@ export default function Navbar() {
                       </li>
                       <li  className="hover:text-[#033175]">
                         <a
-                          href="/global"
+                          // href="/global"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineAccountBalance className="text-xl" />
@@ -888,7 +888,7 @@ export default function Navbar() {
                     <ul className="space-y-2">
                       <li>
                         <a
-                          href="/startups"
+                          // href="/startups"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiUsers className="text-xl text-[#222]" />
@@ -904,7 +904,7 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a
-                          href="/mid-size-companies"
+                          // href="/mid-size-companies"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiBriefcase className="text-xl text-[#222]" />
@@ -920,7 +920,7 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a
-                          href="/enterprise"
+                          // href="/enterprise"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiGlobe className="text-xl text-[#222]" />
@@ -944,7 +944,7 @@ export default function Navbar() {
                     <ul className="space-y-2">
                       <li>
                         <a
-                          href="/accounting"
+                          // href="/accounting"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineAccountBalance className="text-xl text-[#222]" />
@@ -960,7 +960,7 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a
-                          href="/embedded-finance"
+                          // href="/embedded-finance"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiLayers className="text-xl text-[#222]" />
@@ -976,7 +976,7 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a
-                          href="/private-equity"
+                          // href="/private-equity"
                           className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <MdOutlineBusinessCenter className="text-xl text-[#222]" />
@@ -1039,7 +1039,7 @@ export default function Navbar() {
                         <FiHelpCircle className="text-xl text-[#222]" />
                         <div>
                           <a
-                            href="/support"
+                            // href="/support"
                             className="font-medium   text-[#111]"
                           >
                             Help Center
@@ -1053,7 +1053,7 @@ export default function Navbar() {
                         <FiInfo className="text-xl text-[#222]" />
                         <div>
                           <a
-                            href="/implementation"
+                            // href="/implementation"
                             className="font-medium   text-[#111]"
                           >
                             Setup guides
@@ -1067,7 +1067,7 @@ export default function Navbar() {
                         <FiPackage className="text-xl text-[#222]" />
                         <div>
                           <a
-                            href="/spring-2025"
+                            // href="/spring-2025"
                             className="font-medium   text-[#111]"
                           >
                             Product releases
@@ -1090,7 +1090,7 @@ export default function Navbar() {
                         <FiVideo className="text-xl text-[#222]" />
                         <div>
                           <a
-                            href="/webinar"
+                            // href="/webinar"
                             className="font-medium   text-[#111]"
                           >
                             Webinars
@@ -1105,7 +1105,7 @@ export default function Navbar() {
                         <FiBriefcase className="text-xl text-[#222]" />
                         <div>
                           <a
-                            href="/careers"
+                            // href="/careers"
                             className="font-medium   text-[#111]"
                           >
                             Careers
@@ -1125,7 +1125,7 @@ export default function Navbar() {
           </div>
 
           <a
-            href="/pricing"
+            // href="/pricing"
             className="px-4 py-2 text-[#111] font-medium hover:bg-gray-100 rounded transition"
           >
             Pricing

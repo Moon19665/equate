@@ -65,7 +65,8 @@ const cardData = [
 
 export default function SpringReleaseFeatures() {
   return (
-    <section className="px-4 py-16 max-w-7xl mx-auto">
+    <>
+    {/* <section className="px-4 py-16 max-w-7xl mx-auto">
       <div className="text-center mb-12">
         <p className="text-xs uppercase text-gray-500 tracking-widest">That’s Not All</p>
         <h2 className="text-3xl md:text-4xl font-bold text-[#111] mt-2 mb-4">
@@ -99,6 +100,7 @@ export default function SpringReleaseFeatures() {
           </div>
         ))}
       </div>
-    </section>
+    </section> */}
+    </>
   );
 }

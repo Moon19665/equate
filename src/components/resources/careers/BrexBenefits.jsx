@@ -3,8 +3,8 @@ import { MdFreeBreakfast } from "react-icons/md";
 
 export default function BrexBenefits() {
   return (
-    <section className="bg-[#050b11] text-white py-16 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section className="bg-[#050b11] text-white py-16 ">
+      <div className="max-w-[1920px] mx-auto px-3 md:px-12">
         <h3 className="text-gray-300 text-sm mb-2 font-semibold">
           Benefits of Brex
         </h3>

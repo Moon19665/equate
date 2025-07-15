@@ -15,40 +15,40 @@ export default function FAQSection() {
       answer: "Equate corporate credit cards are available to startups, growing businesses, and established companies. Eligibility is based on your business profile, revenue, and other factors rather than personal credit scores."
     },
     {
-      question: "Does the Brex corporate credit card have rewards?",
-      answer: "Yes, Brex cards offer rewards and points that can be redeemed for various benefits including travel, office supplies, and other business expenses. The rewards are designed specifically for business spending categories."
+      question: "Does the Equate corporate credit card have rewards?",
+      answer: "Yes, Equate cards offer rewards and points that can be redeemed for various benefits including travel, office supplies, and other business expenses. The rewards are designed specifically for business spending categories."
     },
     {
-      question: "Does the Brex corporate credit card have any fees?",
-      answer: "Brex corporate credit cards have no annual fees, foreign transaction fees, or hidden charges. You only pay interest if you carry a balance, and there are no fees for employee cards or expense management features."
+      question: "Does the Equate corporate credit card have any fees?",
+      answer: "Equate corporate credit cards have no annual fees, foreign transaction fees, or hidden charges. You only pay interest if you carry a balance, and there are no fees for employee cards or expense management features."
     },
     {
-      question: "What currencies does the Brex corporate credit card support?",
-      answer: "Brex corporate credit cards support multiple currencies and can be issued in local currencies for international operations. This helps businesses avoid foreign exchange fees and simplify global expense management."
+      question: "What currencies does the Equate corporate credit card support?",
+      answer: "Equate corporate credit cards support multiple currencies and can be issued in local currencies for international operations. This helps businesses avoid foreign exchange fees and simplify global expense management."
     },
     {
-      question: "How do I apply for a Brex corporate credit card?",
-      answer: "You can apply online through the Brex website. The application process is streamlined and typically requires basic business information, bank account details, and verification of your business operations."
+      question: "How do I apply for a Equate corporate credit card?",
+      answer: "You can apply online through the Equate website. The application process is streamlined and typically requires basic business information, bank account details, and verification of your business operations."
     },
     {
-      question: "How long does it take to get approved for a Brex corporate credit card?",
-      answer: "Brex offers fast approval times, often within minutes to a few hours. Once approved, physical cards are typically shipped within 1-2 business days, while virtual cards can be used immediately."
+      question: "How long does it take to get approved for a Equate corporate credit card?",
+      answer: "Equate offers fast approval times, often within minutes to a few hours. Once approved, physical cards are typically shipped within 1-2 business days, while virtual cards can be used immediately."
     },
     {
-      question: "Is Brex the best corporate credit card for startups and growing businesses?",
-      answer: "Brex is designed specifically for startups and growing businesses, offering features like no personal guarantees, higher credit limits based on cash flow, and built-in expense management tools that traditional banks often don't provide."
+      question: "Is Equate the best corporate credit card for startups and growing businesses?",
+      answer: "Equate is designed specifically for startups and growing businesses, offering features like no personal guarantees, higher credit limits based on cash flow, and built-in expense management tools that traditional banks often don't provide."
     },
     {
-      question: "Are Brex cards good business credit cards for an LLC?",
-      answer: "Yes, Brex cards work well for LLCs and other business structures. They don't require personal guarantees and offer business-focused features like automated expense categorization and integration with accounting software."
+      question: "Are Equate cards good business credit cards for an LLC?",
+      answer: "Yes, Equate cards work well for LLCs and other business structures. They don't require personal guarantees and offer business-focused features like automated expense categorization and integration with accounting software."
     },
     {
-      question: "How do Brex corporate credit cards stand out from the competition?",
-      answer: "Brex stands out with no personal guarantees, higher credit limits for startups, built-in expense management, real-time spending controls, automated receipt collection, and rewards optimized for business spending."
+      question: "How do Equate corporate credit cards stand out from the competition?",
+      answer: "Equate stands out with no personal guarantees, higher credit limits for startups, built-in expense management, real-time spending controls, automated receipt collection, and rewards optimized for business spending."
     },
     {
-      question: "How does the Brex corporate card streamline spend management for businesses?",
-      answer: "Brex cards include built-in expense management with automatic receipt collection, real-time categorization, spending controls, approval workflows, and integration with popular accounting software, eliminating manual expense reporting."
+      question: "How does the Equate corporate card streamline spend management for businesses?",
+      answer: "Equate cards include built-in expense management with automatic receipt collection, real-time categorization, spending controls, approval workflows, and integration with popular accounting software, eliminating manual expense reporting."
     }
   ];
 
