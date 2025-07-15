@@ -67,7 +67,7 @@ export default function Navbar() {
             <ul className="space-y-2">
               <li>
                 <a
-                  // href="/corporate-card"
+                  href="/corporate-card"
                   className="flex   items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                 >
                   <FiCreditCard className="text-xl text-[#222]" />
@@ -655,7 +655,7 @@ export default function Navbar() {
                     <ul className="space-y-2">
                       <li className="hover:text-[#033175]">
                         <a
-                          // href="/corporate-card"
+                          href="/corporate-card"
                           className="flex items-center gap-3 px-3 py-2 rounded hover:bg-gray-50 transition"
                         >
                           <FiCreditCard className="text-xl  " />

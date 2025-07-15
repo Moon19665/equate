@@ -73,7 +73,7 @@ export default function CardsHero() {
           />
           <button
             type="submit"
-            className="px-4 mr-2 bg-[#ff6600] hover:bg-[#ff5500] text-white text-sm transition-colors duration-200 rounded-md"
+            className="px-4 mr-2 bg-[#033175] text-white text-sm transition-colors duration-200 rounded-md"
           >
             Get started
           </button>
