@@ -33,7 +33,7 @@ export default function Footer() {
               <div className="font-semibold mb-3 text-white text-[15px]">
                 Product
               </div>
-{/* [
+              {/* [
                   { label: "Corporate card", href: "/corporate-card" },
                   { label: "Business banking", href: "/business-banking" },
                   { label: "Expense management", href: "/spend-management" },
@@ -48,15 +48,15 @@ export default function Footer() {
                 ] */}
               <ul className="space-y-2">
                 {[
-  { label: "Corporate card", href: "#" },
-  { label: "Business banking", href: "#" },
-  { label: "Expense management", href: "#" },
-  { label: "Accounting automation", href: "#" },
-  { label: "Bill pay", href: "#" },
-  { label: "Travel", href: "#" },
-  { label: "Startups", href: "#" },
-  { label: "Product release", href: "#" },
-].map(({ label, href }) => (
+                  { label: "Corporate card", href: "#" },
+                  { label: "Business banking", href: "#" },
+                  { label: "Expense management", href: "#" },
+                  { label: "Accounting automation", href: "#" },
+                  { label: "Bill pay", href: "#" },
+                  { label: "Travel", href: "#" },
+                  { label: "Startups", href: "#" },
+                  { label: "Product release", href: "#" },
+                ].map(({ label, href }) => (
                   <li key={href}>
                     <Link
                       href={href}

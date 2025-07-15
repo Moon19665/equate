@@ -64,7 +64,7 @@ export default function HeroBanking() {
           <div className="relative aspect-video bg-[#f4f4f4]">
             <video
               className="absolute top-0 left-0 w-full h-full object-cover"
-              src="/assets/business-banking/equate.mp4"
+              src="/assets/business-banking/Equate.mp4"
               autoPlay
               loop
               muted
